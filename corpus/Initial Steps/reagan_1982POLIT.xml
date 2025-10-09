@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<speech title="State of the Union Address" speaker="Ronald Reagan" date="1982-01-26">
+  
+    <MetaData attribute="date">January 26, 1982</MetaData>
+  
+  
+    <reference referred="USGov" connotation="neutral" position="domestic">Mr. Speaker</reference>, 
+    <reference referred="USGov" connotation="neutral" position="domestic">Mr. President</reference>, 
+    distinguished Members of the 
+    <reference referred="USGov" connotation="neutral" position="domestic">Congress</reference>, honored guests, and 
+    <reference referred="USPeople" connotation="positive" position="domestic">fellow citizens</reference>:
+  
+  
+    Today marks my first <reference referred="USGov" connotation="neutral" position="domestic">State of the Union</reference> address to you, a constitutional duty as old as our 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">Republic</reference> itself.
+  
+  
+    <context when="past">President Washington began this tradition in 
+      <statistic when="past">1790</statistic> after reminding the 
+      <reference referred="USPeople" connotation="positive" position="domestic">Nation</reference> that the destiny of self-government and the 
+      "preservation of the sacred fire of liberty" is "finally staked on the experiment entrusted to the hands of the 
+      <reference referred="USPeople" connotation="positive" position="domestic">American people</reference>."
+    </context> For our friends in the 
+    <reference referred="Press" connotation="neutral" position="domestic">press</reference>, who place a high premium on accuracy, let me say: I did not actually hear 
+    <reference referred="GeorgeWashington" connotation="positive" position="domestic">George Washington</reference> say that. [Laughter] But it is a matter of historic record. [Laughter]
+  
+  
+    But from this podium, 
+    <reference referred="WinstonChurchill" connotation="positive" position="foreign" alliance="ally">Winston Churchill</reference> asked the 
+    <reference referred="FreeWorld" connotation="positive" position="foreign" alliance="ally">free world</reference> to stand together against the onslaught of aggression. 
+    <reference referred="FranklinDRoosevelt" connotation="positive" position="domestic">Franklin Delano Roosevelt</reference> spoke of a day of infamy and summoned a 
+    <reference referred="USPeople" connotation="positive" position="domestic">nation</reference> to arms. 
+    <reference referred="DouglasMacArthur" connotation="positive" position="domestic">Douglas MacArthur</reference> made an unforgettable farewell to a 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">country</reference> he loved and served so well. 
+    <reference referred="DwightDEisenhower" connotation="positive" position="domestic">Dwight Eisenhower</reference> reminded us that peace was purchased only at the price of 
+    <military connotation="positive" when="general">strength</military>. And 
+    <reference referred="JohnFKennedy" connotation="positive" position="domestic">John F. Kennedy</reference> spoke of the burden and glory that is 
+    <context>freedom</context>.
+  
+  
+    When I visited this 
+    <reference referred="USGov" connotation="neutral" position="domestic">Chamber</reference> last year as a newcomer to 
+    <reference referred="WashingtonDC" connotation="neutral" position="domestic">Washington</reference>, critical of past policies which I believed had failed, I proposed a new spirit of 
+    <partyAgenda affiliation="bipartisan" connotation="positive" when="future">partnership between this 
+      <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> and this 
+      <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> and between 
+      <reference referred="WashingtonDC" connotation="neutral" position="domestic">Washington</reference> and our 
+      <reference referred="USStateGovts" connotation="neutral" position="domestic">State</reference> and 
+      <reference referred="USLocalGovts" connotation="neutral" position="domestic">local governments</reference>
+    </partyAgenda>. In forging this new partnership for 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>, we could achieve the oldest hopes of our 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">Republic</reference>—
+    <economicPolicy connotation="positive" when="future">prosperity for our 
+      <reference referred="USPeople" connotation="positive" position="domestic">nation</reference></economicPolicy>, 
+    <foreignPolicy connotation="positive" when="future">peace for the 
+      <reference referred="World" connotation="positive" position="foreign">world</reference></foreignPolicy>, and the blessings of individual liberty for our children and, someday, for all of 
+    <reference referred="Humanity" connotation="positive" position="foreign">humanity</reference>.
+  
+  
+    It's my duty to report to you tonight on the progress that we have made in our relations with other 
+    <foreignPolicy connotation="neutral" when="present">nations</foreignPolicy>, on the foundation we've carefully laid for our 
+    <economicPolicy connotation="positive" when="present">economic recovery</economicPolicy>, and finally, on a bold and spirited initiative that I believe can change the face of 
+    <partyAgenda connotation="positive" when="future">American government and make it again the servant of the 
+      <reference referred="USPeople" connotation="positive" position="domestic">people</reference></partyAgenda>.
+  
+  
+    Seldom have the stakes been higher for 
+    <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America</reference>. What we do and say here will make all the difference to 
+    <reference referred="AutoworkersDetroit" connotation="neutral" position="domestic">autoworkers in Detroit</reference>, 
+    <reference referred="LumberjacksNorthwest" connotation="neutral" position="domestic">lumberjacks in the Northwest</reference>, 
+    <reference referred="SteelworkersSteubenville" connotation="neutral" position="domestic">steelworkers in Steubenville</reference> who are in the unemployment lines; to 
+    <reference referred="BlackTeenagersNewarkChicago" connotation="neutral" position="domestic">black teenagers in Newark and Chicago</reference>; to 
+    <reference referred="FarmersSmallBusiness" connotation="neutral" position="domestic">hard-pressed farmers and small businessmen</reference>; and to millions of 
+    <reference referred="USPeople" connotation="neutral" position="domestic">everyday Americans</reference> who harbor the simple wish of a safe and financially secure 
+    <context when="future">future for their children</context>. To understand the state of the Union, we must look not only at where we are and where we're going but where we've been. The situation at this time last year was truly ominous.
+  
+  
+    <context when="past">The last decade has seen a series of recessions. There was a recession in 
+      <statistic when="past">1970</statistic>, in 
+      <statistic when="past">1974</statistic>, and again in the spring of 
+      <statistic when="past">1980</statistic>. Each time, unemployment increased and inflation soon turned up again. We coined the word "stagflation" to describe this.</context>
+  
+  
+    <economicPolicy connotation="negative" when="past">Government's response to these recessions was to pump up the money supply and increase spending. In the last 
+      <statistic when="past">6 months of 1980</statistic>, as an example, the money supply increased at the fastest rate in postwar history—
+      <statistic when="past">13 percent</statistic>. Inflation remained in double digits, and government spending increased at an annual rate of 
+      <statistic when="past">17 percent</statistic>. Interest rates reached a staggering 
+      <statistic when="past">21.5 percent</statistic>. There were 
+      <statistic when="past">8 million</statistic> unemployed.</economicPolicy>
+  
+  
+    <economicPolicy connotation="negative" when="past">Late in 
+      <statistic when="past">1981</statistic> we sank into the present recession, largely because continued high interest rates hurt the 
+      <reference referred="USIndustry_Auto" connotation="neutral" position="domestic">auto industry</reference> and 
+      <reference referred="USIndustry_Construction" connotation="neutral" position="domestic">construction</reference>. And there was a drop in productivity, and the already high unemployment increased.</economicPolicy>
+  
+  
+    This time, however, things are different. We have an 
+    <economicPolicy connotation="positive" when="present">economic program</economicPolicy> in place, completely different from the artificial quick fixes of the past. It calls for a reduction of the rate of increase in 
+    <economicPolicy connotation="positive" when="present">government spending</economicPolicy>, and already that rate has been cut nearly in half. But reduced spending the first and smallest phase of a 
+    <economicPolicy connotation="positive" when="future">3-year tax rate reduction</economicPolicy> designed to stimulate the economy and create jobs. Already 
+    <economicPolicy connotation="positive" when="present">interest rates</economicPolicy> are down to 
+    <statistic when="present">15 3/4 percent</statistic>, but they must still go lower. 
+    <economicPolicy connotation="positive" when="present">Inflation</economicPolicy> is down from 
+    <statistic when="past">12.4 percent</statistic> to 
+    <statistic when="present">8.9</statistic>, and for the month of 
+    <statistic when="past">December</statistic> it was running at an annualized rate of 
+    <statistic when="past">5.2 percent</statistic>. If we had not acted as we did, things would be far worse for all 
+    <reference referred="USPeople" connotation="neutral" position="domestic">Americans</reference> than they are today. 
+    <economicPolicy connotation="negative" when="counterfactual">Inflation, taxes, and interest rates would all be higher.</economicPolicy>
+  
+  
+    <context when="past">A year ago, 
+      <reference referred="USPeople" connotation="neutral" position="domestic">Americans</reference>' faith in their governmental process was steadily declining. 
+      <statistic when="past">Six out of 10</statistic> 
+      <reference referred="USPeople" connotation="neutral" position="domestic">Americans</reference> were saying they were pessimistic about their future.</context> A new kind of defeatism was heard. Some said our domestic problems were uncontrollable, that we had to learn to live with this seemingly endless cycle of high inflation and high unemployment.
+  
+  
+    There were also pessimistic predictions about the relationship between our 
+    <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> and this 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference>. It was said we could never work together. Well, those predictions were wrong. The record is clear, and I believe that history will remember this as an 
+    <context when="future">era of American renewal</context>, remember this 
+    <reference referred="USGov_Administration" connotation="positive" position="domestic">administration</reference> as an administration of change, and remember this 
+    <reference referred="USGov_Congress" connotation="positive" position="domestic">Congress</reference> as a Congress of destiny.
+  
+  
+    Together, we not only cut the increase in 
+    <economicPolicy connotation="positive" when="present">government spending</economicPolicy> nearly in half, we brought about the largest 
+    <economicPolicy connotation="positive" when="present">tax reductions</economicPolicy> and the most sweeping changes in our 
+    <economicPolicy connotation="positive" when="present">tax structure</economicPolicy> since the beginning of this century. And because we indexed future taxes to the rate of 
+    <economicPolicy connotation="positive" when="present">inflation</economicPolicy>, we took away government's built-in profit on inflation and its hidden incentive to grow larger at the expense of 
+    <reference referred="USWorkers" connotation="positive" position="domestic">American workers</reference>.
+  
+  
+    Together, after 
+    <statistic when="past">50 years</statistic> of taking power away from the hands of the 
+    <reference referred="USPeople" connotation="positive" position="domestic">people</reference> in their 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">States</reference> and 
+    <reference referred="USLocalGovts" connotation="neutral" position="domestic">local communities</reference>, we have started returning power and resources to them.
+  
+  
+    Together, we have cut the growth of new 
+    <partyAgenda connotation="positive" when="present">Federal regulations</partyAgenda> nearly in half. In 
+    <statistic when="past">1981</statistic> there were 
+    <statistic when="past">23,000</statistic> fewer pages in the 
+    <reference referred="FederalRegister" connotation="neutral" position="domestic">Federal Register</reference>, which lists new regulations, than there were in 
+    <statistic when="past">1980</statistic>. By 
+    <economicPolicy connotation="positive" when="present">deregulating oil</economicPolicy> we've come closer to achieving 
+    <economicPolicy connotation="positive" when="future">energy independence</economicPolicy> and helped bring down the cost of gasoline and heating fuel.
+  
+  
+    Together, we have created an effective 
+    <partyAgenda connotation="positive" when="present">Federal strike force</partyAgenda> to combat 
+    <crime connotation="negative" when="present">waste and fraud</crime> in government. In just 
+    <statistic when="past">6 months</statistic> it has saved the taxpayers more than 
+    <statistic when="past">$2 billion</statistic>, and it's only getting started.
+  
+  
+    Together we've begun to mobilize the 
+    <reference referred="PrivateSector" connotation="positive" position="domestic">private sector</reference>, not to duplicate wasteful and discredited government programs, but to bring thousands of 
+    <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference> into a 
+    <partyAgenda connotation="positive" when="present">volunteer effort</partyAgenda> to help solve many of 
+    <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America's</reference> social problems.
+  
+  
+    Together we've begun to restore that margin of 
+    <military connotation="positive" when="present">military safety</military> that ensures 
+    <foreignPolicy connotation="positive" when="future">peace</foreignPolicy>. Our country's uniform is being worn once again with pride.
+  
+  
+    Together we have made a 
+    <partyAgenda connotation="positive" when="present">New Beginning</partyAgenda>, but we have only begun.
+  
+  
+    No one pretends that the way ahead will be easy. In my 
+    <reference referred="InauguralAddress1981" connotation="neutral" position="domestic">Inaugural Address</reference> last year, I warned that the "ills we suffer have come upon us over several decades. They will not go away in days, weeks, or months, but they will go away . . . because we as 
+    <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference> have the capacity now, as we've had it in the past, to do whatever needs to be done to preserve this last and greatest bastion of 
+    <context>freedom</context>." '
+  
+  
+    The economy will face difficult moments in the months ahead. But the program for 
+    <economicPolicy connotation="positive" when="present">economic recovery</economicPolicy> that is in place will pull the economy out of its slump and put us on the road to 
+    <economicPolicy connotation="positive" when="future">prosperity and stable growth</economicPolicy> by the latter half of this year. And that is why I can report to you tonight that in the near future the state of the Union and the economy will be better—much better—if we summon the strength to continue on the course that we've charted.
+  
+  
+    And so, the question: If the fundamentals are in place, what now? Well, two things. First, we must understand what's happening at the moment to the economy. Our current problems are not the product of the recovery program that's only just now getting underway, as some would have you believe; they are the inheritance of decades of tax and tax and spend and spend.
+  
+  
+    Second, because our economic problems are deeply rooted and will not respond to quick political fixes, we must stick to our carefully integrated plan for recovery. That plan is based on four commonsense fundamentals: 
+    <economicPolicy connotation="positive" when="future">continued reduction of the growth in Federal spending</economicPolicy>; preserving the individual and business 
+    <economicPolicy connotation="positive" when="future">tax reductions</economicPolicy> that will stimulate saving and investment; 
+    <economicPolicy connotation="positive" when="future">removing unnecessary Federal regulations</economicPolicy> to spark productivity; and maintaining a healthy dollar and a 
+    <economicPolicy connotation="positive" when="future">stable monetary policy</economicPolicy>, the latter a responsibility of the 
+    <reference referred="FederalReserveSystem" connotation="neutral" position="domestic">Federal Reserve System</reference>.
+  
+  
+    The only alternative being offered to this economic program is a return to the policies that gave us a 
+    <statistic when="past">trillion-dollar debt</statistic>, runaway inflation, runaway interest rates and unemployment. The doubters would have us turn back the clock with 
+    <economicPolicy connotation="negative" when="future">tax increases</economicPolicy> that would offset the personal tax rate reductions already passed by this 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference>. Raise present taxes to cut future deficits, they tell us. Well, I don't believe we should buy that argument.
+  
+  
+    There are too many imponderables for anyone to predict deficits or surpluses several years ahead with any degree of accuracy. The budget in place, when I took office, had been projected as balanced. It turned out to have one of the biggest deficits in history. Another example of the imponderables that can make deficit projections highly questionable—a change of only 
+    <statistic when="general">one percentage point</statistic> in unemployment can alter a deficit up or down by some 
+    <statistic when="general">$25 billion</statistic>.
+  
+  
+    As it now stands, our forecast, which we're required by law to make, will show major 
+    <economicPolicy connotation="negative" when="future">deficits</economicPolicy> starting at less than a hundred billion dollars and declining, but still too high. More important, we're making progress with the three keys to reducing deficits: 
+    <economicPolicy connotation="positive" when="future">economic growth</economicPolicy>, 
+    <economicPolicy connotation="positive" when="future">lower interest rates</economicPolicy>, and 
+    <economicPolicy connotation="positive" when="future">spending control</economicPolicy>. The policies we have in place will reduce the deficit steadily, surely, and in time, completely.
+  
+  
+    Higher taxes would not mean lower deficits. If they did, how would we explain that 
+    <statistic when="past">tax revenues more than doubled just since 1976</statistic>; yet in that same 
+    <statistic when="past">6-year period</statistic> we ran the largest series of deficits in our history. In 
+    <statistic when="past">1980</statistic> tax revenues increased by 
+    <statistic when="past">$54 billion</statistic>, and in 
+    <statistic when="past">1980</statistic> we had one of our all-time biggest deficits. 
+    <economicPolicy connotation="negative" when="future">Raising taxes</economicPolicy> won't balance the budget; it will encourage more government spending and less private investment. Raising taxes will slow economic growth, reduce production, and destroy future jobs, making it more difficult for those without jobs to find them and more likely that those who now have jobs could lose them. So, I will not ask you to try to balance the budget on the backs of the 
+    <reference referred="USTaxpayers" connotation="positive" position="domestic">American taxpayers</reference>.
+  
+  
+    I will seek no 
+    <economicPolicy connotation="positive" when="present">tax increases</economicPolicy> this year, and I have no intention of retreating from our basic program of tax relief. I promise to bring the 
+    <reference referred="USPeople" connotation="positive" position="domestic">American people</reference>—to bring their tax rates down and to keep them down, to provide them incentives to rebuild our economy, to save, to invest in 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America's</reference> future. I will stand by my word. Tonight I'm urging the 
+    <reference referred="USPeople" connotation="positive" position="domestic">American people</reference>: Seize these new opportunities to produce, to save, to invest, and together we'll make this economy a mighty engine of freedom, hope, and prosperity again.
+  
+  
+    Now, the budget deficit this year will exceed our earlier expectations. The 
+    <economicPolicy connotation="negative" when="present">recession</economicPolicy> did that. It lowered revenues and increased costs. To some extent, we're also victims of our own success. We've brought 
+    <economicPolicy connotation="positive" when="present">inflation</economicPolicy> down faster than we thought we could, and in doing this, we've deprived 
+    <reference referred="USGov" connotation="neutral" position="domestic">government</reference> of those hidden revenues that occur when inflation pushes people into higher income tax brackets. And the continued high interest rates last year cost the government about 
+    <statistic when="past">$5 billion</statistic> more than anticipated.
+  
+  
+    We must cut out more 
+    <partyAgenda connotation="positive" when="future">nonessential government spending</partyAgenda> and rout out more 
+    <crime connotation="negative" when="present">waste</crime>, and we will continue our efforts to reduce the number of employees in the 
+    <reference referred="USGov_FederalWorkforce" connotation="neutral" position="domestic">Federal work force</reference> by 
+    <statistic when="future">75,000</statistic>.
+  
+  
+    The budget plan I submit to you on 
+    <statistic when="future">February 8th</statistic> will realize major savings by dismantling the 
+    <reference referred="DeptOfEnergy" connotation="negative" position="domestic">Departments of Energy</reference> and 
+    <reference referred="DeptOfEducation" connotation="negative" position="domestic">Education</reference> and by eliminating ineffective 
+    <economicPolicy connotation="positive" when="future">subsidies for business</economicPolicy>. We'll continue to redirect our resources to our two highest budget priorities—
+    <military connotation="positive" when="future">a strong national defense</military> to keep 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference> free and at peace and a reliable 
+    <partyAgenda connotation="positive" when="future">safety net of social programs</partyAgenda> for those who have contributed and those who are in need.
+  
+  
+    Contrary to some of the wild charges you may have heard, this 
+    <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> has not and will not turn its back on 
+    <reference referred="USElderly" connotation="positive" position="domestic">America's elderly</reference> or 
+    <reference referred="USPoor" connotation="positive" position="domestic">America's poor</reference>. Under the new budget, funding for 
+    <partyAgenda connotation="positive" when="future">social insurance programs</partyAgenda> will be more than double the amount spent only 
+    <statistic when="past">6 years ago</statistic>. But it would be foolish to pretend that these or any programs cannot be made more efficient and economical.
+  
+  
+    The 
+    <partyAgenda connotation="neutral" when="present">entitlement programs</partyAgenda> that make up our safety net for the truly needy have worthy goals and many deserving recipients. We will protect them. But there's only one way to see to it that these programs really help those whom they were designed to help. And that is to bring their spiraling costs under control.
+  
+  
+    Today we face the absurd situation of a 
+    <economicPolicy connotation="negative" when="present">Federal budget</economicPolicy> with 
+    <statistic when="present">three-quarters</statistic> of its expenditures routinely referred to as "uncontrollable." And a large part of this goes to entitlement programs.
+  
+  
+    Committee after committee of this 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> has heard witness after witness describe many of these programs as poorly administered and rife with 
+    <crime connotation="negative" when="present">waste and fraud</crime>. Virtually every 
+    <reference referred="USPeople" connotation="neutral" position="domestic">American</reference> who shops in a local supermarket is aware of the daily abuses that take place in the 
+    <partyAgenda connotation="negative" when="present">food stamp program</partyAgenda>, which has grown by 
+    <statistic when="past">16,000 percent</statistic> in the last 
+    <statistic when="past">15 years</statistic>. Another example is 
+    <health connotation="neutral" when="present">Medicare and Medicaid</health>—programs with worthy goals but whose costs have increased from 
+    <statistic when="past">11.2 billion</statistic> to almost 
+    <statistic when="past">60 billion</statistic>, more than 
+    <statistic when="past">5 times</statistic> as much, in just 
+    <statistic when="past">10 years</statistic>.
+  
+  
+    <crime connotation="negative" when="past">Waste and fraud</crime> are serious problems. Back in 
+    <statistic when="past">1980</statistic> 
+    <reference referred="USGov_FederalInvestigators" connotation="neutral" position="domestic">Federal investigators</reference> testified before one of your committees that "corruption has permeated virtually every area of the Medicare and Medicaid health care industry." One official said many of the people who are 
+    <crime connotation="negative" when="past">cheating</crime> the system were "very confident that nothing was going to happen to them." Well, something is going to happen. Not only the 
+    <reference referred="USTaxpayers" connotation="positive" position="domestic">taxpayers</reference> are defrauded; the people with real dependency on these programs are deprived of what they need, because available resources are going not to the needy, but to the greedy.
+  
+  
+    The time has come to control the uncontrollable. In 
+    <statistic when="past">August</statistic> we made a start. I signed a bill to reduce the growth of these programs by 
+    <statistic when="future">$44 billion</statistic> over the next 
+    <statistic when="future">3 years</statistic> while at the same time preserving essential services for the truly needy. Shortly you will receive from me a message on further reforms we intend to install—some new, but others long recommended by your own congressional committees. I ask you to help make these savings for the 
+    <reference referred="USTaxpayers" connotation="positive" position="domestic">American taxpayer</reference>.
+  
+  
+    The savings we propose in entitlement programs will total some 
+    <statistic when="future">$63 billion</statistic> over 
+    <statistic when="future">4 years</statistic> and will, without affecting 
+    <health connotation="neutral" when="present">social security</health>, go a long way toward bringing 
+    <economicPolicy connotation="positive" when="future">Federal spending under control</economicPolicy>.
+  
+  
+    But don't be fooled by those who proclaim that spending cuts will deprive the elderly, the needy, and the helpless. The 
+    <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">Federal Government</reference> will still subsidize 
+    <statistic when="future">95 million meals every day</statistic>. That's one out of 
+    <statistic when="future">seven</statistic> of all the meals served in 
+    <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America</reference>. 
+    <partyAgenda connotation="neutral" when="future">Head Start</partyAgenda>, 
+    <partyAgenda connotation="neutral" when="future">senior nutrition programs</partyAgenda>, and 
+    <partyAgenda connotation="neutral" when="future">child welfare programs</partyAgenda> will not be cut from the levels we proposed last year. More than 
+    <statistic when="future">one-half billion dollars</statistic> has been proposed for 
+    <partyAgenda connotation="positive" when="future">minority business assistance</partyAgenda>. And research at the 
+    <health connotation="neutral" when="future">National Institute of Health</health> will be increased by over 
+    <statistic when="future">$100 million</statistic>. While meeting all these needs, we intend to plug unwarranted tax loopholes and strengthen the law which requires all large corporations to pay a 
+    <economicPolicy connotation="positive" when="future">minimum tax</economicPolicy>.
+  
+  
+    I am confident the economic program we've put into operation will protect the needy while it triggers a recovery that will benefit all 
+    <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference>. It will stimulate the economy, result in increased savings and provide capital for expansion, mortgages for homebuilding, and jobs for the unemployed.
+  
+  
+    Now that the essentials of that program are in place, our next major undertaking must be a program—just as bold, just as innovative—to make 
+    <partyAgenda connotation="positive" when="future">government again accountable to the people</partyAgenda>, to make our system of 
+    <partyAgenda connotation="positive" when="future">federalism</partyAgenda> work again.
+  
+  
+    Our citizens feel they've lost control of even the most basic decisions made about the essential services of government, such as schools, welfare, roads, and even garbage collection. And they're right. A maze of interlocking jurisdictions and levels of government confronts average citizens in trying to solve even the simplest of problems. They don't know where to turn for answers, who to hold accountable, who to praise, who to blame, who to vote for or against. The main reason for this is the overpowering growth of 
+    <partyAgenda connotation="negative" when="past">Federal grants-in-aid programs</partyAgenda> during the past few decades.
+  
+  
+    In 
+    <statistic when="past">1960</statistic> the 
+    <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">Federal Government</reference> had 
+    <statistic when="past">132</statistic> categorical grant programs, costing 
+    <statistic when="past">$7 billion</statistic>. When I took office, there were approximately 
+    <statistic when="past">500</statistic>, costing nearly a hundred billion dollars—
+    <statistic when="past">13</statistic> programs for energy, 
+    <statistic when="past">36</statistic> for pollution control, 
+    <statistic when="past">66</statistic> for social services, 
+    <statistic when="past">90</statistic> for education. And here in the 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference>, it takes at least 
+    <statistic when="past">166 committees</statistic> just to try to keep track of them.
+  
+  
+    You know and I know that neither the 
+    <reference referred="USGov_President" connotation="neutral" position="domestic">President</reference> nor the 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> can properly oversee this jungle of grants-in-aid; indeed, the growth of these grants has led to the distortion in the vital functions of government. As one 
+    <reference referred="DemocraticGovernor" connotation="neutral" position="domestic" affiliation="democrat">Democratic Governor</reference> put it recently: The National Government should be worrying about "arms control, not potholes."
+  
+  
+    The growth in these 
+    <partyAgenda connotation="negative" when="past">Federal programs</partyAgenda> has—in the words of one intergovernmental commission—made the 
+    <reference referred="USGov_FederalGov" connotation="negative" position="domestic">Federal Government</reference> "more pervasive, more intrusive, more unmanageable, more ineffective and costly, and above all, more [un] accountable." Let's solve this problem with a single, bold stroke: the return of some 
+    <statistic when="future">$47 billion</statistic> in Federal programs to 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">State</reference> and 
+    <reference referred="USLocalGovts" connotation="neutral" position="domestic">local government</reference>, together with the means to finance them and a transition period of nearly 
+    <statistic when="future">10 years</statistic> to avoid unnecessary disruption.
+  
+  
+    I will shortly send this 
+    <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> a message describing this program. I want to emphasize, however, that its full details will have been worked out only after close consultation with congressional, 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">State</reference>, and 
+    <reference referred="USLocalGovts" connotation="neutral" position="domestic">local officials</reference>.
+  
+  
+    Starting in fiscal 
+    <statistic when="future">1984</statistic>, the 
+    <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">Federal Government</reference> will assume full responsibility for the cost of the rapidly growing 
+    <health connotation="neutral" when="future">Medicaid program</health> to go along with its existing responsibility for 
+    <health connotation="neutral" when="present">Medicare</health>. As part of a financially equal swap, the 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">States</reference> will simultaneously take full responsibility for 
+    <partyAgenda connotation="neutral" when="future">Aid to Families with Dependent Children</partyAgenda> and 
+    <partyAgenda connotation="neutral" when="future">food stamps</partyAgenda>. This will make 
+    <partyAgenda connotation="positive" when="future">welfare less costly and more responsive to genuine need</partyAgenda>, because it'll be designed and administered closer to the grass roots and the people it serves.
+  
+  
+    In 
+    <statistic when="future">1984</statistic> the 
+    <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">Federal Government</reference> will apply the full proceeds from certain 
+    <economicPolicy connotation="neutral" when="future">excise taxes</economicPolicy> to a 
+    <partyAgenda connotation="positive" when="future">grass roots trust fund</partyAgenda> that will belong in fair shares to the 
+    <statistic when="general">50</statistic> 
+    <reference referred="USStates" connotation="neutral" position="domestic">States</reference>. The total amount flowing into this fund will be 
+    <statistic when="future">$28 billion a year</statistic>. Over the next 
+    <statistic when="future">4 years</statistic> the States can use this money in either of two ways. If they want to continue receiving 
+    <partyAgenda connotation="neutral" when="future">Federal grants</partyAgenda> in such areas as transportation, education, and social services, they can use their trust fund money to pay for the grants. Or to the extent they choose to forgo the Federal grant programs, they can use their trust fund money on their own for those or other purposes. There will be a 
+    <partyAgenda connotation="neutral" when="future">mandatory pass-through</partyAgenda> of part of these funds to 
+    <reference referred="USLocalGovts" connotation="neutral" position="domestic">local governments</reference>.
+  
+  
+    By 
+    <statistic when="future">1988</statistic> the 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">States</reference> will be in complete control of over 
+    <statistic when="future">40</statistic> Federal grant programs. The trust fund will start to phase out, eventually to disappear, and the 
+    <economicPolicy connotation="neutral" when="future">excise taxes</economicPolicy> will be turned over to the States. They can then preserve, lower, or raise taxes on their own and fund and manage these programs as they see fit.
+  
+  
+    In a single stroke we will be accomplishing a realignment that will end cumbersome administration and spiraling costs at the Federal level while we ensure these programs will be more responsive to both the people they're meant to help and the people who pay for them.
+  
+  
+    Hand in hand with this program to strengthen the discretion and flexibility of 
+    <reference referred="USStateGovts" connotation="neutral" position="domestic">State</reference> and 
+    <reference referred="USLocalGovts" connotation="neutral" position="domestic">local governments</reference>, we're proposing legislation for an experimental effort to improve and develop our depressed urban areas in the 
+    <statistic when="past">1980's</statistic> and 
+    <statistic when="future">'90's</statistic>. This legislation will permit States and localities to apply to the 
+    <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">Federal Government</reference> for designation as 
+    <economicPolicy connotation="positive" when="future">urban enterprise zones</economicPolicy>. A broad range of special economic incentives in the zones will help attract new business, new jobs, new opportunity to 
+    <reference referred="USInnerCitiesRuralTowns" connotation="positive" position="domestic">America's inner cities and rural towns</reference>. Some will say our mission is to save free enterprise. Well, I say we must free enterprise so that together we can save 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>.
+  
+  
+    Some will also say our 
+    <reference referred="USStateLocalCommunities" connotation="neutral" position="domestic">States and local communities</reference> are not up to the challenge of a new and creative partnership. Well, that might have been true 
+    <statistic when="past">20 years ago</statistic> before reforms like 
+    <partyAgenda connotation="positive" when="past">reapportionment</partyAgenda> and the 
+    <partyAgenda connotation="positive" when="present">Voting Rights Act</partyAgenda>, the 
+    <statistic when="future">10-year extension</statistic> of which I strongly support. It's no longer true today. This 
+    <reference referred="USGov_Administration" connotation="positive" position="domestic">administration</reference> has faith in 
+    <reference referred="USStateGovts" connotation="positive" position="domestic">State</reference> and 
+    <reference referred="USLocalGovts" connotation="positive" position="domestic">local governments</reference> and the constitutional balance envisioned by the 
+    <reference referred="FoundingFathers" connotation="positive" position="domestic">Founding Fathers</reference>. We also believe in the integrity, decency, and sound, good sense of 
+    <reference referred="USPeople_GrassRoots" connotation="positive" position="domestic">grass roots Americans</reference>.
+  
+  
+    Our faith in the 
+    <reference referred="USPeople" connotation="positive" position="domestic">American people</reference> is reflected in another major endeavor. Our 
+    <partyAgenda connotation="positive" when="present">private sector initiatives task force</partyAgenda> is seeking out successful community models of 
+    <reference referred="Schools" connotation="neutral" position="domestic">school</reference>, 
+    <reference referred="Churches" connotation="neutral" position="domestic">church</reference>, 
+    <reference referred="Businesses" connotation="neutral" position="domestic">business</reference>, 
+    <reference referred="Unions" connotation="neutral" position="domestic">union</reference>, 
+    <reference referred="Foundations" connotation="neutral" position="domestic">foundation</reference>, and 
+    <reference referred="CivicPrograms" connotation="neutral" position="domestic">civic programs</reference> that help community needs. Such groups are almost invariably far more efficient than government in running social programs.
+  
+  
+    We're not asking them to replace discarded and often discredited government programs dollar for dollar, service for service. We just want to help them perform the good works they choose and help others to profit by their example. 
+    <statistic when="present">Three hundred and eighty-five thousand</statistic> corporations and private organizations are already working on social programs ranging from 
+    <crime connotation="negative" when="present" charge="drug">drug rehabilitation</crime> to job training, and 
+    <statistic when="present">thousands</statistic> more 
+    <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference> have written us asking how they can help. The volunteer spirit is still alive and well in 
+    <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>.
+  
+  
+    Our nation's long journey towards 
+    <partyAgenda connotation="positive" when="past">civil rights</partyAgenda> for all our citizens—once a source of discord, now a source of pride—must continue with no backsliding or slowing down. We must and shall see that those basic laws that guarantee 
+    <partyAgenda connotation="positive" when="future">equal rights</partyAgenda> are preserved and, when necessary, strengthened.
+  
+  
+    Our concern for 
+    <partyAgenda connotation="positive" when="present">equal rights for women</partyAgenda> is firm and unshakable. We launched a new 
+    <partyAgenda connotation="positive" when="present">Task Force on Legal Equity for Women</partyAgenda> and a 
+    <partyAgenda connotation="positive" when="present">Fifty States Project</partyAgenda> that will examine State laws for discriminatory language. And for the first time in our history, a 
+    <reference referred="USSupremeCourt_JusticeSandraDayOConnor" connotation="positive" position="domestic">woman sits on the highest court in the land</reference>.
+        
+        
+            So, too, the problem of 
+            <crime connotation="negative" when="present">crime</crime>—one as real and deadly serious as any in 
+            <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America</reference> today. It demands that we seek transformation of our legal system, which overly protects the rights of 
+            <crime connotation="negative" when="present">criminals</crime> while it leaves society and the innocent victims of crime without justice.
+        
+        
+            We look forward to the enactment of a responsible 
+            <climate connotation="positive" when="future">clean air act</climate> to increase jobs while continuing to improve the quality of our air. We're encouraged by the 
+            <party connotation="positive" affiliation="bipartisan">bipartisan initiative</party> of the 
+            <reference referred="USHouseOfRepresentatives" connotation="neutral" position="domestic">House</reference> and are hopeful of further progress as the 
+            <reference referred="USSenate" connotation="neutral" position="domestic">Senate</reference> continues its deliberations.
+        
+        
+            So far, I've concentrated largely, now, on domestic matters. To view the state of the 
+            <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">Union</reference> in perspective, we must not ignore the rest of the 
+            <reference referred="World" connotation="neutral" position="foreign">world</reference>. There isn't time tonight for a lengthy treatment of social—or 
+            <foreignPolicy connotation="neutral" when="future">foreign policy</foreignPolicy>, I should say, a subject I intend to address in detail in the near future. A few words, however, are in order on the progress we've made over the past year, reestablishing respect for our 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="foreign">nation</reference> around the globe and some of the challenges and goals that we will approach in the year ahead.
+        
+        
+            At 
+            <reference referred="OttawaSummit" connotation="neutral" position="foreign">Ottawa</reference> and 
+            <reference referred="CancunSummit" connotation="neutral" position="foreign">Cancun</reference>, I met with leaders of the 
+            <reference referred="MajorIndustrialPowers" connotation="neutral" position="foreign">major industrial powers</reference> and 
+            <reference referred="DevelopingNations" connotation="neutral" position="foreign">developing nations</reference>. Now, some of those I met with were a little surprised that I didn't apologize for 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="foreign">America's wealth</reference>. Instead, I spoke of the strength of the 
+            <economicPolicy connotation="positive" when="general">free marketplace system</economicPolicy> and how that system could help them realize their aspirations for 
+            <economicPolicy connotation="positive" when="future">economic development</economicPolicy> and 
+            <foreignPolicy connotation="positive" when="future">political freedom</foreignPolicy>. I believe lasting friendships were made, and the foundation was laid for future cooperation.
+        
+        
+            In the vital region of the 
+            <reference referred="CaribbeanBasin" connotation="neutral" position="foreign">Caribbean Basin</reference>, we're developing a program of 
+            <foreignPolicy connotation="positive" when="future">aid, trade, and investment incentives</foreignPolicy> to promote 
+            <economicPolicy connotation="positive" when="future">self-sustaining growth</economicPolicy> and a better, more secure life for our 
+            <reference referred="NeighborsToTheSouth" connotation="positive" position="foreign" alliance="ally">neighbors to the south</reference>. Toward those who would 
+            <foreignPolicy connotation="negative" when="present">export terrorism and subversion</foreignPolicy> in the Caribbean and elsewhere, especially 
+            <reference referred="Cuba" connotation="negative" position="foreign" alliance="opponent">Cuba</reference> and 
+            <reference referred="Libya" connotation="negative" position="foreign" alliance="opponent">Libya</reference>, we will act with firmness.
+        
+        
+            Our 
+            <foreignPolicy connotation="positive" when="present">foreign policy</foreignPolicy> is a policy of strength, fairness, and balance. By restoring 
+            <military connotation="positive" when="present">America's military credibility</military>, by pursuing peace at the negotiating table wherever both sides are willing to sit down in good faith, and by regaining the respect of 
+            <reference referred="USAllies" connotation="positive" position="foreign" alliance="ally">America's allies</reference> and 
+            <reference referred="USAdversaries" connotation="neutral" position="foreign" alliance="opponent">adversaries</reference> alike, we have strengthened our country's position as a force for peace and progress in the world.
+        
+        
+            When action is called for, we're taking it. Our 
+            <foreignPolicy connotation="negative" when="present">sanctions</foreignPolicy> against the 
+            <reference referred="Poland_MilitaryDictatorship" connotation="negative" position="foreign" alliance="opponent">military dictatorship</reference> that has attempted to crush human rights in 
+            <reference referred="Poland" connotation="positive" position="foreign">Poland</reference>—and against the 
+            <reference referred="SovietUnion" connotation="negative" position="foreign" alliance="opponent">Soviet regime</reference> behind that military dictatorship—clearly demonstrated to the 
+            <reference referred="World" connotation="neutral" position="foreign">world</reference> that 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="foreign">America</reference> will not conduct "business as usual" with the forces of oppression. If the events in 
+            <reference referred="Poland" connotation="neutral" position="foreign">Poland</reference> continue to deteriorate, further measures will follow.
+        
+        
+            Now, let me also note that private 
+            <reference referred="USPrivateGroups" connotation="positive" position="domestic">American groups</reference> have taken the lead in making 
+            <statistic when="future">January 30th</statistic> a day of solidarity with the people of 
+            <reference referred="Poland" connotation="positive" position="foreign">Poland</reference>. So, too, the 
+            <reference referred="EuropeanParliament" connotation="neutral" position="foreign" alliance="ally">European Parliament</reference> has called for 
+            <statistic when="future">March 21st</statistic> to be an international day of support for 
+            <reference referred="Afghanistan" connotation="positive" position="foreign">Afghanistan</reference>. Well, I urge all 
+            <reference referred="PeaceLovingPeoples" connotation="positive" position="foreign">peace-loving peoples</reference> to join together on those days, to raise their voices, to speak and pray for 
+            <context>freedom</context>.
+        
+        
+            Meanwhile, we're working for 
+            <military connotation="positive" when="future">reduction of arms and military activities</military>, as I announced in my address to the 
+            <reference referred="USPeople" connotation="neutral" position="domestic">Nation</reference> last 
+            <statistic when="past">November 18th</statistic>. We have proposed to the 
+            <reference referred="SovietUnion" connotation="neutral" position="foreign" alliance="opponent">Soviet Union</reference> a far-reaching agenda for 
+            <military connotation="positive" when="future">mutual reduction of military forces</military> and have already initiated 
+            <foreignPolicy connotation="positive" when="present">negotiations</foreignPolicy> with them in 
+            <reference referred="Geneva" connotation="neutral" position="foreign">Geneva</reference> on 
+            <military connotation="neutral" when="present">intermediate-range nuclear forces</military>. In those talks it is essential that we negotiate from a position of 
+            <military connotation="positive" when="present">strength</military>. There must be a real incentive for the 
+            <reference referred="SovietUnion" connotation="neutral" position="foreign" alliance="opponent">Soviets</reference> to take these talks seriously. This requires that we 
+            <military connotation="positive" when="future">rebuild our defenses</military>.
+        
+        
+            In the last decade, while we sought the moderation of 
+            <reference referred="SovietUnion" connotation="negative" position="foreign" alliance="opponent">Soviet power</reference> through a process of restraint and accommodation, the 
+            <reference referred="SovietUnion" connotation="negative" position="foreign" alliance="opponent">Soviets</reference> engaged in an unrelenting buildup of their military forces. The protection of our 
+            <reference referred="USNationalSecurity" connotation="positive" position="domestic">national security</reference> has required that we undertake a substantial program to enhance our 
+            <military connotation="positive" when="present">military forces</military>.
+        
+        
+            We have not neglected to strengthen our 
+            <foreignPolicy connotation="positive" when="present">traditional alliances</foreignPolicy> in 
+            <reference referred="Europe" connotation="neutral" position="foreign" alliance="ally">Europe</reference> and 
+            <reference referred="Asia" connotation="neutral" position="foreign" alliance="ally">Asia</reference>, or to develop key relationships with our partners in the 
+            <reference referred="MiddleEast" connotation="neutral" position="foreign">Middle East</reference> and other countries. Building a more peaceful world requires a sound strategy and the national resolve to back it up. When radical forces threaten our 
+            <foreignPolicy connotation="positive" when="present">friends</foreignPolicy>, when economic misfortune creates conditions of instability, when strategically vital parts of the world fall under the shadow of 
+            <reference referred="SovietPower" connotation="negative" position="foreign" alliance="opponent">Soviet power</reference>, our response can make the difference between peaceful change or disorder and violence. That's why we've laid such stress not only on our own defense but on our vital 
+            <foreignPolicy connotation="positive" when="present">foreign assistance program</foreignPolicy>. Your recent passage of the 
+            <foreignPolicy connotation="positive" when="present">Foreign Assistance Act</foreignPolicy> sent a signal to the world that 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="foreign">America</reference> will not shrink from making the investments necessary for both peace and security. Our foreign policy must be rooted in realism, not naivete or self-delusion.
+        
+        
+            A recognition of what the 
+            <reference referred="SovietEmpire" connotation="negative" position="foreign" alliance="opponent">Soviet empire</reference> is about is the starting point. 
+            <reference referred="WinstonChurchill" connotation="positive" position="foreign" alliance="ally">Winston Churchill</reference>, in negotiating with the 
+            <reference referred="SovietUnion" connotation="neutral" position="foreign" alliance="opponent">Soviets</reference>, observed that they respect only strength and resolve in their dealings with other nations. That's why we've moved to reconstruct our 
+            <military connotation="positive" when="present">national defenses</military>. We intend to keep the peace. We will also keep our freedom.
+        
+        
+            We have made pledges of a new frankness in our public statements and worldwide broadcasts. In the face of a climate of falsehood and misinformation, we've promised the world a season of truth—the truth of our great civilized ideas: individual liberty, representative government, the rule of law under God. We've never needed walls or minefields or barbed wire to keep our people in. Nor do we declare martial law to keep our people from voting for the kind of government they want.
+        
+        
+            Yes, we have our problems; yes, we're in a time of 
+            <economicPolicy connotation="negative" when="present">recession</economicPolicy>. And it's true, there's no quick fix, as I said, to instantly end the tragic pain of unemployment. But we will end it. The process has already begun, and we'll see its effect as the year goes on.
+        
+        
+            We speak with pride and admiration of that little band of 
+            <reference referred="Founders" connotation="positive" position="domestic">Americans</reference> who overcame insuperable odds to set this nation on course 
+            <statistic when="past">200 years ago</statistic>. But our glory didn't end with them. 
+            <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference> ever since have emulated their deeds.
+        
+        
+            We don't have to turn to our history books for heroes. They're all around us. One who sits among you here tonight epitomized that heroism at the end of the longest imprisonment ever inflicted on men of our 
+            <military connotation="positive" when="past">Armed Forces</military>. Who will ever forget that night when we waited for television to bring us the scene of that first plane landing at 
+            <reference referred="ClarkField_Philippines" connotation="neutral" position="foreign" alliance="ally">Clark Field in the Philippines</reference>, bringing our 
+            <military connotation="positive" when="past">POW's</military> home? The plane door opened and 
+            <reference referred="JeremiahDenton" connotation="positive" position="domestic">Jeremiah Denton</reference> came slowly down the ramp. He caught sight of our 
+            <reference referred="USFlag" connotation="positive" position="domestic">flag</reference>, saluted it, said, "God bless 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>," and then thanked us for bringing him home.
+        
+        
+            Just 
+            <statistic when="past">2 weeks ago</statistic>, in the midst of a terrible tragedy on the 
+            <reference referred="PotomacRiver" connotation="neutral" position="domestic">Potomac</reference>, we saw again the spirit of 
+            <reference referred="USPeople" connotation="positive" position="domestic">American</reference> heroism at its finest—the heroism of dedicated 
+            <reference referred="RescueWorkers" connotation="positive" position="domestic">rescue workers</reference> saving crash victims from icy waters. And we saw the heroism of one of our young 
+            <reference referred="USGov_Employees" connotation="positive" position="domestic">government employees</reference>, 
+            <reference referred="LennySkutnik" connotation="positive" position="domestic">Lenny Skutnik</reference>, who, when he saw a woman lose her grip on the helicopter line, dived into the water and dragged her to safety.
+        
+        
+            And then there are countless, quiet, everyday heroes of 
+            <reference referred="USLife" connotation="positive" position="domestic">American life</reference>—parents who sacrifice long and hard so their children will know a better life than they've known; 
+            <reference referred="ChurchCivicVolunteers" connotation="positive" position="domestic">church and civic volunteers</reference> who help to feed, clothe, nurse, and teach the needy; 
+            <reference referred="MillionsOfAmericans" connotation="positive" position="domestic">millions</reference> who've made our nation and our nation's destiny so very special—unsung heroes who may not have realized their own dreams themselves but then who reinvest those dreams in their children. Don't let anyone tell you that 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America's</reference> best days are behind her, that the 
+            <reference referred="AmericanSpirit" connotation="positive" position="domestic">American spirit</reference> has been vanquished. We've seen it triumph too often in our lives to stop believing in it now.
+        
+        
+            <context when="past">A hundred and twenty years ago</context>, the greatest of all our 
+            <reference referred="USPresidents" connotation="positive" position="domestic">Presidents</reference> delivered his second 
+            <reference referred="StateOfTheUnion" connotation="neutral" position="domestic">State of the Union</reference> message in this 
+            <reference referred="USGov_Congress" connotation="neutral" position="domestic">Chamber</reference>. "We cannot escape history," 
+            <reference referred="AbrahamLincoln" connotation="positive" position="domestic">Abraham Lincoln</reference> warned. "We of this 
+            <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> and this 
+            <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> will be remembered in spite of ourselves." The "trial through which we pass will light us down, in honor or dishonor, to the latest [last] generation."
+        
+        
+            Well, that 
+            <reference referred="USPresident_AbrahamLincoln" connotation="positive" position="domestic">President</reference> and that 
+            <reference referred="USGov_Congress" connotation="positive" position="domestic">Congress</reference> did not fail the 
+            <reference referred="USPeople" connotation="positive" position="domestic">American people</reference>. Together they weathered the storm and preserved the 
+            <reference referred="USUnion" connotation="positive" position="domestic">Union</reference>. Let it be said of us that we, too, did not fail; that we, too, worked together to bring 
+            <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference> through difficult times. Let us so conduct ourselves that two centuries from now, another 
+            <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> and another 
+            <reference referred="USPresident" connotation="neutral" position="domestic">President</reference>, meeting in this 
+            <reference referred="USGov_Congress" connotation="neutral" position="domestic">Chamber</reference> as we are meeting, will speak of us with pride, saying that we met the test and preserved for them in their day the sacred flame of 
+            <context>liberty</context>—this last, best hope of man on 
+            <reference referred="Earth" connotation="neutral" position="foreign">Earth</reference>.
+        
+        
+            God bless you, and thank you.
+        
+</speech>
+
+
+</root>
