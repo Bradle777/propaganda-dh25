@@ -17,7 +17,7 @@
 <li>
 </ul>
 
-###Markup
+### Markup
 
 <ol>Elements
 <li>party
@@ -31,8 +31,8 @@
 <li>Health 
 <li>Crime (include drugs)
 <li>Climate (environmental in general
-
 </ol>
+
 <ol>Attributes
 <li>position="foreign | domestic"
 <li>charge=""

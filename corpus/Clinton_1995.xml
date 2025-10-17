@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div class="col-sm-8 ">
     
-    <div class="field-docs-person">
-        <div about="/people/president/william-j-clinton" typeof="sioc:Item foaf:Document" class="ds-1col node node-prez-diet view-mode-for_documents  clearfix">
-            
-            
-            
-            <div class="field-diet-pictures">
-                <img typeof="foaf:Image" class="img-responsive" src="https://www.presidency.ucsb.edu/sites/default/files/styles/doc_img/public/people/william-j-clinton_3.jpg?itok=rDN30P_8" width="170" height="230" alt="Bill Clinton photo">  </div>
-            
-            <div class="field-title">
-                <h3 class="diet-title"><a href="/people/president/william-j-clinton">William J. Clinton</a></h3>  </div>
-            
-            <div class="field-ds-byline">
-                
-                <div class="field-resuable-byline">
-                    <div class="diet-by-line president"><span class="presidential-ordinal-number">42nd</span>&nbsp;<span class="job-position">President of the United States:</span>&nbsp;<span class="dates">1993 ‐ 2001</span></div>
-                </div>
-            </div>
-            
-            <div class="field-ds-doc-title">
-                <h1>Address Before a Joint Session of the Congress on the State of the Union</h1>
-            </div>
-        </div>
-        
-    </div>
-    
-    <div class="field-docs-start-date-time">
-        <span property="dc:date" datatype="xsd:dateTime" content="1995-01-24T21:14:00+00:00" class="date-display-single">January 24, 1995</span>  </div>
-    
     <div class="field-docs-content">
         <p>Mr. President, Mr. Speaker, Members of the 104th Congress, my fellow Americans: Again we are here in the sanctuary of democracy, and once again our democracy has spoken. So let me begin by congratulating all of you here in the 104th Congress and congratulating you, Mr. Speaker.</p>
         <p>If we agree on nothing else tonight, we must agree that the American people certainly voted for change in 1992 and in 1994. And as I look out at you, I know how some of you must have felt in 1992. [<em>Laughter</em>]</p>
@@ -132,16 +104,8 @@
         <p>We all gain when we give, and we reap what we sow. That's at the heart of this New Covenant. Responsibility, opportunity, and citizenship, more than stale chapters in some remote civic book, they're still the virtue by which we can fulfill ourselves and reach our God-given potential and be like them and also to fulfill the eternal promise of this country, the enduring dream from that first and most sacred covenant. I believe every person in this country still believes that we are created equal and given by our Creator the right to life, liberty and the pursuit of happiness. This is a very, very great country. And our best days are still to come.</p>
         <p>Thank you, and God bless you all.</p>
     </div>
-    <div class="field-docs-media-video-hosted">
-        <div class="embedded-video">
-            <div class="player">
-                <iframe class="" width="640" height="360" src="//www.youtube.com/embed/Fgwi0el659k?width%3D640%26amp%3Bheight%3D360%26amp%3Btheme%3Ddark%26amp%3Bautoplay%3D0%26amp%3Bvq%3Dlarge%26amp%3Brel%3D0%26amp%3Bshowinfo%3D0%26amp%3Bmodestbranding%3D1%26amp%3Biv_load_policy%3D3%26amp%3Bcontrols%3D0%26amp%3Bautohide%3D2%26amp%3Bwmode%3Dopaque" frameborder="0" allowfullscreen=""></iframe>  </div>
-        </div>
-    </div><a name="docmedia"></a>
-    <div class="field-docs-footnote">
+    <note>
         <p>NOTE: The President spoke at 9:14 p.m. in the House Chamber of the Capitol.</p>
-    </div>
-    
-    <div class="field-prez-document-citation">
-        <p class="ucsbapp_citation">William J. Clinton, Address Before a Joint Session of the Congress on the State of the Union Online by Gerhard Peters and John T. Woolley, The American Presidency Project https://www.presidency.ucsb.edu/node/221902</p>  </div>
+    </note>
 </div>
+   

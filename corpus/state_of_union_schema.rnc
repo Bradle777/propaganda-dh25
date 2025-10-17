@@ -1,0 +1,25 @@
+start = speech
+speech = element speech {metadata*, body, back*}
+
+metadata = element metadata {date*}
+body = element body {mixed{p}}
+
+date = element date {text}
+
+p = element p {text}
+
+back = element back {text} #includes the note at the end
+
+
+#elements
+policy = element policy {type, value, connotation, when, text}
+audience = element audience {noise, text}
+
+
+#attributes
+type = attribute type {"f", "d", "e"} #foreign, domestic, economic
+connotation = attribute connotation {"positive", "negative", "neutral"} #positive=alliance, negative=enemy, neutral=generic
+when = attribute when {"future", "past", "present"}
+value = attribute value {text} 
+    #immigration, health, military, environment, crime, anything specification you see fit
+noise = attribute noise {"applause", "boo", "other"}
