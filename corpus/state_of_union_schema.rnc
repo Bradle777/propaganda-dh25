@@ -12,9 +12,8 @@ back = element back {text} #includes the note at the end
 
 
 #elements
-policy = element policy {type, value, connotation, when, text}
+policy = element policy {type, value, connotation, when, anthro, text}
 audience = element audience {noise, text}
-
 
 #attributes
 type = attribute type {"f", "d", "e"} #foreign, domestic, economic
@@ -23,3 +22,6 @@ when = attribute when {"future", "past", "present"}
 value = attribute value {text} 
     #immigration, health, military, environment, crime, anything specification you see fit
 noise = attribute noise {"applause", "boo", "other"}
+anthro = attribute anthro 
+{"scarcity", "inGroup", "outGroup", "authority", "trajectroy", "transcendance",
+"unity", "division", "time", "role", "obligation"}

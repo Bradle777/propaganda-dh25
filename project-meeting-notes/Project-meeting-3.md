@@ -11,4 +11,4 @@ is very in depth.
 
 Created final Schema. 
 
-
+For Next Meeting: pick 2 new speeches, and mark them up according to our schema.
