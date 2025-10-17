@@ -1,0 +1,108 @@
+ANTHRO-POLITICAL RULES
+
+`<policy>` is equivalent to `<authority type="policy">`.
+`<law>` is equivalent to `<authority type="legal">`.
+`<institution>` is equivalent to `<authority type="institutional">`.
+`<leader>` is equivalent to `<authority type="individual">` when the speech invokes a specific person as legitimizing precedent.
+`<expert>` is equivalent to `<authority type="expert">`.
+`<historic>` is equivalent to `<authority type="historical">`.
+`<economic>` is equivalent to `<authority type="economic">`.
+`<moral>` is equivalent to `<transcendence type="moral">`.
+`<religious>` is equivalent to `<transcendence type="religious">`.
+`<ideology>` is equivalent to `<transcendence type="ideological">`.
+`<humanitarian>` is equivalent to `<transcendence type="humanistic">`.
+`<security>` is equivalent to `<authority type="security">`.
+`<unity>` is equivalent to `<unity>`, carrying the same attribute `scope` (domestic, international, civic, federalism, or bipartisan).
+`<division>` is equivalent to `<division>` with its `scope` attribute identifying the domain of tension (policy, moral, rhetorical, institutional, or political).
+`<threat>` is equivalent to `<threat>` with the `source` attribute (internal or external).
+`<scarcity>` is equivalent to `<scarcity>` with the `resource` attribute identifying what is lacking (money, energy, employment, security, trust, etc.).
+`<trajectory>` is equivalent to `<trajectory>` with the `direction` attribute (up or down) to mark collective mood or progress.
+`<obligation>` is equivalent to `<obligation>` with the `agent` attribute specifying who bears the duty (leadership, ingroup, government, parents, etc.).
+`<victim>` is equivalent to `<victim>`, carrying no attribute change.
+`<hero>` is equivalent to `<hero>` and maintains the `type` attribute (individual, group).
+`<ingroup>` is equivalent to `<ingroup>` and uses the `role` attribute (citizenry, leadership, military, civil society, etc.).
+`<outgroup>` is equivalent to `<outgroup>` with the same `role` attribute (opponents, enemies, foreign adversaries, etc.).
+`<time>` is equivalent to `<timeRef>` with the `when` attribute (past, present, future).
+`<contrast>` is equivalent to `<moralContrast>` with attributes `good` and `evil` defining opposed moral poles.
+`<agency>` is equivalent to `<trajectory>` when describing movement of control, or `<obligation>` when emphasizing responsibility.
+`<goal>` is equivalent to `<trajectory>` when denoting directional aspiration, and `<transcendence type="ideological">` when phrased in value-laden language.
+`<prosperity>` is equivalent to `<trajectory direction="up">` coupled with `<transcendence type="ideological">`.
+`<citizen>` or `<people>` are equivalent to `<ingroup role="citizenry">`.
+`<nation>` is equivalent to `<ingroup role="nation">`.
+`<government>` is equivalent to `<ingroup role="government">` or `<authority type="institutional">` depending on rhetorical function.
+`<congress>` is equivalent to `<authority type="institutional">` when serving as legitimizing agent.
+`<policySuccess>` is equivalent to `<trajectory direction="up">`.
+`<policyFailure>` is equivalent to `<trajectory direction="down">`.
+`<partnership>` is equivalent to `<unity>` with `scope="federalism"` or `scope="international"`.
+`<responsibility>` is equivalent to `<obligation>` with an appropriate `agent`.
+`<duty>` is equivalent to `<obligation>` with the same `agent`.
+`<progress>` is equivalent to `<trajectory direction="up">`.
+`<decline>` is equivalent to `<trajectory direction="down">`.
+`<freedom>` is equivalent to `<transcendence type="ideological">`.
+`<peace>` is equivalent to `<transcendence type="ideological">` or `<moralContrast>` when juxtaposed with war.
+`<war>` is equivalent to `<threat source="external">`.
+`<enemy>` is equivalent to `<outgroup role="opponents">`.
+`<ally>` is equivalent to `<ingroup role="allies">`.
+`<partisan>` is equivalent to `<division scope="political">`.
+`<cooperation>` is equivalent to `<unity scope="bipartisan">`.
+`<hope>` is equivalent to `<transcendence type="ideological">`.
+`<faith>` is equivalent to `<transcendence type="religious">`.
+`<sacrifice>` is equivalent to `<transcendence type="humanistic">`.
+`<lawReform>` is equivalent to `<authority type="legal">` combined with `<obligation>` if framed as mandate.
+`<economicPlan>` is equivalent to `<authority type="policy">` and `<trajectory direction="up">`.
+`<trust>` is equivalent to `<scarcity resource="trust">` when absent, or `<unity scope="domestic">` when restored.
+`<cohesion>` is equivalent to `<unity scope="domestic">`.
+`<corruption>` is equivalent to `<threat source="internal">`.
+`<reform>` is equivalent to `<trajectory direction="up">` or `<transcendence type="ideological">` when described as renewal.
+`<tradition>` is equivalent to `<authority type="historical">`.
+`<progressiveChange>` is equivalent to `<trajectory direction="up">`.
+`<decay>` is equivalent to `<trajectory direction="down">`.
+`<prosperityGoal>` is equivalent to `<transcendence type="ideological">` joined with `<trajectory direction="up">`.
+`<solidarity>` is equivalent to `<unity scope="international">`.
+`<nationalSecurity>` is equivalent to `<authority type="security">` and `<obligation agent="leadership">`.
+`<foreignAid>` is equivalent to `<authority type="policy">` with `scope="international"`.
+`<enterprise>` is equivalent to `<ingroup role="producers">`.
+`<workers>` is equivalent to `<ingroup role="laborers">` or `<ingroup role="producers">`.
+`<youth>` is equivalent to `<ingroup role="subgroup">` when the speech addresses future generations.
+`<families>` is equivalent to `<ingroup role="families">`.
+`<veterans>` is equivalent to `<ingroup role="military">`.
+`<founders>` is equivalent to `<hero type="group">`.
+`<martyr>` is equivalent to `<hero type="individual">` or `<transcendence type="humanistic">`.
+`<crime>` is equivalent to `<threat source="internal">`.
+`<lawEnforcement>` is equivalent to `<authority type="institutional">`.
+`<justice>` is equivalent to `<transcendence type="moral">`.
+`<freedomSymbol>` is equivalent to `<authority type="symbolic">`.
+`<flag>` is equivalent to `<authority type="symbolic">`.
+`<God>` is equivalent to `<transcendence type="religious">`.
+`<taxpayer>` is equivalent to `<ingroup role="taxpayers">`.
+`<poor>` or `<needy>` are equivalent to `<ingroup role="vulnerable">`.
+`<wealthy>` is equivalent to `<ingroup role="elite">`.
+`<regulation>` is equivalent to `<authority type="policy">` when bureaucratic, or `<division scope="policy">` when opposed.
+`<inflation>` is equivalent to `<scarcity resource="money">` or `<trajectory direction="down">`.
+`<budget>` is equivalent to `<authority type="policy">`.
+`<employment>` is equivalent to `<scarcity resource="jobs">` when lacking, or `<trajectory direction="up">` when increasing.
+`<innovation>` is equivalent to `<trajectory direction="up">` and `<transcendence type="ideological">`.
+`<science>` is equivalent to `<authority type="expert">`.
+`<technology>` is equivalent to `<authority type="expert">` or `<trajectory direction="up">`.
+`<environment>` is equivalent to `<authority type="policy">` when legislative, or `<threat source="external">` when in danger.
+`<energy>` is equivalent to `<scarcity resource="energy">`.
+`<poverty>` is equivalent to `<scarcity resource="income">`.
+`<health>` is equivalent to `<scarcity resource="health">` or `<authority type="policy">` in medical reform contexts.
+`<education>` is equivalent to `<authority type="policy">` and `<transcendence type="ideological">`.
+`<recession>` is equivalent to `<threat source="internal">` or `<trajectory direction="down">`.
+`<recovery>` is equivalent to `<trajectory direction="up">`.
+`<deficit>` is equivalent to `<scarcity resource="budget">`.
+`<economy>` is equivalent to `<authority type="economic">`.
+`<enterpriseZone>` is equivalent to `<authority type="policy">` and `<trajectory direction="up">`.
+`<service>` is equivalent to `<obligation agent="citizenry">` or `<transcendence type="humanistic">`.
+`<honor>` is equivalent to `<transcendence type="moral">`.
+`<patriotism>` is equivalent to `<transcendence type="ideological">`.
+`<renewal>` is equivalent to `<trajectory direction="up">`.
+`<decency>` is equivalent to `<transcendence type="moral">`.
+`<faithInFuture>` is equivalent to `<transcendence type="ideological">`.
+`<liberty>` is equivalent to `<transcendence type="ideological">`.
+`<courage>` is equivalent to `<transcendence type="humanistic">`.
+`<sacredDuty>` is equivalent to `<obligation agent="ingroup">` and `<transcendence type="religious">`.
+`<destiny>` is equivalent to `<transcendence type="ideological">`.
+`<hope>` is equivalent to `<transcendence type="ideological">`.
+`<AmericanSpirit>` is equivalent to `<trajectory direction="up">` combined with `<transcendence type="ideological">`.

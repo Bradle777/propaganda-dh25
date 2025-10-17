@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <speech title="Address to a Joint Session of Congress" speaker="Barack Obama" date="2009-02-24">
+        
+        <MetaData attribute="date">February 24, 2009</MetaData>
+        
+        <reference referred="USGov" connotation="neutral" position="domestic">Madame Speaker</reference>, 
+        <reference referred="USGov" connotation="neutral" position="domestic">Mr. Vice President</reference>, 
+        Members of the <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference>, 
+        and the <reference referred="USFirstLady" connotation="positive" position="domestic">First Lady of the United States</reference>:
+        
+        I’ve come here tonight not only to address the distinguished men and women in this great chamber, but to speak frankly and directly to the 
+        <reference referred="USPeople" connotation="positive" position="domestic">men and women who sent us here</reference>.
+        
+        I know that for many <reference referred="USPeople" connotation="neutral" position="domestic">Americans</reference> watching right now, the state of our 
+        <economicPolicy connotation="negative" when="present">economy</economicPolicy> is a concern that rises above all others. And rightly so. 
+        If you haven’t been personally affected by this <economicPolicy connotation="negative" when="present">recession</economicPolicy>, you probably know someone who has – a friend; a neighbor; a member of your family. 
+        You don’t need to hear another list of <statistic when="present">statistics</statistic> to know that our 
+        <economicPolicy connotation="negative" when="present">economy is in crisis</economicPolicy>, because you live it every day. It’s the worry you wake up with and the source of sleepless nights. It’s the job you thought you’d retire from but now have lost; the business you built your dreams upon that’s now hanging by a thread; the college acceptance letter your child had to put back in the envelope. The impact of this 
+        <economicPolicy connotation="negative" when="present">recession</economicPolicy> is real, and it is everywhere.
+        
+        But while our <economicPolicy connotation="negative" when="present">economy</economicPolicy> may be weakened and our confidence shaken; though we are living through difficult and uncertain times, tonight I want every 
+        <reference referred="USPeople" connotation="positive" position="domestic">American</reference> to know this: 
+        We will <economicPolicy connotation="positive" when="future">rebuild</economicPolicy>, we will 
+        <economicPolicy connotation="positive" when="future">recover</economicPolicy>, and the 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">United States of America</reference> will emerge stronger than before.
+        
+        The weight of this <economicPolicy connotation="negative" when="present">crisis</economicPolicy> will not determine the destiny of this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">nation</reference>. The answers to our problems don’t lie beyond our reach. They exist in our 
+        <reference referred="USIndustry_LaboratoriesUniversities" connotation="positive" position="domestic">laboratories and universities</reference>; in our 
+        <reference referred="USIndustry_AgricultureManufacturing" connotation="positive" position="domestic">fields and factories</reference>; in the imaginations of our 
+        <reference referred="USEntrepreneurs" connotation="positive" position="domestic">entrepreneurs</reference> and the pride of the 
+        <reference referred="USWorkers" connotation="positive" position="domestic">hardest-working people on Earth</reference>. 
+        Those qualities that have made 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference> the greatest force of progress and prosperity in human history we still possess in ample measure. 
+        What is required now is for this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">country</reference> to pull together, confront boldly the 
+        <context when="present">challenges we face</context>, and take 
+        <partyAgenda connotation="positive" when="present">responsibility for our future</partyAgenda> once more.
+        
+        Now, if we’re honest with ourselves, we’ll admit that for too long, we have not always met these responsibilities – as a 
+        <reference referred="USGov" connotation="neutral" position="domestic">government</reference> or as a 
+        <reference referred="USPeople" connotation="neutral" position="domestic">people</reference>. 
+        I say this not to lay blame or look backwards, but because it is only by understanding how we arrived at this moment that we’ll be able to lift ourselves out of this predicament.
+        
+        <context when="past">The fact is, our 
+            <economicPolicy connotation="negative" when="past">economy did not fall into decline overnight</economicPolicy>. 
+            Nor did all of our problems begin when the 
+            <economicPolicy connotation="negative" when="past">housing market collapsed</economicPolicy> or the 
+            <economicPolicy connotation="negative" when="past">stock market sank</economicPolicy>. 
+            We have known for decades that our 
+            <economicPolicy connotation="neutral" when="past">survival depends on finding new sources of energy</economicPolicy>. Yet we import more 
+            <economicPolicy connotation="negative" when="present">oil</economicPolicy> today than ever before. 
+            The cost of <health connotation="negative" when="present">health care</health> eats up more and more of our savings each year, yet we keep delaying reform. 
+            Our children will compete for jobs in a 
+            <context>global economy</context> that too many of our 
+            <reference referred="USSchools" connotation="negative" position="domestic">schools</reference> do not prepare them for. And though all these challenges went unsolved, we still managed to spend more money and pile up more 
+            <economicPolicy connotation="negative" when="past">debt</economicPolicy>, both as individuals and through our 
+            <reference referred="USGov_FederalGov" connotation="negative" position="domestic">government</reference>, than ever before.</context>
+        
+        In other words, we have lived through an era where too often, short-term gains were prized over long-term prosperity; where we failed to look beyond the next payment, the next quarter, or the next election. 
+        A <economicPolicy connotation="positive" when="past">surplus</economicPolicy> became an excuse to transfer wealth to the 
+        <reference referred="USWealthy" connotation="negative" position="domestic">wealthy</reference> instead of an opportunity to 
+        <economicPolicy connotation="positive" when="future">invest in our future</economicPolicy>. 
+        <partyAgenda connotation="negative" when="past">Regulations</partyAgenda> were gutted for the sake of a quick profit at the expense of a healthy market. 
+        People bought homes they knew they couldn’t afford from 
+        <reference referred="USBanksLenders" connotation="negative" position="domestic">banks and lenders</reference> who pushed those bad loans anyway. 
+        And all the while, critical debates and difficult decisions were put off for some other time on some other day.
+        
+        Well that day of reckoning has arrived, and the time to take charge of our 
+        <partyAgenda connotation="positive" when="present">future</partyAgenda> is here.
+        
+        Now is the time to act boldly and wisely – to not only revive this 
+        <economicPolicy connotation="positive" when="present">economy</economicPolicy>, but to build a new foundation for lasting 
+        <economicPolicy connotation="positive" when="future">prosperity</economicPolicy>. 
+        Now is the time to jumpstart 
+        <economicPolicy connotation="positive" when="future">job creation</economicPolicy>, restart 
+        <economicPolicy connotation="positive" when="future">lending</economicPolicy>, and 
+        <partyAgenda connotation="positive" when="future">invest in areas like energy, health care, and education</partyAgenda> that will grow our 
+        <economicPolicy connotation="positive" when="future">economy</economicPolicy>, even as we make hard choices to bring our 
+        <economicPolicy connotation="positive" when="future">deficit down</economicPolicy>. 
+        That is what my 
+        <partyAgenda connotation="positive" when="present">economic agenda</partyAgenda> is designed to do, and that’s what I’d like to talk to you about tonight.
+        It’s an agenda that begins with 
+        <economicPolicy connotation="positive" when="present">jobs</economicPolicy>.
+        
+        As soon as I took office, I asked this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to send me a 
+        <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda> by 
+        <statistic when="past">President’s Day 2009</statistic> that would put 
+        <reference referred="USWorkers" connotation="positive" position="domestic">people back to work</reference> and put 
+        <economicPolicy connotation="positive" when="present">money in their pockets</economicPolicy>. 
+        Not because I believe in bigger 
+        <reference referred="USGov" connotation="negative" position="domestic">government</reference> – I don’t.  
+        Not because I’m not mindful of the massive 
+        <economicPolicy connotation="negative" when="past">debt we’ve inherited</economicPolicy> – I am.  
+        I called for action because the failure to do so would have cost more 
+        <economicPolicy connotation="negative" when="future">jobs</economicPolicy> and caused more 
+        <economicPolicy connotation="negative" when="future">hardships</economicPolicy>.  
+        In fact, a failure to act would have worsened our long-term 
+        <economicPolicy connotation="negative" when="future">deficit</economicPolicy> by assuring weak 
+        <economicPolicy connotation="negative" when="future">economic growth</economicPolicy> for years.  
+        That’s why I pushed for quick action.  
+        And tonight, I am grateful that this 
+        <reference referred="USGov_Congress" connotation="positive" position="domestic">Congress</reference> delivered, and pleased to say that the 
+        <partyAgenda connotation="positive" when="present">American Recovery and Reinvestment Act</partyAgenda> is now law.
+        
+        Over the next 
+        <statistic when="future">two years</statistic>, this plan will 
+        <economicPolicy connotation="positive" when="future">save or create 3.5 million jobs</economicPolicy>.  
+        More than 
+        <statistic when="future">90 percent</statistic> of these jobs will be in the 
+        <reference referred="USPrivateSector" connotation="positive" position="domestic">private sector</reference> – 
+        <economicPolicy connotation="positive" when="future">jobs rebuilding our roads and bridges</economicPolicy>; constructing 
+        <climate connotation="positive" when="future">wind turbines and solar panels</climate>; laying 
+        <economicPolicy connotation="positive" when="future">broadband lines and expanding mass transit</economicPolicy>.
+        
+        Because of this plan, there are 
+        <reference referred="USTeachers" connotation="positive" position="domestic">teachers</reference> who can now keep their jobs and educate our kids.  
+        <health connotation="positive" when="present">Health care professionals</health> can continue caring for our sick.  
+        There are 
+        <statistic when="present">57</statistic> 
+        <reference referred="USPolice" connotation="positive" position="domestic">police officers</reference> who are still on the streets of 
+        <reference referred="Minneapolis" connotation="neutral" position="domestic">Minneapolis</reference> tonight because this plan prevented the layoffs their department was about to make.
+        
+        Because of this plan, 
+        <statistic when="present">95 percent</statistic> of the 
+        <reference referred="USHouseholds_Working" connotation="positive" position="domestic">working households in America</reference> will receive a 
+        <economicPolicy connotation="positive" when="present">tax cut</economicPolicy> – a 
+        <economicPolicy connotation="positive" when="future">tax cut</economicPolicy> that you will see in your paychecks beginning on 
+        <statistic when="future">April 1st</statistic>.
+        
+        Because of this plan, 
+        <reference referred="USFamilies" connotation="positive" position="domestic">families</reference> who are struggling to pay 
+        <education connotation="neutral" when="present">tuition costs</education> will receive a 
+        <economicPolicy connotation="positive" when="present">$2,500 tax credit for all four years of college</economicPolicy>.  
+        And 
+        <reference referred="USPeople_Unemployed" connotation="positive" position="domestic">Americans who have lost their jobs</reference> in this 
+        <economicPolicy connotation="negative" when="present">recession</economicPolicy> will be able to receive 
+        <economicPolicy connotation="positive" when="present">extended unemployment benefits</economicPolicy> and continued 
+        <health connotation="positive" when="present">health care coverage</health> to help them weather this storm.
+        
+        I know there are some in this chamber and watching at home who are skeptical of whether this plan will work.  
+        I understand that skepticism.  
+        Here in 
+        <reference referred="WashingtonDC" connotation="neutral" position="domestic">Washington</reference>, we’ve all seen how quickly good intentions can turn into 
+        <crime connotation="negative" when="past">wasteful spending</crime>.  
+        And with a plan of this scale comes enormous responsibility to get it right.
+        
+        That is why I have asked 
+        <reference referred="USVicePresident_JoeBiden" connotation="positive" position="domestic">Vice President Biden</reference> to lead a tough, unprecedented 
+        <partyAgenda connotation="positive" when="present">oversight effort</partyAgenda> – because nobody messes with Joe.  
+        I have told each member of my 
+        <reference referred="USGov_Cabinet" connotation="neutral" position="domestic">Cabinet</reference> as well as 
+        <reference referred="USMayorsGovernors" connotation="neutral" position="domestic">mayors and governors across the country</reference> that they will be held accountable by me and the 
+        <reference referred="USPeople" connotation="positive" position="domestic">American people</reference> for every dollar they spend.  
+        I have appointed a proven and aggressive 
+        <reference referred="USGov_InspectorGeneral" connotation="positive" position="domestic">Inspector General</reference> to ferret out any and all cases of 
+        <crime connotation="negative" when="present">waste and fraud</crime>.  
+        And we have created a new website called 
+        <reference referred="RecoveryGov" connotation="neutral" position="domestic">Recovery.gov</reference> so that every 
+        <reference referred="USPeople" connotation="positive" position="domestic">American</reference> can find out how and where their money is being spent.
+        
+        So the 
+        <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda> we passed is the first step in getting our 
+        <economicPolicy connotation="positive" when="present">economy back on track</economicPolicy>.  
+        But it is just the first step.  
+        Because even if we manage this plan flawlessly, there will be no real recovery unless we clean up the 
+        <economicPolicy connotation="negative" when="present">credit crisis</economicPolicy> that has severely weakened our 
+        <economicPolicy connotation="negative" when="present">financial system</economicPolicy>.
+        
+        I want to speak plainly and candidly about this issue tonight, because every 
+        <reference referred="USPeople" connotation="positive" position="domestic">American</reference> should know that it directly affects you and your family’s well-being.  
+        You should also know that the 
+        <economicPolicy connotation="neutral" when="present">money you’ve deposited in banks</economicPolicy> across the country is safe; your 
+        <reference referred="USInsurance" connotation="neutral" position="domestic">insurance</reference> is secure; and you can rely on the continued operation of our 
+        <economicPolicy connotation="neutral" when="present">financial system</economicPolicy>.  
+        That is not the source of concern.
+        
+        The concern is that if we do not restart 
+        <economicPolicy connotation="positive" when="future">lending</economicPolicy> in this 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">country</reference>, our 
+        <economicPolicy connotation="negative" when="future">recovery will be choked off before it even begins</economicPolicy>.
+        
+        You see, the flow of 
+        <economicPolicy connotation="neutral" when="present">credit</economicPolicy> is the lifeblood of our 
+        <economicPolicy connotation="neutral" when="present">economy</economicPolicy>.  
+        The ability to get a 
+        <economicPolicy connotation="positive" when="present">loan</economicPolicy> is how you finance the purchase of everything from a 
+        <housing connotation="neutral" when="present">home</housing> to a 
+        <reference referred="USIndustry_Auto" connotation="neutral" position="domestic">car</reference> to a 
+        <education connotation="neutral" when="present">college education</education>; how 
+        <reference referred="USRetailers" connotation="neutral" position="domestic">stores</reference> stock their shelves, 
+        <reference referred="USFarmers" connotation="neutral" position="domestic">farms</reference> buy equipment, and 
+        <reference referred="USBusinesses" connotation="neutral" position="domestic">businesses</reference> make payroll.
+        
+        But 
+        <economicPolicy connotation="negative" when="present">credit has stopped flowing</economicPolicy> the way it should.  
+        Too many 
+        <economicPolicy connotation="negative" when="past">bad loans from the housing crisis</economicPolicy> have made their way onto the books of too many 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference>.  
+        With so much 
+        <economicPolicy connotation="negative" when="present">debt</economicPolicy> and so little confidence, these 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference> are now fearful of lending out any more 
+        <economicPolicy connotation="negative" when="present">money</economicPolicy> to 
+        <reference referred="USHouseholds" connotation="neutral" position="domestic">households</reference>, to 
+        <reference referred="USBusinesses" connotation="neutral" position="domestic">businesses</reference>, or to each other.  
+        When there is no lending, 
+        <reference referred="USFamilies" connotation="negative" position="domestic">families</reference> can’t afford to buy homes or cars.  
+        So 
+        <reference referred="USBusinesses" connotation="negative" position="domestic">businesses</reference> are forced to make layoffs.  
+        Our 
+        <economicPolicy connotation="negative" when="present">economy suffers even more</economicPolicy>, and 
+        <economicPolicy connotation="negative" when="present">credit dries up</economicPolicy> even further.
+        
+        That is why this 
+        <reference referred="USGov_Administration" connotation="positive" position="domestic">administration</reference> is moving swiftly and aggressively to 
+        <economicPolicy connotation="positive" when="present">break this destructive cycle, restore confidence, and restart lending</economicPolicy>.
+        We will do so in several ways.  
+        First, we are creating a new 
+        <economicPolicy connotation="positive" when="present">lending fund</economicPolicy> that represents the largest effort ever to help provide 
+        <economicPolicy connotation="positive" when="present">auto loans, college loans, and small business loans</economicPolicy> to the 
+        <reference referred="USConsumersEntrepreneurs" connotation="positive" position="domestic">consumers and entrepreneurs</reference> who keep this 
+        <economicPolicy connotation="neutral" when="present">economy running</economicPolicy>.
+        
+        Second, we have launched a 
+        <housing connotation="positive" when="present">housing plan</housing> that will help 
+        <reference referred="USFamilies_ResponsibleHomeowners" connotation="positive" position="domestic">responsible families</reference> facing the 
+        <housing connotation="negative" when="present">threat of foreclosure</housing> lower their monthly payments and refinance their mortgages.  
+        It’s a plan that won’t help 
+        <reference referred="USSpeculators" connotation="negative" position="domestic">speculators</reference> or that neighbor down the street who bought a house he could never hope to afford, but it will help millions of 
+        <reference referred="USFamilies" connotation="positive" position="domestic">Americans</reference> who are struggling with 
+        <economicPolicy connotation="negative" when="present">declining home values</economicPolicy> – 
+        <reference referred="USFamilies" connotation="positive" position="domestic">Americans</reference> who will now be able to take advantage of the 
+        <economicPolicy connotation="positive" when="present">lower interest rates</economicPolicy> that this plan has already helped bring about.  
+        In fact, the average family who refinances today can save nearly 
+        <statistic when="present">$2000 per year</statistic> on their mortgage.
+        
+        Third, we will act with the full force of the 
+        <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">federal government</reference> to ensure that the major 
+        <reference referred="USBanks" connotation="neutral" position="domestic">banks</reference> that 
+        <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference> depend on have enough confidence and enough money to lend even in more difficult times.  
+        And when we learn that a major bank has serious problems, we will hold accountable those responsible, force the necessary adjustments, provide the support to clean up their balance sheets, and assure the continuity of a strong, viable institution that can serve our people and our 
+        <economicPolicy connotation="neutral" when="future">economy</economicPolicy>.
+        
+        I understand that on any given day, 
+        <reference referred="USWallStreet" connotation="neutral" position="domestic">Wall Street</reference> may be more comforted by an approach that gives 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference> bailouts with no strings attached, and that holds nobody accountable for their reckless decisions.  
+        But such an approach won’t solve the problem.  
+        And our goal is to quicken the day when we 
+        <economicPolicy connotation="positive" when="future">restart lending</economicPolicy> to the 
+        <reference referred="USPeople" connotation="positive" position="domestic">American people</reference> and 
+        <reference referred="USBusinesses" connotation="positive" position="domestic">American business</reference> and 
+        <economicPolicy connotation="positive" when="future">end this crisis once and for all</economicPolicy>.
+        
+        I intend to hold these 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference> fully accountable for the assistance they receive, and this time, they will have to clearly demonstrate how 
+        <economicPolicy connotation="positive" when="present">taxpayer dollars result in more lending for the American taxpayer</economicPolicy>.  
+        This time, 
+        <reference referred="USCEOs" connotation="negative" position="domestic">CEOs</reference> won’t be able to use taxpayer money to pad their paychecks or buy fancy drapes or disappear on a private jet.  
+        Those days are over.
+        
+        Still, this plan will require significant resources from the 
+        <reference referred="USGov_FederalGov" connotation="neutral" position="domestic">federal government</reference> – and yes, probably more than we’ve already set aside.  
+        But while the cost of action will be great, I can assure you that the cost of inaction will be far greater, for it could result in an 
+        <economicPolicy connotation="negative" when="future">economy that sputters along</economicPolicy> for not months or years, but perhaps a decade.  
+        That would be worse for our 
+        <economicPolicy connotation="negative" when="future">deficit</economicPolicy>, worse for 
+        <reference referred="USBusinesses" connotation="negative" position="domestic">business</reference>, worse for you, and worse for the next generation.  
+        And I refuse to let that happen.
+        
+        I understand that when the last 
+        <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> asked this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to provide assistance for 
+        <reference referred="USBanks_Struggling" connotation="negative" position="domestic">struggling banks</reference>, 
+        <reference referred="USPoliticalParties" connotation="neutral" position="domestic">Democrats and Republicans alike</reference> were infuriated by the 
+        <crime connotation="negative" when="past">mismanagement</crime> and poor results that followed.  
+        So were the 
+        <reference referred="USPeople_Taxpayers" connotation="negative" position="domestic">American taxpayers</reference>.  
+        So was I.
+        
+        So I know how unpopular it is to be seen as helping 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference> right now, especially when everyone is suffering in part from their bad decisions.  
+        I promise you – I get it.
+        
+        But I also know that in a time of 
+        <economicPolicy connotation="negative" when="present">crisis</economicPolicy>, we cannot afford to 
+        <partyAgenda connotation="negative" when="present">govern out of anger</partyAgenda>, or yield to the 
+        <partyAgenda connotation="negative" when="present">politics of the moment</partyAgenda>.  
+        My job – our job – is to 
+        <partyAgenda connotation="positive" when="present">solve the problem</partyAgenda>.  
+        Our job is to 
+        <partyAgenda connotation="positive" when="present">govern with a sense of responsibility</partyAgenda>.  
+        I will not spend a single penny for the purpose of rewarding a single 
+        <reference referred="USWallStreetExec" connotation="negative" position="domestic">Wall Street executive</reference>, but I will do whatever it takes to help the 
+        <reference referred="USSmallBusinesses" connotation="positive" position="domestic">small business</reference> that can’t pay its workers or the 
+        <reference referred="USFamilies" connotation="positive" position="domestic">family</reference> that has saved and still can’t get a mortgage.
+        
+        That’s what this is about.  
+        It’s not about helping 
+        <reference referred="USBanks" connotation="negative" position="domestic">banks</reference> – it’s about helping 
+        <reference referred="USPeople" connotation="positive" position="domestic">people</reference>.  
+        Because when 
+        <economicPolicy connotation="positive" when="future">credit is available again</economicPolicy>, that 
+        <reference referred="USFamilies_YoungFamily" connotation="positive" position="domestic">young family</reference> can finally buy a new home.  
+        And then some 
+        <reference referred="USCompany" connotation="neutral" position="domestic">company</reference> will hire workers to build it.  
+        And then those 
+        <reference referred="USWorkers" connotation="positive" position="domestic">workers</reference> will have money to spend, and if they can get a 
+        <economicPolicy connotation="positive" when="future">loan</economicPolicy> too, maybe they’ll finally buy that car, or open their own business.  
+        <reference referred="USInvestors" connotation="positive" position="domestic">Investors</reference> will return to the market, and 
+        <reference referred="USFamilies" connotation="positive" position="domestic">American families</reference> will see their 
+        <economicPolicy connotation="positive" when="future">retirement secured once more</economicPolicy>.  
+        Slowly, but surely, 
+        <economicPolicy connotation="positive" when="future">confidence will return</economicPolicy>, and our 
+        <economicPolicy connotation="positive" when="future">economy will recover</economicPolicy>.
+        
+        So I ask this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to join me in doing whatever proves necessary.  
+        Because we cannot consign our 
+        <reference referred="TheUSAsAWhole" connotation="negative" position="domestic">nation</reference> to an open-ended 
+        <economicPolicy connotation="negative" when="future">recession</economicPolicy>.  
+        And to ensure that a 
+        <economicPolicy connotation="negative" when="future">crisis of this magnitude</economicPolicy> never happens again, I ask 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to move quickly on 
+        <partyAgenda connotation="positive" when="future">legislation that will finally reform our outdated regulatory system</partyAgenda>.  
+        It is time to put in place tough, new common-sense 
+        <economicPolicy connotation="positive" when="future">rules of the road</economicPolicy> so that our 
+        <economicPolicy connotation="positive" when="future">financial market rewards drive and innovation, and punishes short-cuts and abuse</economicPolicy>.
+        The <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda> and the 
+        <partyAgenda connotation="positive" when="present">financial stability plan</partyAgenda> are the immediate steps we’re taking to 
+        <economicPolicy connotation="positive" when="present">revive our economy in the short term</economicPolicy>.  
+        But the only way to fully restore 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America’s economic strength</reference> is to make the 
+        <economicPolicy connotation="positive" when="future">long-term investments</economicPolicy> that will lead to 
+        <economicPolicy connotation="positive" when="future">new jobs, new industries, and renewed ability to compete</economicPolicy> with the rest of the world.  
+        The only way this century will be another 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">American century</reference> is if we confront at last the price of our 
+        <economicPolicy connotation="negative" when="present">dependence on oil</economicPolicy> and the 
+        <health connotation="negative" when="present">high cost of health care</health>; the 
+        <education connotation="negative" when="present">schools that aren’t preparing our children</education> and the 
+        <economicPolicy connotation="negative" when="future">mountain of debt</economicPolicy> they stand to inherit.  
+        That is our responsibility.
+        
+        In the next few days, I will submit a 
+        <partyAgenda connotation="neutral" when="future">budget</partyAgenda> to 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference>.  
+        So often, we have come to view these documents as simply numbers on a page or laundry lists of programs.  
+        I see this document differently.  
+        I see it as a 
+        <partyAgenda connotation="positive" when="future">vision for America</partyAgenda> – as a 
+        <partyAgenda connotation="positive" when="future">blueprint for our future</partyAgenda>.
+        
+        My 
+        <partyAgenda connotation="neutral" when="present">budget</partyAgenda> does not attempt to solve every problem or address every issue.  
+        It reflects the stark reality of what we’ve inherited – a 
+        <economicPolicy connotation="negative" when="present">trillion-dollar deficit</economicPolicy>, a 
+        <economicPolicy connotation="negative" when="present">financial crisis</economicPolicy>, and a 
+        <economicPolicy connotation="negative" when="present">costly recession</economicPolicy>.  
+        
+        Given these realities, everyone in this chamber – 
+        <reference referred="USPoliticalParties" connotation="neutral" position="domestic">Democrats and Republicans</reference> – will have to 
+        <partyAgenda connotation="positive" when="present">sacrifice some worthy priorities</partyAgenda> for which there are no dollars.  
+        And that includes me.  
+        
+        But that does not mean we can afford to ignore our long-term challenges.  
+        I reject the view that says our problems will simply take care of themselves; that says 
+        <reference referred="USGov" connotation="negative" position="domestic">government</reference> has no role in laying the foundation for our 
+        <economicPolicy connotation="positive" when="future">common prosperity</economicPolicy>.
+        
+        For history tells a different story.  
+        History reminds us that at every moment of economic upheaval and transformation, this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">nation</reference> has responded with bold action and big ideas.  
+        In the midst of 
+        <military connotation="neutral" when="past">civil war</military>, we laid 
+        <economicPolicy connotation="positive" when="past">railroad tracks from one coast to another</economicPolicy> that spurred commerce and industry.  
+        From the turmoil of the 
+        <economicPolicy connotation="neutral" when="past">Industrial Revolution</economicPolicy> came a system of 
+        <education connotation="positive" when="past">public high schools</education> that prepared our citizens for a new age.  
+        In the wake of 
+        <military connotation="neutral" when="past">war</military> and 
+        <economicPolicy connotation="negative" when="past">depression</economicPolicy>, the 
+        <partyAgenda connotation="positive" when="past">GI Bill</partyAgenda> sent a generation to college and created the largest 
+        <economicPolicy connotation="positive" when="past">middle class in history</economicPolicy>.  
+        And a 
+        <foreignPolicy connotation="positive" when="past">twilight struggle for freedom</foreignPolicy> led to a 
+        <economicPolicy connotation="positive" when="past">nation of highways</economicPolicy>, an 
+        <foreignPolicy connotation="positive" when="past">American on the moon</foreignPolicy>, and an 
+        <economicPolicy connotation="positive" when="past">explosion of technology</economicPolicy> that still shapes our world.
+        
+        In each case, 
+        <reference referred="USGov" connotation="positive" position="domestic">government</reference> didn’t supplant 
+        <reference referred="USPrivateEnterprise" connotation="positive" position="domestic">private enterprise</reference>; it 
+        <partyAgenda connotation="positive" when="past">catalyzed private enterprise</partyAgenda>.  
+        It created the conditions for thousands of 
+        <reference referred="USEntrepreneurs" connotation="positive" position="domestic">entrepreneurs and new businesses</reference> to adapt and to thrive.
+        
+        We are a 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">nation</reference> that has seen promise amid peril, and claimed opportunity from ordeal.  
+        Now we must be that nation again.  
+        That is why, even as it cuts back on the 
+        <partyAgenda connotation="negative" when="present">programs we don’t need</partyAgenda>, the 
+        <partyAgenda connotation="positive" when="future">budget I submit</partyAgenda> will 
+        <partyAgenda connotation="positive" when="future">invest in the three areas absolutely critical to our economic future: energy, health care, and education</partyAgenda>.
+        
+        It begins with 
+        <climate connotation="positive" when="present">energy</climate>.
+        
+        We know the 
+        <reference referred="ForeignCountry" connotation="neutral" position="foreign">country that harnesses the power of clean, renewable energy</reference> will lead the 
+        <context when="future">21st century</context>.  
+        And yet, it is 
+        <reference referred="China" connotation="neutral" position="foreign">China</reference> that has launched the largest effort in history to make its 
+        <economicPolicy connotation="positive" when="present">economy energy efficient</economicPolicy>.  
+        We invented 
+        <climate connotation="positive" when="past">solar technology</climate>, but we’ve fallen behind 
+        <reference referred="Germany" connotation="neutral" position="foreign">Germany</reference> and 
+        <reference referred="Japan" connotation="neutral" position="foreign">Japan</reference> in producing it.  
+        New plug-in hybrids roll off our assembly lines, but they will run on 
+        <climate connotation="neutral" when="present">batteries made in Korea</climate>.
+        
+        Well, I do not accept a future where the 
+        <economicPolicy connotation="negative" when="future">jobs and industries of tomorrow take root beyond our borders</economicPolicy> – and I know you don’t either.  
+        It is time for 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference> to lead again.
+        
+        Thanks to our 
+        <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda>, we will 
+        <climate connotation="positive" when="future">double this nation’s supply of renewable energy</climate> in the next 
+        <statistic when="future">three years</statistic>.  
+        We have also made the largest 
+        <science connotation="positive" when="present">investment in basic research funding</science> in 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">American history</reference> – an investment that will spur not only new discoveries in 
+        <climate connotation="positive" when="future">energy</climate>, but breakthroughs in 
+        <health connotation="positive" when="future">medicine</health>, 
+        <science connotation="positive" when="future">science</science>, and 
+        <technology connotation="positive" when="future">technology</technology>.
+        
+        We will soon lay down thousands of miles of 
+        <climate connotation="positive" when="future">power lines that can carry new energy</climate> to cities and towns across this 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">country</reference>.  
+        And we will put 
+        <reference referred="USWorkers" connotation="positive" position="domestic">Americans</reference> to work making our homes and buildings more efficient so that we can save billions of dollars on our energy bills.
+        
+        But to truly transform our 
+        <economicPolicy connotation="positive" when="future">economy</economicPolicy>, protect our 
+        <foreignPolicy connotation="positive" when="future">security</foreignPolicy>, and save our 
+        <climate connotation="positive" when="future">planet from the ravages of climate change</climate>, we need to ultimately make clean, renewable energy the 
+        <economicPolicy connotation="positive" when="future">profitable kind of energy</economicPolicy>.  
+        So I ask this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to send me 
+        <partyAgenda connotation="positive" when="future">legislation that places a market-based cap on carbon pollution and drives the production of more renewable energy in America</partyAgenda>.  
+        And to support that innovation, we will 
+        <economicPolicy connotation="positive" when="future">invest $15 billion a year</economicPolicy> to develop technologies like 
+        <climate connotation="positive" when="future">wind power and solar power</climate>; 
+        <climate connotation="positive" when="future">advanced biofuels, clean coal</climate>, and 
+        <climate connotation="positive" when="future">more fuel-efficient cars and trucks built right here in America</climate>.
+        
+        As for our 
+        <reference referred="USIndustry_Auto" connotation="neutral" position="domestic">auto industry</reference>, everyone recognizes that years of bad decision-making and a 
+        <economicPolicy connotation="negative" when="present">global recession</economicPolicy> have pushed our automakers to the brink.  
+        We should not, and will not, protect them from their own bad practices.  
+        But we are committed to the goal of a 
+        <economicPolicy connotation="positive" when="future">re-tooled, re-imagined auto industry</economicPolicy> that can compete and win.  
+        Millions of 
+        <reference referred="USJobs" connotation="positive" position="domestic">jobs</reference> depend on it.  
+        Scores of 
+        <reference referred="USCommunities" connotation="neutral" position="domestic">communities</reference> depend on it.  
+        And I believe the 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">nation that invented the automobile</reference> cannot walk away from it.
+        
+        None of this will come without cost, nor will it be easy.  
+        But this is 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>.  
+        We don’t do what’s easy.  
+        We do what is necessary to move this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">country</reference> forward.
+        For that same reason, we must also address the 
+        <health connotation="negative" when="present">crushing cost of health care</health>.  
+        
+        This is a cost that now causes a 
+        <health connotation="negative" when="present">bankruptcy</health> in 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America</reference> every 
+        <statistic when="present">thirty seconds</statistic>.  
+        By the end of the year, it could cause 
+        <statistic when="future">1.5 million Americans</statistic> to lose their homes.  
+        In the last 
+        <statistic when="past">eight years</statistic>, 
+        <health connotation="negative" when="past">premiums have grown four times faster than wages</health>.  
+        And in each of these years, 
+        <statistic when="past">one million more Americans</statistic> have lost their health insurance.  
+        It is one of the major reasons why 
+        <reference referred="USSmallBusinesses" connotation="negative" position="domestic">small businesses</reference> close their doors and corporations ship jobs overseas.  
+        And it’s one of the largest and fastest-growing parts of our 
+        <economicPolicy connotation="negative" when="present">budget</economicPolicy>.
+        
+        Given these facts, we can no longer afford to put 
+        <health connotation="positive" when="future">health-care reform</health> on hold.
+        
+        Already, we have done more to advance the cause of 
+        <health connotation="positive" when="present">health-care reform</health> in the last 
+        <statistic when="past">thirty days</statistic> than we have in the last 
+        <statistic when="past">decade</statistic>.  
+        When it was days old, this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> passed a law to 
+        <health connotation="positive" when="present">provide and protect health insurance for eleven million American children</health> whose parents work full-time.  
+        Our 
+        <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda> will 
+        <health connotation="positive" when="future">invest in electronic health records and new technology</health> that will reduce errors, bring down costs, ensure privacy, and save lives.  
+        It will launch a new effort to 
+        <health connotation="positive" when="future">seek a cure for cancer in our time</health>.  
+        And it makes the largest 
+        <health connotation="positive" when="future">investment ever in preventive care</health>, because that is one of the best ways to keep our people healthy and our costs under control.
+        
+        This 
+        <partyAgenda connotation="positive" when="future">budget</partyAgenda> builds on these reforms.  
+        It includes an historic commitment to 
+        <health connotation="positive" when="future">comprehensive health-care reform</health> – a down-payment on the principle that we must have quality, affordable health care for every American.  
+        It’s a commitment that’s paid for in part by 
+        <economicPolicy connotation="positive" when="future">efficiencies in our system</economicPolicy> that are long overdue.  
+        And it’s a step we must take if we hope to 
+        <economicPolicy connotation="positive" when="future">bring down our deficit in the years to come</economicPolicy>.
+        
+        Now, there will be many different opinions and ideas about how to achieve reform, and that is why I’m bringing together 
+        <reference referred="USBusinessesWorkersDoctorsProviders" connotation="neutral" position="domestic">businesses and workers, doctors and health-care providers</reference>, 
+        <reference referred="USPoliticalParties" connotation="neutral" position="domestic">Democrats and Republicans</reference> to begin work on this issue next week.  
+        
+        I suffer no illusions that this will be an easy process.  
+        It will be hard.  
+        But I also know that nearly a century after 
+        <reference referred="TeddyRoosevelt" connotation="positive" position="domestic">Teddy Roosevelt</reference> first called for reform, the cost of our 
+        <health connotation="negative" when="present">health care</health> has weighed down our 
+        <economicPolicy connotation="negative" when="present">economy</economicPolicy> and the conscience of our 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">nation</reference> long enough.  
+        So let there be no doubt: 
+        <health connotation="positive" when="future">health-care reform cannot wait, must not wait, and will not wait another year</health>.
+        
+        The third challenge we must address is the 
+        <education connotation="positive" when="present">urgent need to expand the promise of education in America</education>.
+        
+        In a 
+        <context when="present">global economy</context> where the most valuable skill you can sell is your knowledge, a good 
+        <education connotation="positive" when="present">education</education> is no longer just a pathway to opportunity – it is a prerequisite.  
+        
+        Right now, 
+        <statistic when="present">three-quarters of the fastest-growing occupations</statistic> require more than a high-school diploma.  
+        And yet, just over 
+        <statistic when="present">half of our citizens</statistic> have that level of education.  
+        We have one of the 
+        <education connotation="negative" when="present">highest high-school dropout rates</education> of any industrialized nation.  
+        And half of the students who begin college never finish.
+        
+        This is a 
+        <economicPolicy connotation="negative" when="present">prescription for economic decline</economicPolicy>, because we know the countries that out-teach us today will out-compete us tomorrow.  
+        That is why it will be the goal of this 
+        <reference referred="USGov_Administration" connotation="positive" position="domestic">administration</reference> to ensure that every child has access to a complete and competitive education – from the day they are born to the day they begin a career.
+        
+        Already, we have made an historic 
+        <education connotation="positive" when="present">investment in education</education> through the 
+        <partyAgenda connotation="positive" when="present">economic recovery plan</partyAgenda>.  
+        We have dramatically expanded 
+        <education connotation="positive" when="present">early-childhood education</education> and will continue to improve its quality, because we know that the most formative learning comes in those first years of life.  
+        We have made 
+        <education connotation="positive" when="present">college affordable for nearly seven million more students</education>.  
+        And we have provided the resources necessary to 
+        <education connotation="positive" when="present">prevent painful cuts and teacher layoffs</education> that would set back our children’s progress.
+        
+        But we know that our 
+        <education connotation="neutral" when="present">schools</education> don’t just need more resources – they need more reform.  
+        That is why this 
+        <partyAgenda connotation="positive" when="future">budget</partyAgenda> creates new incentives for 
+        <education connotation="positive" when="future">teacher performance</education>; 
+        <education connotation="positive" when="future">pathways for advancement</education>; and 
+        <education connotation="positive" when="future">rewards for success</education>.  
+        We’ll invest in 
+        <education connotation="positive" when="future">innovative programs</education> that are already helping schools meet high standards and close achievement gaps.  
+        And we will expand our commitment to 
+        <education connotation="positive" when="future">charter schools</education>.
+        
+        It is our responsibility as 
+        <reference referred="USLawmakersEducators" connotation="neutral" position="domestic">lawmakers and educators</reference> to make this system work.  
+        But it is the responsibility of every 
+        <reference referred="USCitizens" connotation="positive" position="domestic">citizen</reference> to participate in it.  
+        And so tonight, I ask every American to 
+        <education connotation="positive" when="future">commit to at least one year or more of higher education or career training</education>.  
+        This can be 
+        <education connotation="neutral" when="future">community college, a four-year school, vocational training, or apprenticeship</education>.  
+        But whatever the training may be, every 
+        <reference referred="USCitizens" connotation="positive" position="domestic">American</reference> will need to get more than a high-school diploma.  
+        And 
+        <education connotation="negative" when="present">dropping out of high school</education> is no longer an option.  
+        It’s not just quitting on yourself, it’s quitting on your country – and this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">country</reference> needs and values the talents of every 
+        <reference referred="USPeople" connotation="positive" position="domestic">American</reference>.
+        
+        That is why we will provide the support necessary for you to complete college and meet a new goal:  
+        by 
+        <statistic when="future">2020</statistic>, 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference> will once again have the 
+        <education connotation="positive" when="future">highest proportion of college graduates in the world</education>.
+        
+        I know that the price of tuition is higher than ever, which is why if you are willing to 
+        <partyAgenda connotation="positive" when="future">volunteer in your neighborhood, give back to your community, or serve your country</partyAgenda>, we will make sure that you can afford a higher education.  
+        And to encourage a 
+        <partyAgenda connotation="positive" when="future">renewed spirit of national service</partyAgenda> for this and future generations, I ask this 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">Congress</reference> to send me the bipartisan 
+        <partyAgenda connotation="positive" when="future">legislation that bears the name of Senator Orrin Hatch and Senator Edward Kennedy</partyAgenda>.
+        These <education connotation="positive" when="present">education policies</education> will open the doors of opportunity for our children.  
+        But it is up to us to ensure they walk through them.  
+        In the end, there is no program or policy that can substitute for a 
+        <reference referred="USParents" connotation="positive" position="domestic">mother or father</reference> who will attend those parent/teacher conferences, help with homework after dinner, or turn off the TV, put away the video games, and read to their child.  
+        I speak to you not just as a 
+        <reference referred="USPresident" connotation="neutral" position="domestic">President</reference>, but as a father when I say that responsibility for our children's 
+        <education connotation="positive" when="present">education</education> must begin at home.
+        
+        There is, of course, another responsibility we have to our children.  
+        And that is the responsibility to ensure that we do not 
+        <economicPolicy connotation="negative" when="future">pass on to them a debt they cannot pay</economicPolicy>.  
+        With the 
+        <economicPolicy connotation="negative" when="present">deficit we inherited</economicPolicy>, the cost of the 
+        <economicPolicy connotation="negative" when="present">crisis we face</economicPolicy>, and the long-term challenges we must meet, it has never been more important to ensure that as our 
+        <economicPolicy connotation="positive" when="future">economy recovers</economicPolicy>, we do what it takes to 
+        <economicPolicy connotation="positive" when="future">bring this deficit down</economicPolicy>.
+        
+        I’m proud that we passed the 
+        <partyAgenda connotation="positive" when="past">recovery plan free of earmarks</partyAgenda>, and I want to pass a 
+        <partyAgenda connotation="positive" when="future">budget</partyAgenda> next year that ensures that each dollar we spend reflects only our most important national priorities.
+        
+        Yesterday, I held a 
+        <partyAgenda connotation="positive" when="present">fiscal summit</partyAgenda> where I pledged to 
+        <economicPolicy connotation="positive" when="future">cut the deficit in half by the end of my first term</economicPolicy>.  
+        My 
+        <reference referred="USGov_Administration" connotation="neutral" position="domestic">administration</reference> has also begun to go line by line through the 
+        <economicPolicy connotation="neutral" when="present">federal budget</economicPolicy> in order to 
+        <crime connotation="positive" when="future">eliminate wasteful and ineffective programs</crime>.  
+        As you can imagine, this is a process that will take some time.  
+        But we’re starting with the biggest lines.  
+        We have already identified 
+        <statistic when="future">$2 trillion in savings over the next decade</statistic>.
+        
+        In this 
+        <partyAgenda connotation="neutral" when="present">budget</partyAgenda>, we will 
+        <education connotation="negative" when="future">end education programs that don’t work</education> and end direct payments to large 
+        <economicPolicy connotation="negative" when="future">agribusinesses that don’t need them</economicPolicy>.  
+        We’ll 
+        <crime connotation="positive" when="future">eliminate no-bid contracts that have wasted billions in Iraq</crime>, and 
+        <military connotation="positive" when="future">reform our defense budget</military> so that we’re not paying for Cold-War-era weapons systems we don’t use.  
+        We will 
+        <crime connotation="positive" when="future">root out waste, fraud, and abuse</crime> in our 
+        <health connotation="neutral" when="present">Medicare program</health> that doesn’t make our seniors any healthier, and we will 
+        <economicPolicy connotation="positive" when="future">restore a sense of fairness and balance to our tax code</economicPolicy> by finally ending the 
+        <economicPolicy connotation="negative" when="future">tax breaks for corporations that ship our jobs overseas</economicPolicy>.
+        
+        In order to 
+        <economicPolicy connotation="positive" when="future">save our children from a future of debt</economicPolicy>, we will also end the 
+        <economicPolicy connotation="negative" when="future">tax breaks for the wealthiest 2 percent of Americans</economicPolicy>.  
+        But let me be perfectly clear – because I know you’ll hear the same old claims that 
+        <economicPolicy connotation="positive" when="future">rolling back these tax breaks means a massive tax increase on the American people</economicPolicy>:  
+        if your 
+        <reference referred="USFamilies" connotation="neutral" position="domestic">family</reference> earns less than 
+        <statistic when="present">$250,000 a year</statistic>, you will not see your taxes increased a single dime.  
+        I repeat: not one single dime.  
+        In fact, the 
+        <partyAgenda connotation="positive" when="present">recovery plan</partyAgenda> provides a 
+        <economicPolicy connotation="positive" when="present">tax cut for 95 percent of working families</economicPolicy>.  
+        And these checks are on the way.
+        
+        To 
+        <economicPolicy connotation="positive" when="future">preserve our long-term fiscal health</economicPolicy>, we must also address the growing costs in 
+        <health connotation="neutral" when="future">Medicare</health> and 
+        <economicPolicy connotation="neutral" when="future">Social Security</economicPolicy>.  
+        <health connotation="positive" when="future">Comprehensive health-care reform</health> is the best way to strengthen 
+        <health connotation="positive" when="future">Medicare</health> for years to come.  
+        And we must also begin a conversation on how to do the same for 
+        <economicPolicy connotation="neutral" when="future">Social Security</economicPolicy>, while creating 
+        <economicPolicy connotation="positive" when="future">tax-free universal savings accounts for all Americans</economicPolicy>.
+        
+        Finally, because we’re also suffering from a 
+        <partyAgenda connotation="negative" when="present">deficit of trust</partyAgenda>, I am committed to restoring a sense of 
+        <partyAgenda connotation="positive" when="future">honesty and accountability to our budget</partyAgenda>.  
+        That is why this 
+        <partyAgenda connotation="positive" when="future">budget</partyAgenda> looks ahead ten years and accounts for spending that was left out under the old rules – and for the first time, that includes the 
+        <military connotation="neutral" when="present">full cost of fighting in Iraq and Afghanistan</military>.  
+        For seven years, we have been a 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">nation at war</reference>.  
+        No longer will we hide its price.
+        We are now carefully reviewing our 
+        <foreignPolicy connotation="neutral" when="present">policies in both wars</foreignPolicy>, and I will soon announce a 
+        <foreignPolicy connotation="positive" when="future">way forward in Iraq</foreignPolicy> that 
+        <foreignPolicy connotation="positive" when="future">leaves Iraq to its people and responsibly ends this war</foreignPolicy>.
+        
+        And with our 
+        <reference referred="USAllies" connotation="positive" position="foreign">friends and allies</reference>, we will forge a 
+        <foreignPolicy connotation="positive" when="future">new and comprehensive strategy for Afghanistan and Pakistan</foreignPolicy> to 
+        <foreignPolicy connotation="positive" when="future">defeat al Qaeda and combat extremism</foreignPolicy>.  
+        Because I will not allow 
+        <crime connotation="negative" when="future" charge="terrorism">terrorists</crime> to 
+        <foreignPolicy connotation="negative" when="future">plot against the American people from safe havens half a world away</foreignPolicy>.
+        
+        As we meet here tonight, our 
+        <military connotation="positive" when="present">men and women in uniform</military> stand watch abroad and more are readying to deploy.  
+        To each and every one of them, and to the 
+        <reference referred="USMilitaryFamilies" connotation="positive" position="domestic">families who bear the quiet burden of their absence</reference>, 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">Americans</reference> are united in sending one message:  
+        we honor your service, we are inspired by your sacrifice, and you have our unyielding support.  
+        
+        To relieve the strain on our forces, my 
+        <partyAgenda connotation="positive" when="future">budget increases the number of our soldiers and Marines</partyAgenda>.  
+        And to keep our sacred trust with those who serve, we will 
+        <partyAgenda connotation="positive" when="future">raise their pay</partyAgenda>, and give our 
+        <military connotation="positive" when="future">veterans the expanded health care and benefits they have earned</military>.
+        
+        To 
+        <foreignPolicy connotation="positive" when="future">overcome extremism</foreignPolicy>, we must also be vigilant in upholding the 
+        <foreignPolicy connotation="positive" when="present">values our troops defend</foreignPolicy> – because there is no force in the world more powerful than the 
+        <foreignPolicy connotation="positive" when="present">example of America</foreignPolicy>.  
+        That is why I have ordered the 
+        <partyAgenda connotation="positive" when="present">closing of the detention center at Guantanamo Bay</partyAgenda>, and will seek 
+        <crime connotation="positive" when="future">swift and certain justice for captured terrorists</crime> – because living our values doesn’t make us weaker; it makes us safer and stronger.  
+        And that is why I can stand here tonight and say, without exception or equivocation, that the 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">United States of America</reference> does not torture.
+        
+        In words and deeds, we are showing the world that a 
+        <foreignPolicy connotation="positive" when="present">new era of engagement</foreignPolicy> has begun.  
+        For we know that 
+        <reference referred="TheUSAsAWhole" connotation="neutral" position="domestic">America</reference> cannot meet the threats of this century alone, but the world cannot meet them without 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">America</reference>.  
+        We cannot shun the 
+        <foreignPolicy connotation="positive" when="present">negotiating table</foreignPolicy>, nor ignore the 
+        <foreignPolicy connotation="negative" when="present">foes or forces that could do us harm</foreignPolicy>.  
+        We are instead called to move forward with the sense of confidence and candor that serious times demand.
+        
+        To seek progress toward a 
+        <foreignPolicy connotation="positive" when="future">secure and lasting peace between Israel and her neighbors</foreignPolicy>, we have appointed an 
+        <foreignPolicy connotation="positive" when="present">envoy to sustain our effort</foreignPolicy>.  
+        To meet the 
+        <foreignPolicy connotation="neutral" when="present">challenges of the 21st century</foreignPolicy> – from 
+        <crime connotation="negative" when="present" charge="terrorism">terrorism</crime> to 
+        <foreignPolicy connotation="negative" when="present">nuclear proliferation</foreignPolicy>; from 
+        <health connotation="negative" when="present">pandemic disease</health> to 
+        <technology connotation="negative" when="present">cyber threats</technology> to 
+        <economicPolicy connotation="negative" when="present">crushing poverty</economicPolicy> – we will 
+        <foreignPolicy connotation="positive" when="future">strengthen old alliances, forge new ones, and use all elements of our national power</foreignPolicy>.
+        
+        And to respond to an 
+        <economicPolicy connotation="negative" when="present">economic crisis that is global in scope</economicPolicy>, we are working with the 
+        <foreignPolicy connotation="neutral" when="present">nations of the G-20</foreignPolicy> to 
+        <economicPolicy connotation="positive" when="future">restore confidence in our financial system, avoid escalating protectionism, and spur demand for American goods</economicPolicy> in markets across the globe.  
+        For the 
+        <foreignPolicy connotation="neutral" when="present">world depends on us to have a strong economy</foreignPolicy>, just as our 
+        <economicPolicy connotation="neutral" when="present">economy depends on the strength of the world’s</economicPolicy>.
+        As we stand at this 
+        <context when="present">crossroads of history</context>, the eyes of all 
+        <reference referred="WorldPeople" connotation="neutral" position="foreign">people in all nations</reference> are once again upon us – watching to see what we do with this moment; waiting for us to lead.
+        
+        Those of us gathered here tonight have been called to 
+        <partyAgenda connotation="positive" when="present">govern in extraordinary times</partyAgenda>.  
+        It is a tremendous burden, but also a great privilege – one entrusted to few generations of 
+        <reference referred="USPeople" connotation="positive" position="domestic">Americans</reference>.  
+        For in our hands lies the ability to 
+        <partyAgenda connotation="positive" when="future">shape our world for good or for ill</partyAgenda>.
+        
+        I know that it is easy to lose sight of this truth – to become cynical and doubtful; consumed with the petty and the trivial.  
+        But in my life, I have learned that 
+        <context when="present">hope is found in unlikely places</context>; that inspiration often comes not from those with the most power or celebrity, but from the 
+        <reference referred="USPeople_CommonCitizens" connotation="positive" position="domestic">dreams and aspirations of ordinary Americans</reference>.
+        
+        I think about 
+        <reference referred="LeonardAbess" connotation="positive" position="domestic">Leonard Abess</reference>, the bank president from 
+        <reference referred="Miami" connotation="neutral" position="domestic">Miami</reference> who 
+        <economicPolicy connotation="positive" when="past">cashed out of his company, took a $60 million bonus, and gave it to 471 workers</economicPolicy>.  
+        He said, “I knew some of these people since I was 7 years old. I didn't feel right getting the money myself.”
+        
+        I think about 
+        <reference referred="GreensburgKansas" connotation="positive" position="domestic">Greensburg, Kansas</reference>, a town destroyed by a tornado but 
+        <climate connotation="positive" when="present">rebuilt by its residents as a global example of clean energy</climate> – how it can bring jobs and businesses to a place where piles of bricks and rubble once lay.  
+        “The tragedy was terrible,” said one of the men who helped them rebuild, “but the folks here know that it also provided an incredible opportunity.”
+        
+        And I think about 
+        <reference referred="TySheomaBethea" connotation="positive" position="domestic">Ty’Sheoma Bethea</reference>, the young girl from 
+        <reference referred="DillonSouthCarolina" connotation="neutral" position="domestic">Dillon, South Carolina</reference> – a place where ceilings leak and trains interrupt class.  
+        She wrote a letter to the 
+        <reference referred="USGov_Congress" connotation="neutral" position="domestic">people sitting in this room</reference>:  
+        “We are just students trying to become lawyers, doctors, congressmen like yourself and one day president, so we can make a change … We are not quitters.”
+        
+        <context when="present">We are not quitters.</context>  
+        
+        These stories tell us something about the 
+        <reference referred="USPeople" connotation="positive" position="domestic">spirit of the American people</reference>:  
+        even in the most trying times there is a 
+        <context when="present">generosity, resilience, decency, and determination</context> that perseveres – a willingness to take responsibility for our future and for posterity.
+        
+        Their resolve must be our inspiration.  
+        Their concerns must be our cause.  
+        And we must show them and all our people that we are equal to the task before us.
+        
+        I know that we haven’t agreed on every issue thus far, and there are surely times in the future when we will part ways.  
+        But I also know that every 
+        <reference referred="USPeople" connotation="positive" position="domestic">American</reference> who is sitting here tonight loves this 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">country</reference> and wants it to succeed.  
+        That must be the starting point for every debate we have in the coming months, and where we return after those debates are done.  
+        That is the foundation on which the 
+        <partyAgenda connotation="positive" when="future">American people expect us to build common ground</partyAgenda>.
+        
+        And if we do – if we come together and 
+        <economicPolicy connotation="positive" when="future">lift this nation from the depths of this crisis</economicPolicy>;  
+        if we 
+        <economicPolicy connotation="positive" when="future">put our people back to work and restart the engine of our prosperity</economicPolicy>;  
+        if we confront without fear the 
+        <partyAgenda connotation="positive" when="future">challenges of our time</partyAgenda> and summon that enduring 
+        <context when="future">spirit of an America that does not quit</context>,  
+        then someday years from now our children can tell their children that this was the time when we performed, in the words carved into this chamber,  
+        “<context when="present">something worthy to be remembered</context>.”
+        
+        Thank you, 
+        <reference referred="Deity" connotation="neutral" position="foreign">God</reference> bless you, and may 
+        <reference referred="Deity" connotation="neutral" position="foreign">God</reference> bless the 
+        <reference referred="TheUSAsAWhole" connotation="positive" position="domestic">United States of America</reference>.
+    </speech>
+</root>
+
