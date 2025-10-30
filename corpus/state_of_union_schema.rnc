@@ -1,20 +1,23 @@
+#REMOVE ALL i's
 start = speech
 speech = element speech {metadata*, body, back*}
 
 metadata = element metadata {date*}
-body = element body {mixed{p}}
+body = element body {mixed{p+}}
 
 date = element date {text}
 
-p = element p {policy & audience & text}
+p = element p {policy* & audience* & text & ref*}
 
 back = element back {text} #includes the note at the end
 
 
 #elements
-policy = element policy {type, value, connotation, when, anthro, text}
+policy = element policy {type, value, connotation, when, anthro*, mixed {audience*}}
 audience = element audience {noise, text}
-
+#Whenever the audience cheers, boos, or otherwise gives an outburst
+ref = element ref {mixed{audience*}}
+#ref is for when the prsidents yaps and says something just to adress people or tells a story
 #attributes
 type = attribute type {"f" | "d" | "e"} #foreign, domestic, economic
 connotation = attribute connotation {"positive"| "negative"| "neutral"} #positive=alliance, negative=enemy, neutral=generic
