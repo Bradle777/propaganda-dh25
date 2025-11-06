@@ -20,3 +20,11 @@
     text-decoration: none;
     font-family: "Arial";
     }
+    
+    .polaroid-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
