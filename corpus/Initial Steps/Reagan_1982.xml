@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <reference referred="Collective">January 26, 1982 Mr. Speaker, Mr. President, distinguished Members of the Congress, honored
+    <div><reference referred="Collective">January 26, 1982 Mr. Speaker, Mr. President, distinguished Members of the Congress, honored
         guests, and fellow citizens</reference>: Today marks <reference referred="self">my</reference> first State of the Union address to you, a
     constitutional duty as old as our <reference referred="TheUS" conn="pos">Republic</reference> itself. <reference referred="FounderIdeals">President Washington began this tradition in
         1790 after reminding the <reference referred="TheUS" conn="neut">Nation</reference> that the destiny of self-government and the "preservation of the
@@ -327,12 +327,12 @@
     bring America through difficult times. Let us so conduct ourselves that two centuries from now,
     another Congress and another President, meeting in this Chamber as we are meeting, will speak of
     us with pride, saying that we met the test and preserved for them in their day the sacred flame
-    of liberty—this last, best hope of man on Earth. God bless you, and thank you. </root>
+    of liberty—this last, best hope of man on Earth. God bless you, and thank you. 
+
+</div>
 
 
-
-<root>
-    
+    <div>
     
     January 26, 1982
     Mr. Speaker, Mr. President, distinguished Members of the Congress, honored guests, and fellow citizens:
@@ -484,4 +484,5 @@
     
     Well, that President and that Congress did not fail the American people. Together they weathered the storm and preserved the Union. Let it be said of us that we, too, did not fail; that we, too, worked together to bring America through difficult times. Let us so conduct ourselves that two centuries from now, another Congress and another President, meeting in this Chamber as we are meeting, will speak of us with pride, saying that we met the test and preserved for them in their day the sacred flame of liberty—this last, best hope of man on Earth.
     God bless you, and thank you.
+    </div>
 </root>

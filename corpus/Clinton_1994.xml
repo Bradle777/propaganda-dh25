@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div class="col-sm-8 ">
-    
-    <div class="field-docs-person">
-        <div about="/people/president/william-j-clinton" typeof="sioc:Item foaf:Document" class="ds-1col node node-prez-diet view-mode-for_documents  clearfix">
-            
-            
-            
-            <div class="field-diet-pictures">
-                <img typeof="foaf:Image" class="img-responsive" src="https://www.presidency.ucsb.edu/sites/default/files/styles/doc_img/public/people/william-j-clinton_3.jpg?itok=rDN30P_8" width="170" height="230" alt="Bill Clinton photo">  </div>
-            
-            <div class="field-title">
-                <h3 class="diet-title"><a href="/people/president/william-j-clinton">William J. Clinton</a></h3>  </div>
-            
-            <div class="field-ds-byline">
-                
-                <div class="field-resuable-byline">
-                    <div class="diet-by-line president"><span class="presidential-ordinal-number">42nd</span>&nbsp;<span class="job-position">President of the United States:</span>&nbsp;<span class="dates">1993 ‐ 2001</span></div>
-                </div>
-            </div>
-            
-            <div class="field-ds-doc-title">
-                <h1>Address Before a Joint Session of the Congress on the State of the Union</h1>
-            </div>
-        </div>
-        
-    </div>
-    
+   
     <div class="field-docs-start-date-time">
         <span property="dc:date" datatype="xsd:dateTime" content="1994-01-25T21:15:00+00:00" class="date-display-single">January 25, 1994</span>  </div>
     
