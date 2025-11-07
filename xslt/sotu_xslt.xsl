@@ -14,7 +14,7 @@
         <html>
             <head>
                 <title></title>
-            </head>        
+            </head>
             <body>
                 <xsl:apply-templates/>
             </body>
