@@ -29,11 +29,17 @@ body::before {
 }
 
 h1 {
-  font-size: 3em; 
+  font-size: 4.5em; 
   text-align: center;
   margin-top: 40px; 
 }
 
+h2 {
+  font-size: 3em; 
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+}
 
 </style> 
     </head>
@@ -48,10 +54,47 @@ h1 {
             <a href="conclusion.xhtml">Conclusion</a>
         </div>
         <h1>Methods</h1>
-        <h2>Sub-title</h2>
+        
+        <h2>Markup Standards</h2>
+        <div>
+            <p>
+                    In our project, we use a structured markup strategy to categorize presidential rhetoric across a politically dynamic timespan. The <span style="color:red; font-weight:bold;">"policy"</span> element is our primary element, and it encodes several key features through attributes: <span style="color:#ffae42; font-weight:bold;">'type'</span> (foreign, domestic, or economic), <span style="color:#ffae42; font-weight:bold;">'connotation'</span> (positive, negative, or neutral), <span style="color:#ffae42; font-weight:bold;">'when'</span> (future, past, or present), and <span style="color:#ffae42; font-weight:bold;">'value'</span> (the specific policy area, such as immigration, military, health, etc.). A <span style="color:red; font-weight:bold;">"policy"</span> may also include repeated instances of <span style="color:red; font-weight:bold;">"anthro"</span>, which codes anthropological themes such as scarcity, inGroup, outGroup, authority, trajectory, transcendence, unity, division, time, role, or obligation, as well as optional <span style="color:red; font-weight:bold;">"audience"</span> reactions when relevant.
+                    
+                    <br/><br/>
+                    
+                    The <span style="color:red; font-weight:bold;">"audience"</span> element records how the in-person audience responded, using the <span style="color:#ffae42; font-weight:bold;">'noise'</span> attribute to identify applause, booing, or other reactions. Whenever a speech includes cheering, booing, or an identifiable outburst, we encoded it through <span style="color:red; font-weight:bold;">"audience"</span>. 
+                    
+                    <br/><br/>
+                    
+                    We also use the <span style="color:red; font-weight:bold;">"ref"</span> element to mark moments when the president briefly addresses individuals, groups, or anecdotes within the speech. A <span style="color:red; font-weight:bold;">"ref"</span> may contain mixed content and nested <span style="color:red; font-weight:bold;">"audience"</span> elements when the crowd directly responds to the digression.
+                    
+                    <br/><br/>
+                    
+                    Together, these elements and attributes form a consistent markup system that captures both the thematic content of presidential messaging and the real-time reactions of the audience.
+                    
+                    <br/><br/>
+                    
+                    Example:  
+                    &lt;policy <span style="color:#ffae42; font-weight:bold;">type</span>="d" <span style="color:#ffae42; font-weight:bold;">connotation</span>="positive" <span style="color:#ffae42; font-weight:bold;">when</span>="present" <span style="color:#ffae42; font-weight:bold;">value</span>="pa" <span style="color:#ffae42; font-weight:bold;">anthro</span>="obligation"&gt;
+                    
+                    <br/><br/>
+                    
+                    Interpretation:  
+                    This indicates the president is making a <i>domestic</i> policy statement, framed with a <i>positive</i> tone, referring to the <i>present</i>, specifically about <i>public assistance (pa)</i>, and evoking the broader anthropological/human theme of <i>obligation</i>.
+            
+            </p> 
+        </div>
+        
+        <h2>Qualitative Interpretations</h2>
         <div>
             <p>Insert basic text here</p> 
         </div>
+        
+        <h2>Quantitative Methods</h2>
+        <div>
+            <p>Insert basic text here</p> 
+        </div>
+
     </body>
     
 </html>
