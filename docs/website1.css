@@ -111,3 +111,32 @@ body.scrolled .hero-overlay {
     visibility: hidden;
 }
 
+li {
+    font-size: 1.25em;     
+    font-weight: bold;      
+    font-style: italic;     
+    margin-bottom: 1em;     
+}
+
+ul.nobullets {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    padding: 0 10%; 
+}
+
+.team-member {
+    width: 30%;        
+    font-size: 1.25em; 
+    font-weight: bold;
+    font-style: italic;
+}
