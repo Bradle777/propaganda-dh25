@@ -112,7 +112,7 @@ body.scrolled .hero-overlay {
 }
 
 li {
-    font-size: 1.25em;     
+    font-size: 1.1em;     
     font-weight: bold;      
     font-style: italic;     
     margin-bottom: 1em;     
@@ -126,17 +126,30 @@ ul.nobullets {
 
 .team-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
     margin: 40px 0;
+    padding: 0 10%;
     text-align: center;
-    padding: 0 10%; 
 }
 
 .team-member {
-    width: 30%;        
-    font-size: 1.25em; 
+    width: 30%;
+}
+
+
+.team-name {
+    font-size: 1.35em;
     font-weight: bold;
     font-style: italic;
+    margin-bottom: 8px;
+}
+
+
+.team-bio {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.4;
 }
