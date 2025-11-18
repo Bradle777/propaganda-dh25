@@ -74,3 +74,23 @@ body.scrolled .hero-image {
     opacity: 0.25;   
 }
 
+
+.hero-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    background: rgba(200, 200, 200, 0.85); 
+    text-align: center;
+    z-index: 5; 
+    backdrop-filter: blur(3px); 
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+
+body.scrolled .hero-overlay {
+    opacity: 0;
+    visibility: hidden;
+}
+
