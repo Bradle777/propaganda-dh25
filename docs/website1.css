@@ -34,7 +34,7 @@ body.scrolled .navbar {
 
 
 body.scrolled {
-    padding-top: calc(100vh + 60px);  
+    padding-top: calc(60px);  
 }
 
     
