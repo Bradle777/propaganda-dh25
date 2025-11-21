@@ -194,7 +194,7 @@
                     <h3>Attributes</h3>
                     
               
-                    <xsl:for-each select="//policy/@value">
+                    <xsl:for-each select="//policy/@*">
                         <xsl:sort/>
                         <xsl:if test="not(. = preceding::policy/@value)">
                             <div class="toggle-btn">
