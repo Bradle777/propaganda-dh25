@@ -2,13 +2,29 @@
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:f="urn:functions"
     exclude-result-prefixes="#all"
     version="3.0">
     
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" doctype-system="about:legacy-compat"/>
     
 
-    <xsl:template match="/speech">
+    <xsl:function name="f:text-length" as="xs:integer">
+        <xsl:param name="nodes" as="node()*" />
+        <xsl:sequence select="
+            sum(
+            for $n in $nodes
+            return string-length(normalize-space(string($n)))
+            )
+            " />
+    </xsl:function>
+    
+    
+    
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" doctype-system="about:legacy-compat"/>
+        
+
+    <xsl:template match="speech">
         <html>
             <head>
                 <title>Speech — <xsl:value-of select="metadata/date"/></title>
@@ -21,6 +37,34 @@
                     grid-template-columns: 20% 65% 15%;
                     height: 100vh;
                     }
+                    
+                    
+                    body::before {
+                    content: "";
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    opacity: 0.35;
+                    z-index: -1;
+                    }
+                    
+                    
+                    #mainText {
+                    background-color: #f5f5f5;
+                    padding: 30px;
+                    overflow-y: scroll;
+                    font-size: 1.15rem;
+                    line-height: 1.7;
+                    }
+                    
+                    
+                    
                     #statsPanel {
                     padding: 15px;
                     border-right: 1px solid #bbb;
@@ -56,6 +100,16 @@
                     .highlight-eco { background-color: #63e6be; }
                     .highlight-soc { background-color: #f06595; }
                     
+                    .highlight-f { background-color: #ffdddd; }
+                    .highlight-d { background-color: #ddffdd; }
+                    .highlight-e { background-color: #ddeeff; }
+                    .highlight-positive { background-color: #e7ffe7; }
+                    .highlight-neutral { background-color: #f0f0f0; }
+                    .highlight-negative { background-color: #ffe7e7; }                    
+                    .highlight-past { background-color: #f7f1d1; }
+                    .highlight-present { background-color: #e1f7d1; }
+                    .highlight-future { background-color: #d1e7f7; }
+                    
                     
                     .active { outline: 3px solid yellow; }
                 </style>
@@ -83,6 +137,12 @@
                             if (active[attr]) {
                                 const els = [...document.querySelectorAll('[data-attr*="' + attr + '"]')];
                                 const count = els.length;
+                                let totalChars = 0;
+                                els.forEach(e => {
+                                totalChars += e.textContent.length;
+                                });
+                                const textUnits = (totalChars / 100).toFixed(2);
+                                
 
                                 const co = {};
                                 els.forEach(e => {
@@ -102,12 +162,12 @@
                                           coHTML += a + ": " + c + "<br/>";
                                       });
 
-                                statsDiv.innerHTML += `
-                                    <h3>${attr}</h3>
-                                    <p><b>Occurrences:</b> ${count}</p>
-                                    <p><b>Co-occurs most with:</b><br/>${coHTML || "None"}</p>
-                                    <hr/>
-                                `;
+                                    statsDiv.innerHTML += 
+                                        "<h3>" + attr + "</h3>" +
+                                        "<p><b>Occurrences:</b> " + count + "</p>" +
+                                        "<p><b>Co-occurs most with:</b><br/>" + (coHTML || "None") + "</p>" +
+                                        "<hr/>";
+                    
                             }
                         });
                     }
