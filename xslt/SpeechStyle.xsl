@@ -30,7 +30,28 @@
                 <title>Speech — <xsl:value-of select="metadata/date"/></title>
                 
                 <style>
+                    .navbar {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    background: #222;
+                    padding: 10px;
+                    z-index: 1000;
+                    }
+                    
+                    .navbar a {
+                    color: white;
+                    margin-right: 15px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    }
+                    
                     body {
+                    padding-top: 60px;
+                    }
+                   
+                   body {
                     margin: 0;
                     font-family: sans-serif;
                     display: grid;
@@ -61,6 +82,16 @@
                     overflow-y: scroll;
                     font-size: 1.15rem;
                     line-height: 1.7;
+                    }
+                    
+                    #statsMenu {
+                    padding: 15px;
+                    border-right: 1px solid #bbb;
+                    overflow-y: auto;
+                    }
+                    
+                    #statsPanel {
+                    margin-top: 20px;
                     }
                     
                     
@@ -134,6 +165,16 @@
                     }
                     });
                     }
+                    
+                    function toggleStat(attr) {
+                    document.querySelectorAll('.stat-block').forEach(b => b.style.display = "none");
+                    
+                    const block = document.querySelector('.stat-block[data-stat="' + attr + '"]');
+                    if (block) {
+                    block.style.display = "block";
+                    }
+                    }
+                    
                 </script>
                 
                 
@@ -142,127 +183,148 @@
             
             <body>
                 
+                <div class="navbar">
+                    <a href="homepage.xhtml">Home</a>
+                    <a href="methods.xhtml">Methods</a>
+                    <a href="state_of_the_unions.xhtml">Texts</a>
+                    <a href="analysis.xhtml">Analysis</a>
+                    <a href="conclusion.xhtml">Conclusion</a>
+                </div>
+                
 
-                <div id="statsPanel">
+                <div id="statsMenu">
+                    <h3>Statistics</h3>
                     
-                    <!-- ECO -->
+                    
+                    <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
+                        <xsl:sort select="@value"/>
+                        <div class="toggle-btn" style="background:#333;" onclick="toggleStat('{@value}')">
+                            <xsl:value-of select="@value"/>
+                        </div>
+                    </xsl:for-each>
+                    
+                    <div id="statsPanel"></div>
+                </div>
+                
+                    
+                 
                     <div class="stat-block" data-stat="eco" style="display:none;">
-                        <h3>eco</h3>
+                        <h3>Economics</h3>
                         <p><b>Occurrences:</b> 67</p>
                         <p><b>Text units:</b> 213.91</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (64)</li>
-                            <li>positive (54)</li>
-                            <li>present (54)</li>
+                            <li>domestic (64)</li>
+                            <li>positive connotation (54)</li>
+                            <li>present moment (54)</li>
                         </ul>
                     </div>
                     
-                    <!-- HEALTH -->
+              
                     <div class="stat-block" data-stat="health" style="display:none;">
-                        <h3>health</h3>
+                        <h3>Health</h3>
                         <p><b>Occurrences:</b> 36</p>
                         <p><b>Text units:</b> 106.12</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (36)</li>
-                            <li>present (33)</li>
-                            <li>positive (32)</li>
+                            <li>domestic (36)</li>
+                            <li>present moment (33)</li>
+                            <li>positive connotation (32)</li>
                         </ul>
                     </div>
                     
-                    <!-- CRIME -->
+                    
                     <div class="stat-block" data-stat="crime" style="display:none;">
-                        <h3>crime</h3>
+                        <h3>Crime</h3>
                         <p><b>Occurrences:</b> 10</p>
                         <p><b>Text units:</b> 246.27</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (10)</li>
-                            <li>negative (10)</li>
-                            <li>present (9)</li>
+                            <li>domestic (10)</li>
+                            <li>negative connotation (10)</li>
+                            <li>present moment (9)</li>
                         </ul>
                     </div>
                     
-                    <!-- ENV -->
+                   
                     <div class="stat-block" data-stat="env" style="display:none;">
-                        <h3>env</h3>
+                        <h3>Environment</h3>
                         <p><b>Occurrences:</b> 7</p>
                         <p><b>Text units:</b> 207.82</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (7)</li>
-                            <li>positive (7)</li>
+                            <li>domestic (7)</li>
+                            <li>positive connotation (7)</li>
                             <li>future (4)</li>
                         </ul>
                     </div>
                     
-                    <!-- SOC -->
+                  
                     <div class="stat-block" data-stat="soc" style="display:none;">
-                        <h3>soc</h3>
+                        <h3>Social Issues</h3>
                         <p><b>Occurrences:</b> 12</p>
                         <p><b>Text units:</b> 231.48</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (12)</li>
-                            <li>present (10)</li>
-                            <li>positive (7)</li>
+                            <li>domestic (12)</li>
+                            <li>present moment (10)</li>
+                            <li>positive connotation (7)</li>
                         </ul>
                     </div>
                     
-                    <!-- IMM -->
+                   
                     <div class="stat-block" data-stat="imm" style="display:none;">
-                        <h3>imm</h3>
+                        <h3>Immigration</h3>
                         <p><b>Occurrences:</b> 2</p>
                         <p><b>Text units:</b> 22.58</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>positive (2)</li>
-                            <li>present (2)</li>
-                            <li>d (1)</li>
+                            <li>positive connotation (2)</li>
+                            <li>present moment (2)</li>
+                            <li>domestic (1)</li>
                         </ul>
                     </div>
                     
-                    <!-- MIL -->
+                    
                     <div class="stat-block" data-stat="mil" style="display:none;">
-                        <h3>mil</h3>
+                        <h3>Military</h3>
                         <p><b>Occurrences:</b> 3</p>
                         <p><b>Text units:</b> 7.58</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>f (2)</li>
+                            <li>foreign (2)</li>
                             <li>past (2)</li>
-                            <li>positive (2)</li>
+                            <li>positive connotation (2)</li>
                         </ul>
                     </div>
                     
-                    <!-- DIP -->
+                    
                     <div class="stat-block" data-stat="dip" style="display:none;">
-                        <h3>dip</h3>
+                        <h3>Foreign Affairs</h3>
                         <p><b>Occurrences:</b> 8</p>
                         <p><b>Text units:</b> 25.00</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>f (8)</li>
-                            <li>present (8)</li>
-                            <li>positive (7)</li>
+                            <li>foreign (8)</li>
+                            <li>present moment (8)</li>
+                            <li>positive connotation (7)</li>
                         </ul>
                     </div>
                     
-                    <!-- PA -->
+                  
                     <div class="stat-block" data-stat="pa" style="display:none;">
-                        <h3>pa</h3>
+                        <h3>Party Agenda</h3>
                         <p><b>Occurrences:</b> 3</p>
                         <p><b>Text units:</b> 8.85</p>
                         <p><b>Co-occurs most with:</b></p>
                         <ul>
-                            <li>d (3)</li>
-                            <li>positive (3)</li>
-                            <li>present (3)</li>
+                            <li>domestic (3)</li>
+                            <li>positive connotation (3)</li>
+                            <li>present moment (3)</li>
                         </ul>
                     </div>
                     
-                </div>
+                
                 
                 
                 
