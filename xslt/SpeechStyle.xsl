@@ -31,33 +31,44 @@
                 
                 <style>
                     .navbar {
-                    position: fixed;
-                    top: 0;
-                    left: 0;
+                    list-style-type: none;
+                    padding: 0px;
+                    margin: 10px 10px 20px 0px;
+                    overflow: hidden;
+                    background-color: black;
                     width: 100%;
-                    background: #222;
-                    padding: 10px;
-                    z-index: 1000;
+                    text-align: center;
+                    
+                    
+                    position: relative;
+                    z-index: 10;
                     }
                     
                     .navbar a {
+                    padding: 0px;
+                    float: left;
+                    display: block;
                     color: white;
-                    margin-right: 15px;
+                    text-align: center;
+                    padding: 15px 102px;
                     text-decoration: none;
-                    font-weight: bold;
+                    font-family: "Arial";
                     }
                     
-                    body {
-                    padding-top: 60px;
-                    }
-                   
-                   body {
-                    margin: 0;
-                    font-family: sans-serif;
+                    #layoutGrid {
                     display: grid;
                     grid-template-columns: 20% 65% 15%;
-                    height: 100vh;
+                    height: calc(100vh - 60px);
+                    overflow: hidden;
                     }
+                    
+                   
+                   body {
+                   margin: 0;
+                   font-family: sans-serif;
+                   padding-top: 60px;
+                   }
+                   
                     
                     
                     body::before {
@@ -191,6 +202,8 @@
                     <a href="conclusion.xhtml">Conclusion</a>
                 </div>
                 
+                <div id="layoutGrid">
+                    
 
                 <div id="statsMenu">
                     <h3>Statistics</h3>
@@ -340,7 +353,8 @@
                 <div id="menuPanel">
                     <h3>Attributes</h3>
                     
-              
+                </div>
+                    
                     <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
                         <xsl:sort select="@value"/>
                         <div class="toggle-btn" style="background:#444;" onclick="toggle('{@value}')">
