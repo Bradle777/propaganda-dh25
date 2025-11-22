@@ -58,7 +58,7 @@
                     #layoutGrid {
                     display: grid;
                     grid-template-columns: 20% 65% 15%;
-                    height: calc(100vh - 60px);
+                    height: calc(100vh);
                     overflow: hidden;
                     }
                     
@@ -152,8 +152,6 @@
                     .highlight-present { background-color: #e1f7d1; }
                     .highlight-future { background-color: #d1e7f7; }
                     
-                    
-                    .active { outline: 3px solid yellow; }
                 </style>
                
                 <script>
@@ -202,7 +200,7 @@
                     <a href="conclusion.xhtml">Conclusion</a>
                 </div>
                 
-                <div id="layoutGrid">
+           <div id="layoutGrid">
                     
 
                 <div id="statsMenu">
