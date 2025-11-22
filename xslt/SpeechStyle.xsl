@@ -353,7 +353,7 @@
                 <div id="menuPanel">
                     <h3>Attributes</h3>
                     
-                </div>
+                
                     
                     <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
                         <xsl:sort select="@value"/>
@@ -362,7 +362,7 @@
                         </div>
                     </xsl:for-each>
                     
-                    
+                </div>   
                     
                     
                 </div>
