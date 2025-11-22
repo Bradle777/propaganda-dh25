@@ -194,6 +194,7 @@
                     <h3>Attributes</h3>
                     
               
+                    <!-- Attribute menu: show only unique policy @value items -->
                     <xsl:for-each select="//policy[@value]/@value">
                         <xsl:sort/>
                         <xsl:if test="not(. = preceding::policy/@value)">
@@ -202,6 +203,7 @@
                             </div>
                         </xsl:if>
                     </xsl:for-each>
+                    
                     
                     
                 </div>
