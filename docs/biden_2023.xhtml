@@ -90,17 +90,22 @@
                 </style>
       <script>
                     function toggle(attr) {
-                    /
-                    document.querySelectorAll('.stat-block').forEach(b =&gt; b.style.display = 'none');
-                    
-              
-                    const block = document.querySelector('[data-stat="' + attr + '"]');
-                    if (block) block.style.display = 'block';
-                    
-       
+           
                     document.querySelectorAll('[data-attr*="' + attr + '"]').forEach(el =&gt; {
-                    el.classList.toggle('active');
-                    el.classList.toggle('highlight-' + attr);
+                    el.classList.toggle("active");
+                    el.classList.toggle("highlight-" + attr);
+                    });
+                    
+                    
+                    const blocks = document.querySelectorAll(".stat-block");
+                    blocks.forEach(b =&gt; {
+                    if (b.dataset.stat === attr) {
+                    b.style.display = (b.style.display === "none" || b.style.display === "") 
+                    ? "block" 
+                    : "none";
+                    } else {
+                    b.style.display = "none";
+                    }
                     });
                     }
                 </script>

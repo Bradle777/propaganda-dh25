@@ -116,20 +116,26 @@
                
                 <script>
                     function toggle(attr) {
-                    /
-                    document.querySelectorAll('.stat-block').forEach(b => b.style.display = 'none');
-                    
-              
-                    const block = document.querySelector('[data-stat="' + attr + '"]');
-                    if (block) block.style.display = 'block';
-                    
-       
+           
                     document.querySelectorAll('[data-attr*="' + attr + '"]').forEach(el => {
-                    el.classList.toggle('active');
-                    el.classList.toggle('highlight-' + attr);
+                    el.classList.toggle("active");
+                    el.classList.toggle("highlight-" + attr);
+                    });
+                    
+                    
+                    const blocks = document.querySelectorAll(".stat-block");
+                    blocks.forEach(b => {
+                    if (b.dataset.stat === attr) {
+                    b.style.display = (b.style.display === "none" || b.style.display === "") 
+                    ? "block" 
+                    : "none";
+                    } else {
+                    b.style.display = "none";
+                    }
                     });
                     }
                 </script>
+                
                 
                
             </head>
@@ -273,15 +279,13 @@
                     <h3>Attributes</h3>
                     
               
-                    <!-- Attribute menu: show only unique policy @value items -->
-                    <xsl:for-each select="//policy[@value]/@value">
-                        <xsl:sort/>
-                        <xsl:if test="not(. = preceding::policy/@value)">
-                            <div class="toggle-btn" style="background:#444;" onclick="toggle('{.}')">
-                                <xsl:value-of select="."/>
-                            </div>
-                        </xsl:if>
+                    <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
+                        <xsl:sort select="@value"/>
+                        <div class="toggle-btn" style="background:#444;" onclick="toggle('{@value}')">
+                            <xsl:value-of select="@value"/>
+                        </div>
                     </xsl:for-each>
+                    
                     
                     
                     
