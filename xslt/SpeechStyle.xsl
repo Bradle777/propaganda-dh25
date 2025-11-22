@@ -194,16 +194,15 @@
                     <h3>Attributes</h3>
                     
               
-                    <xsl:for-each select="//policy/@*">
+                    <xsl:for-each select="//policy[@value]/@value">
                         <xsl:sort/>
                         <xsl:if test="not(. = preceding::policy/@value)">
-                            <div class="toggle-btn">
-                                <xsl:attribute name="style">background:#444;</xsl:attribute>
-                                <xsl:attribute name="onclick">toggle('<xsl:value-of select="."/>')</xsl:attribute>
+                            <div class="toggle-btn" style="background:#444;" onclick="toggle('{.}')">
                                 <xsl:value-of select="."/>
                             </div>
                         </xsl:if>
                     </xsl:for-each>
+                    
                     
                 </div>
                 
