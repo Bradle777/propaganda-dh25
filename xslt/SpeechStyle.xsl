@@ -66,7 +66,7 @@
                    body {
                    margin: 0;
                    font-family: sans-serif;
-                   padding-top: 60px;
+                   padding-top: 0;
                    }
                    
                     
