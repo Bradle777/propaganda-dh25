@@ -515,9 +515,7 @@
                 <div id="menuPanel">
                     <h3>Attributes</h3>
                     
-                
-                    
-                    <h4>Attribute Categories</h4>
+
                     
                     
                     <div class="attr-category">
