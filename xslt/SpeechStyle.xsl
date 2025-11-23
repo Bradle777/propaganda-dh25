@@ -4,9 +4,9 @@
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:f="urn:functions"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     exclude-result-prefixes="#all"
-    version="3.0">
-    
+    version="3.0">    
     
 
     <xsl:function name="f:text-length" as="xs:integer">
@@ -18,6 +18,36 @@
             )
             " />
     </xsl:function>
+    
+    <xsl:function name="f:label" as="xs:string">
+        <xsl:param name="code"/>
+        
+        <xsl:variable name="map" as="map(xs:string,xs:string)">
+            <xsl:sequence select="
+                map {
+                'crime':'Crime',
+                'dip':'Foreign Affairs',
+                'eco':'Economics',
+                'env':'Environment',
+                'health':'Health',
+                'imm':'Immigration',
+                'mil':'Military',
+                'pa':'Party Agenda',
+                'soc':'Social Issues',
+                'd':'Domestic',
+                'f':'Foreign'
+                }
+                "/>
+        </xsl:variable>
+        
+
+        <xsl:sequence select="
+            if (map:contains($map, $code))
+            then $map($code)
+            else $code
+            "/>
+    </xsl:function>
+    
     
     
     
@@ -285,7 +315,7 @@
                     
                     
                     
-                    const selections = { value: [], connotation: [], when: [] };
+                    const selections = { value: [], connotation: [], when: [], identity: [] };
                     
                     document.querySelectorAll('#menuPanel input[type="checkbox"]:checked')
                     .forEach(box => {
