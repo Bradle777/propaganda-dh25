@@ -111,14 +111,14 @@
                     font-weight: bold;
                     }
                     
-                    .toggle-btn.active {
+                    #menuPanel .toggle-btn.active {
                     outline: 2px solid white;
-                    filter: brightness(120%);
+                    filter: brightness(200%);
                     }
                     
                     .toggle-btn.stat-active {
                     outline: 2px solid white;
-                    filter: brightness(140%);
+                    filter: brightness(200%);
                     }
                     
                     
@@ -144,27 +144,18 @@
                 </style>
       <script>
                     function toggle(attr) {
-           
-                    document.querySelectorAll('.toggle-btn[onclick*="toggle(\'' + attr + '\'")]')
-                    .forEach(btn =&gt; btn.classList.toggle("active"));
+                    
+                    
+                    const btn = document.querySelector(`#menuPanel .toggle-btn[onclick="toggle('${attr}')"]`);
+                    if (btn) btn.classList.toggle("active");
+                    
                     
                     document.querySelectorAll('[data-attr*="' + attr + '"]').forEach(el =&gt; {
                     el.classList.toggle("active");
                     el.classList.toggle("highlight-" + attr);
                     });
-                    
-                    
-                    const blocks = document.querySelectorAll(".stat-block");
-                    blocks.forEach(b =&gt; {
-                    if (b.dataset.stat === attr) {
-                    b.style.display = (b.style.display === "none" || b.style.display === "") 
-                    ? "block" 
-                    : "none";
-                    } else {
-                    b.style.display = "none";
                     }
-                    });
-                    }
+                    
                     
                     function toggleStat(attr) {
                     
