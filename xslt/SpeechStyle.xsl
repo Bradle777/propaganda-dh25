@@ -147,15 +147,16 @@
                     }
                     
                     
-                    .highlight-imm { background-color: #ff6b6b; }
-                    .highlight-health { background-color: #4dabf7; }
-                    .highlight-mil { background-color: #ffd43b; }
-                    .highlight-env { background-color: #51cf66; }
-                    .highlight-crime { background-color: #845ef7; }
-                    .highlight-pa { background-color: #ffa94d; }
-                    .highlight-eco { background-color: #63e6be; }
-                    .highlight-soc { background-color: #f06595; }
-                    .highlight-dip {background-color: yellow; }
+                    .block-highlight-eco    { background-color: rgba(99, 230, 190, 0.25); }
+                    .block-highlight-health { background-color: rgba(77, 171, 247, 0.25); }
+                    .block-highlight-crime  { background-color: rgba(132, 94, 247, 0.25); }
+                    .block-highlight-env    { background-color: rgba(81, 207, 102, 0.25); }
+                    .block-highlight-pa     { background-color: rgba(255, 169, 77, 0.25); }
+                    .block-highlight-soc    { background-color: rgba(240, 101, 149, 0.25); }
+                    .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
+                    .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
+                    .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
+                    
                     
                     .highlight-f { background-color: #ffdddd; }
                     .highlight-d { background-color: #ddffdd; }
@@ -235,7 +236,7 @@
                     el.classList.remove('active');
                     
                     
-                    el.classList.forEach(cls => {
+                    [...el.classList].forEach(cls => {
                     if (cls.startsWith("highlight-")) {
                     el.classList.remove(cls);
                     }
@@ -273,24 +274,51 @@
                     if (show) {
                     el.classList.add('active');
                     
-                    el.classList.forEach(cls => {
+                    [...el.classList].forEach(cls => {
                     if (cls.startsWith("highlight-")) {
                     el.classList.remove(cls);
                     }
                     });
+                    
                     
                     el.dataset.attr.split(" ").forEach(val => {
                     el.classList.add("highlight-" + val);
                     });
                     
-                    } else {
+                    } 
+                    
+                    
+                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
+                    
+                    let parentP = el.closest(".speech-block");
+                    if (parentP) {
+                    majorCats.forEach(cat => {
+                    if (data.includes(cat)) {
+                    parentP.classList.add("block-highlight-" + cat);
+                    }
+                    });
+                    }
+                    
+                    
+                    
+                    
+                    else {
                     el.classList.remove('active');
                     
-                    el.classList.forEach(cls => {
+                    [...el.classList].forEach(cls => {
                     if (cls.startsWith("highlight-")) {
                     el.classList.remove(cls);
                     }
                     });
+                    let parentP = el.closest(".speech-block");
+                    if (parentP) {
+                    [...parentP.classList].forEach(c => {
+                    if (c.startsWith("block-highlight-")) {
+                    parentP.classList.remove(c);
+                    }
+                    });
+                    }
+                    
                     }
                     
                     }); 
@@ -519,10 +547,11 @@
     
 
     <xsl:template match="p">
-        <p>
+        <p class="speech-block">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
     
 
     <xsl:template match="policy">
