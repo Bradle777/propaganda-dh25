@@ -136,6 +136,17 @@
                     font-weight: bold;
                     }
                     
+                    .toggle-btn.active {
+                    outline: 2px solid white;
+                    filter: brightness(120%);
+                    }
+                    
+                    .toggle-btn.stat-active {
+                    outline: 2px solid white;
+                    filter: brightness(140%);
+                    }
+                    
+                    
                     .highlight-imm { background-color: #ff6b6b; }
                     .highlight-health { background-color: #4dabf7; }
                     .highlight-mil { background-color: #ffd43b; }
@@ -160,6 +171,9 @@
                 <script>
                     function toggle(attr) {
            
+                    document.querySelectorAll('.toggle-btn[onclick*="toggle(\'' + attr + '\'")]')
+                    .forEach(btn => btn.classList.toggle("active"));
+                    
                     document.querySelectorAll('[data-attr*="' + attr + '"]').forEach(el => {
                     el.classList.toggle("active");
                     el.classList.toggle("highlight-" + attr);
@@ -179,13 +193,23 @@
                     }
                     
                     function toggleStat(attr) {
+                    
+                    
+                    document.querySelectorAll('#statsMenu .toggle-btn')
+                    .forEach(btn => btn.classList.remove("stat-active"));
+                    
+                    
+                    let activeBtn = document.querySelector(`#statsMenu .toggle-btn[onclick="toggleStat('${attr}')"]`);
+                    if (activeBtn) activeBtn.classList.add("stat-active");
+                    
+                    
                     document.querySelectorAll('.stat-block').forEach(b => b.style.display = "none");
                     
+                    
                     const block = document.querySelector('.stat-block[data-stat="' + attr + '"]');
-                    if (block) {
-                    block.style.display = "block";
+                    if (block) block.style.display = "block";
                     }
-                    }
+                    
                     
                 </script>
                 
