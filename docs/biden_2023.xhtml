@@ -174,7 +174,10 @@
                     }
                     
                     [class*="block-highlight-"] {
-                    background-color: rgba(255, 255, 0, 0.35) !important;
+                    display: block;
+                    width: 100%;
+                    padding: 4px 12px;
+                    border-radius: 4px;
                     }
                     
                     
@@ -245,6 +248,16 @@
                     
                     
                     function checkFilter() {
+                    
+                    document.querySelectorAll('.speech-block').forEach(p =&gt; {
+                    [...p.classList].forEach(c =&gt; {
+                    if (c.startsWith("block-highlight-")) {
+                    p.classList.remove(c);
+                    }
+                    });
+                    });
+                    
+                    
                     
                     const selections = { value: [], connotation: [], when: [] };
                     
@@ -1858,7 +1871,6 @@
          </div>
          <div id="menuPanel">
             <h3>Attributes</h3>
-            <h4>Attribute Categories</h4>
             <div class="attr-category">
                <p>
                   <b>Policy Area</b>

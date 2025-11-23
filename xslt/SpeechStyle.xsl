@@ -199,7 +199,10 @@
                     }
                     
                     [class*="block-highlight-"] {
-                    background-color: rgba(255, 255, 0, 0.35) !important;
+                    display: block;
+                    width: 100%;
+                    padding: 4px 12px;
+                    border-radius: 4px;
                     }
                     
                     
@@ -271,6 +274,16 @@
                     
                     
                     function checkFilter() {
+                    
+                    document.querySelectorAll('.speech-block').forEach(p => {
+                    [...p.classList].forEach(c => {
+                    if (c.startsWith("block-highlight-")) {
+                    p.classList.remove(c);
+                    }
+                    });
+                    });
+                    
+                    
                     
                     const selections = { value: [], connotation: [], when: [] };
                     
