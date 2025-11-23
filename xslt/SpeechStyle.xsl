@@ -273,12 +273,32 @@
                     }
                     
                  
-                    if (show) {
-                    el.classList.add('active');
-                    } else {
-                    el.classList.remove('active');
-                    }
-                    });
+                 if (show) {
+                 el.classList.add('active');
+                 
+                 
+                 el.classList.forEach(cls => {
+                 if (cls.startsWith("highlight-")) {
+                 el.classList.remove(cls);
+                 }
+                 });
+                 
+                 
+                 el.dataset.attr.split(" ").forEach(val => {
+                 el.classList.add("highlight-" + val);
+                 });
+                 
+                 } else {
+                 el.classList.remove('active');
+                 
+                 
+                 el.classList.forEach(cls => {
+                 if (cls.startsWith("highlight-")) {
+                 el.classList.remove(cls);
+                 }
+                 });
+                 }
+                 
                     }
                     
                     
