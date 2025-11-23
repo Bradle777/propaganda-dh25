@@ -246,7 +246,6 @@
                     
                     function checkFilter() {
                     
-                 
                     const selections = { value: [], connotation: [], when: [] };
                     
                     document.querySelectorAll('#menuPanel input[type="checkbox"]:checked')
@@ -255,10 +254,9 @@
                     selections[cat].push(box.value);
                     });
                     
-                   
                     document.querySelectorAll('[data-attr]').forEach(el => {
-                    const data = el.dataset.attr;
                     
+                    const data = el.dataset.attr;
                     
                     let show = true;
                     
@@ -272,35 +270,32 @@
                     }
                     }
                     
-                 
-                 if (show) {
-                 el.classList.add('active');
-                 
-                 
-                 el.classList.forEach(cls => {
-                 if (cls.startsWith("highlight-")) {
-                 el.classList.remove(cls);
-                 }
-                 });
-                 
-                 
-                 el.dataset.attr.split(" ").forEach(val => {
-                 el.classList.add("highlight-" + val);
-                 });
-                 
-                 } else {
-                 el.classList.remove('active');
-                 
-                 
-                 el.classList.forEach(cls => {
-                 if (cls.startsWith("highlight-")) {
-                 el.classList.remove(cls);
-                 }
-                 });
-                 }
-                 
+                    if (show) {
+                    el.classList.add('active');
+                    
+                    el.classList.forEach(cls => {
+                    if (cls.startsWith("highlight-")) {
+                    el.classList.remove(cls);
+                    }
+                    });
+                    
+                    el.dataset.attr.split(" ").forEach(val => {
+                    el.classList.add("highlight-" + val);
+                    });
+                    
+                    } else {
+                    el.classList.remove('active');
+                    
+                    el.classList.forEach(cls => {
+                    if (cls.startsWith("highlight-")) {
+                    el.classList.remove(cls);
+                    }
+                    });
                     }
                     
+                    }); 
+                    
+                    } 
                     
                 </script>
                 
