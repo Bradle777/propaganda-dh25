@@ -20,33 +20,28 @@
     </xsl:function>
     
     <xsl:function name="f:label" as="xs:string">
-        <xsl:param name="code"/>
+        <xsl:param name="code" as="xs:string"/>
         
-        <xsl:variable name="map" as="map(xs:string,xs:string)">
-            <xsl:sequence select="
-                map {
-                'crime':'Crime',
-                'dip':'Foreign Affairs',
-                'eco':'Economics',
-                'env':'Environment',
-                'health':'Health',
-                'imm':'Immigration',
-                'mil':'Military',
-                'pa':'Party Agenda',
-                'soc':'Social Issues',
-                'd':'Domestic',
-                'f':'Foreign'
-                }
-                "/>
-        </xsl:variable>
-        
-
-        <xsl:sequence select="
-            if (map:contains($map, $code))
-            then $map($code)
-            else $code
-            "/>
+        <xsl:choose>
+            <xsl:when test="$code='eco'">Economics</xsl:when>
+            <xsl:when test="$code='crime'">Crime</xsl:when>
+            <xsl:when test="$code='dip'">Foreign Affairs</xsl:when>
+            <xsl:when test="$code='env'">Environment</xsl:when>
+            <xsl:when test="$code='health'">Health</xsl:when>
+            <xsl:when test="$code='imm'">Immigration</xsl:when>
+            <xsl:when test="$code='mil'">Military</xsl:when>
+            <xsl:when test="$code='pa'">Party Agenda</xsl:when>
+            <xsl:when test="$code='soc'">Social Issues</xsl:when>
+            
+            <xsl:when test="$code='d'">Domestic</xsl:when>
+            <xsl:when test="$code='f'">Foreign</xsl:when>
+            
+            <xsl:otherwise>
+                <xsl:value-of select="$code"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
+    
     
     
     
@@ -417,7 +412,7 @@
                     <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
                         <xsl:sort select="@value"/>
                         <div class="toggle-btn" style="background:#333;" onclick="toggleStat('{@value}')">
-                            <xsl:value-of select="@value"/>
+                            <xsl:value-of select="f:label(@value)"/>
                         </div>
                     </xsl:for-each>
                     
@@ -567,9 +562,23 @@
                             <xsl:sort select="@value"/>
                             <label class="check-row">
                                 <input type="checkbox" onclick="checkFilter()" value="{@value}" data-cat="value"/>
-                                <xsl:value-of select="@value"/>
+                                <xsl:value-of select="f:label(@value)"/>
                             </label>
                         </xsl:for-each>
+                    </div>
+                    
+                    <div class="attr-category">
+                        <p><b>Identity</b></p>
+                        
+                        <label class="check-row">
+                            <input type="checkbox" onclick="checkFilter()" value="d" data-cat="identity"/>
+                            Domestic
+                        </label>
+                        
+                        <label class="check-row">
+                            <input type="checkbox" onclick="checkFilter()" value="f" data-cat="identity"/>
+                            Foreign
+                        </label>
                     </div>
                     
                     
