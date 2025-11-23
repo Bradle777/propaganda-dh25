@@ -105,6 +105,9 @@
                     margin-top: 20px;
                     }
                     
+                    #statsMenu { grid-column: 1; }
+                    #mainText { grid-column: 2; }
+                    #menuPanel { grid-column: 3; }
                     
                     
                     #statsPanel {
@@ -214,8 +217,7 @@
                         </div>
                     </xsl:for-each>
                     
-                    <div id="statsPanel"></div>
-                </div>
+                    <div id="statsPanel">
                 
                     
                  
@@ -334,7 +336,8 @@
                             <li>present moment (3)</li>
                         </ul>
                     </div>
-                    
+                    </div>
+                </div>
                 
                 
                 
