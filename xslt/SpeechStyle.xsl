@@ -187,6 +187,20 @@
                     cursor: pointer;
                     }
                     
+                    .speech-block {
+                    display: block;
+                    width: 100%;
+                    }
+                    
+                    .speech-block {
+                    padding: 8px 12px;
+                    margin: 4px 0;
+                    border-radius: 4px;
+                    }
+                    
+                    [class*="block-highlight-"] {
+                    background-color: rgba(255, 255, 0, 0.35) !important;
+                    }
                     
                     
                 </style>
@@ -241,6 +255,17 @@
                     el.classList.remove(cls);
                     }
                     });
+                    
+                    let parentP = el.closest(".speech-block");
+                    if (parentP) {
+                    [...parentP.classList].forEach(c => {
+                    if (c.startsWith("block-highlight-")) {
+                    parentP.classList.remove(c);
+                    }
+                    });
+                    }
+                    
+                    
                     });
                     }
                     
@@ -255,29 +280,30 @@
                     selections[cat].push(box.value);
                     });
                     
+                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
+                    
                     document.querySelectorAll('[data-attr]').forEach(el => {
                     
                     const data = el.dataset.attr;
-                    
                     let show = true;
                     
                     for (let cat in selections) {
                     if (selections[cat].length > 0) {
                     let pass = false;
                     selections[cat].forEach(val => {
-                    if (data.includes(val)) pass = true;
+                    if ((" " + data + " ").includes(" " + val + " ")) pass = true;
                     });
                     if (!pass) show = false;
                     }
                     }
                     
+                    
                     if (show) {
                     el.classList.add('active');
                     
+                  
                     [...el.classList].forEach(cls => {
-                    if (cls.startsWith("highlight-")) {
-                    el.classList.remove(cls);
-                    }
+                    if (cls.startsWith("highlight-")) el.classList.remove(cls);
                     });
                     
                     
@@ -285,31 +311,26 @@
                     el.classList.add("highlight-" + val);
                     });
                     
-                    } 
-                    
-                    
-                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
                     
                     let parentP = el.closest(".speech-block");
                     if (parentP) {
                     majorCats.forEach(cat => {
-                    if (data.includes(cat)) {
+                    if ((" " + data + " ").includes(" " + cat + " ")) {
                     parentP.classList.add("block-highlight-" + cat);
                     }
                     });
                     }
+                    }
                     
-                    
-                    
-                    
+                  
                     else {
                     el.classList.remove('active');
                     
                     [...el.classList].forEach(cls => {
-                    if (cls.startsWith("highlight-")) {
-                    el.classList.remove(cls);
-                    }
+                    if (cls.startsWith("highlight-")) el.classList.remove(cls);
                     });
+                    
+                   
                     let parentP = el.closest(".speech-block");
                     if (parentP) {
                     [...parentP.classList].forEach(c => {
@@ -318,12 +339,11 @@
                     }
                     });
                     }
-                    
                     }
                     
                     }); 
+                    }
                     
-                    } 
                     
                 </script>
                 
