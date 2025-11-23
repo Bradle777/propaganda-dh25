@@ -130,6 +130,7 @@
                     .highlight-pa { background-color: #ffa94d; }
                     .highlight-eco { background-color: #63e6be; }
                     .highlight-soc { background-color: #f06595; }
+                    .highlight-dip {background-color: yellow; }
                     
                     .highlight-f { background-color: #ffdddd; }
                     .highlight-d { background-color: #ddffdd; }
@@ -140,6 +141,27 @@
                     .highlight-past { background-color: #f7f1d1; }
                     .highlight-present { background-color: #e1f7d1; }
                     .highlight-future { background-color: #d1e7f7; }
+                    
+                    .attr-category {
+                    margin-bottom: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #999;
+                    }
+                    
+                    .check-row {
+                    display: block;
+                    margin: 6px 0;
+                    }
+                    
+                    .reset-btn {
+                    margin-top: 20px;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    }
+                    
+                    
                     
                 </style>
       <script>
@@ -173,6 +195,64 @@
                     
                     const block = document.querySelector('.stat-block[data-stat="' + attr + '"]');
                     if (block) block.style.display = "block";
+                    }
+                    
+                    function resetAll() {
+                    
+                    
+                    document.querySelectorAll('#menuPanel input[type="checkbox"]').forEach(b =&gt; {
+                    b.checked = false;
+                    });
+                    
+                    
+                    document.querySelectorAll('[data-attr]').forEach(el =&gt; {
+                    el.classList.remove('active');
+                    
+                    
+                    el.classList.forEach(cls =&gt; {
+                    if (cls.startsWith("highlight-")) {
+                    el.classList.remove(cls);
+                    }
+                    });
+                    });
+                    }
+                    
+                    
+                    function checkFilter() {
+                    
+                 
+                    const selections = { value: [], connotation: [], when: [] };
+                    
+                    document.querySelectorAll('#menuPanel input[type="checkbox"]:checked')
+                    .forEach(box =&gt; {
+                    const cat = box.dataset.cat;
+                    selections[cat].push(box.value);
+                    });
+                    
+                   
+                    document.querySelectorAll('[data-attr]').forEach(el =&gt; {
+                    const data = el.dataset.attr;
+                    
+                    
+                    let show = true;
+                    
+                    for (let cat in selections) {
+                    if (selections[cat].length &gt; 0) {
+                    let pass = false;
+                    selections[cat].forEach(val =&gt; {
+                    if (data.includes(val)) pass = true;
+                    });
+                    if (!pass) show = false;
+                    }
+                    }
+                    
+                 
+                    if (show) {
+                    el.classList.add('active');
+                    } else {
+                    el.classList.remove('active');
+                    }
+                    });
                     }
                     
                     
@@ -1712,19 +1792,98 @@
          </div>
          <div id="menuPanel">
             <h3>Attributes</h3>
-            <div class="toggle-btn"
-                 style="background:#444;"
-                 onclick="toggle('crime')">crime</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('dip')">dip</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('eco')">eco</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('env')">env</div>
-            <div class="toggle-btn"
-                 style="background:#444;"
-                 onclick="toggle('health')">health</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('imm')">imm</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('mil')">mil</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('pa')">pa</div>
-            <div class="toggle-btn" style="background:#444;" onclick="toggle('soc')">soc</div>
+            <h4>Attribute Categories</h4>
+            <div class="attr-category">
+               <p>
+                  <b>Policy Area</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="crime"
+                         data-cat="value"/>crime</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="dip"
+                         data-cat="value"/>dip</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="eco"
+                         data-cat="value"/>eco</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="env"
+                         data-cat="value"/>env</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="health"
+                         data-cat="value"/>health</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="imm"
+                         data-cat="value"/>imm</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="mil"
+                         data-cat="value"/>mil</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="pa"
+                         data-cat="value"/>pa</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="soc"
+                         data-cat="value"/>soc</label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Connotation</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="negative"
+                         data-cat="connotation"/>negative</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="neutral"
+                         data-cat="connotation"/>neutral</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="positive"
+                         data-cat="connotation"/>positive</label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Time Frame</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="future"
+                         data-cat="when"/>future</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="past"
+                         data-cat="when"/>past</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="present"
+                         data-cat="when"/>present</label>
+            </div>
+            <button class="reset-btn" onclick="resetAll()">Reset</button>
          </div>
       </div>
    </body>

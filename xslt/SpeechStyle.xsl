@@ -155,6 +155,7 @@
                     .highlight-pa { background-color: #ffa94d; }
                     .highlight-eco { background-color: #63e6be; }
                     .highlight-soc { background-color: #f06595; }
+                    .highlight-dip {background-color: yellow; }
                     
                     .highlight-f { background-color: #ffdddd; }
                     .highlight-d { background-color: #ddffdd; }
@@ -165,6 +166,27 @@
                     .highlight-past { background-color: #f7f1d1; }
                     .highlight-present { background-color: #e1f7d1; }
                     .highlight-future { background-color: #d1e7f7; }
+                    
+                    .attr-category {
+                    margin-bottom: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #999;
+                    }
+                    
+                    .check-row {
+                    display: block;
+                    margin: 6px 0;
+                    }
+                    
+                    .reset-btn {
+                    margin-top: 20px;
+                    padding: 6px 10px;
+                    border-radius: 6px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    }
+                    
+                    
                     
                 </style>
                
@@ -199,6 +221,64 @@
                     
                     const block = document.querySelector('.stat-block[data-stat="' + attr + '"]');
                     if (block) block.style.display = "block";
+                    }
+                    
+                    function resetAll() {
+                    
+                    
+                    document.querySelectorAll('#menuPanel input[type="checkbox"]').forEach(b => {
+                    b.checked = false;
+                    });
+                    
+                    
+                    document.querySelectorAll('[data-attr]').forEach(el => {
+                    el.classList.remove('active');
+                    
+                    
+                    el.classList.forEach(cls => {
+                    if (cls.startsWith("highlight-")) {
+                    el.classList.remove(cls);
+                    }
+                    });
+                    });
+                    }
+                    
+                    
+                    function checkFilter() {
+                    
+                 
+                    const selections = { value: [], connotation: [], when: [] };
+                    
+                    document.querySelectorAll('#menuPanel input[type="checkbox"]:checked')
+                    .forEach(box => {
+                    const cat = box.dataset.cat;
+                    selections[cat].push(box.value);
+                    });
+                    
+                   
+                    document.querySelectorAll('[data-attr]').forEach(el => {
+                    const data = el.dataset.attr;
+                    
+                    
+                    let show = true;
+                    
+                    for (let cat in selections) {
+                    if (selections[cat].length > 0) {
+                    let pass = false;
+                    selections[cat].forEach(val => {
+                    if (data.includes(val)) pass = true;
+                    });
+                    if (!pass) show = false;
+                    }
+                    }
+                    
+                 
+                    if (show) {
+                    el.classList.add('active');
+                    } else {
+                    el.classList.remove('active');
+                    }
+                    });
                     }
                     
                     
@@ -371,12 +451,47 @@
                     
                 
                     
-                    <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
-                        <xsl:sort select="@value"/>
-                        <div class="toggle-btn" style="background:#444;" onclick="toggle('{@value}')">
-                            <xsl:value-of select="@value"/>
-                        </div>
-                    </xsl:for-each>
+                    <h4>Attribute Categories</h4>
+                    
+                    
+                    <div class="attr-category">
+                        <p><b>Policy Area</b></p>
+                        <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
+                            <xsl:sort select="@value"/>
+                            <label class="check-row">
+                                <input type="checkbox" onclick="checkFilter()" value="{@value}" data-cat="value"/>
+                                <xsl:value-of select="@value"/>
+                            </label>
+                        </xsl:for-each>
+                    </div>
+                    
+                    
+                    <div class="attr-category">
+                        <p><b>Connotation</b></p>
+                        <xsl:for-each select="//policy[not(@connotation = preceding::policy/@connotation)]">
+                            <xsl:sort select="@connotation"/>
+                            <label class="check-row">
+                                <input type="checkbox" onclick="checkFilter()" value="{@connotation}" data-cat="connotation"/>
+                                <xsl:value-of select="@connotation"/>
+                            </label>
+                        </xsl:for-each>
+                    </div>
+                    
+                    
+                    <div class="attr-category">
+                        <p><b>Time Frame</b></p>
+                        <xsl:for-each select="//policy[not(@when = preceding::policy/@when)]">
+                            <xsl:sort select="@when"/>
+                            <label class="check-row">
+                                <input type="checkbox" onclick="checkFilter()" value="{@when}" data-cat="when"/>
+                                <xsl:value-of select="@when"/>
+                            </label>
+                        </xsl:for-each>
+                    </div>
+                    
+                   
+                    <button class="reset-btn" onclick="resetAll()">Reset</button>
+                    
                     
                 </div>   
                     
