@@ -193,8 +193,8 @@
                     }
                     
                     .speech-block {
-                    padding: 8px 12px;
-                    margin: 4px 0;
+                    padding: 0;
+                    margin: 0;
                     border-radius: 4px;
                     }
                     
@@ -314,11 +314,14 @@
                     
                     let parentP = el.closest(".speech-block");
                     if (parentP) {
+                    const policySelections = selections.value;
+                    if (policySelections.length > 0) {
                     majorCats.forEach(cat => {
                     if ((" " + data + " ").includes(" " + cat + " ")) {
                     parentP.classList.add("block-highlight-" + cat);
                     }
                     });
+                    }
                     }
                     }
                     
