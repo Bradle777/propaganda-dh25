@@ -107,7 +107,7 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-attachment: fixed;
-                    opacity: 0.35;
+                    opacity: 0.5;
                     z-index: -1;
                     }
                     
@@ -186,9 +186,9 @@
                     .highlight-f { background-color: #ffdddd; }
                     .highlight-d { background-color: #ddffdd; }
                     .highlight-e { background-color: #ddeeff; }
-                    .highlight-positive { background-color: #e7ffe7; }
-                    .highlight-neutral { background-color: #f0f0f0; }
-                    .highlight-negative { background-color: #ffe7e7; }                    
+                    .highlight-positive { background-color: green; }
+                    .highlight-neutral { background-color: gray; }
+                    .highlight-negative { background-color: red; }                    
                     .highlight-past { background-color: #f7f1d1; }
                     .highlight-present { background-color: #e1f7d1; }
                     .highlight-future { background-color: #d1e7f7; }
@@ -226,7 +226,7 @@
                     [class*="block-highlight-"] {
                     display: block;
                     width: 100%;
-                    padding: 4px 12px;
+                    padding: 0;
                     border-radius: 4px;
                     }
                     
