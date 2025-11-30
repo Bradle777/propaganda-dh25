@@ -9,7 +9,37 @@
             <root>
               <!--  <metadata>There are <xsl:value-of select="$prop-corpus//placeName =>
                         count("/> places in the corpus.</metadata>-->
+                <svg
+                    viewBox="-50 -{$max_height + 100} {$max_width + 200} {$max_height + 300}">
+                    <xsl:variable name="bruh" as="xs:double" select="($max_width)div(2)"/>
+                    <!-- Couldn't use div in the actual text thing lmao -->
+                    <text x="{$bruh}" y="60" fill="black">Year</text>
+                    <xsl:variable name="bruhh" as="xs:double" select="(($max_width)div(2))-100"/>
+                    
+                    <text x="{$bruhh}" y="-550" fill="black">Number of times *issue* was brought up</text>
+                    <text x="-300" y="25" transform="rotate(90)" fill="black">Mentions</text>
+                    <!-- ==================================================== -->
+                    <!-- Create per-election bubbles and vertical ruling      -->
+                    <!-- ==================================================== -->
+                    
+                    <!-- ==================================================== -->
+                    <!-- Create horizontal ruling with labels                 -->
+                    <!-- ==================================================== -->
+                    <!-- this axis is electoral votes, of which there are 538
+                    so we want ruling lines in increments of 100 -->
+                    
+                    
+                    <xsl:for-each select="0 to 5">
+                        <xsl:variable name="ruling-height" as="xs:double" select=". div 5 * $max_height"/>
+                        <line x1="0" y1="-{$ruling-height}" x2="{$max_width}" y2="-{$ruling-height}" stroke="black" stroke-width="1"></line>
+                        <xsl:variable name="val" as="xs:double" select="position()"/>
+                        <text x="0" y="-{$ruling-height}" fill="black"><xsl:value-of select="$val"/></text>
+                    </xsl:for-each>
+                    <!-- Lines that go from left to right-->
+                    
+                
                 <xsl:apply-templates select="$prop-corpus"/>
+                </svg>
             </root>
         </xsl:template>
     
@@ -28,62 +58,33 @@
     <!-- ================================================================ -->
     <!-- Templates                                                        -->
     <!-- ================================================================ -->
-    <xsl:template match="/">
-        <svg
-            viewBox="-50 -{$max_height + 100} {$max_width + 200} {$max_height + 300}">
-            <xsl:variable name="bruh" as="xs:double" select="($max_width)div(2)"/>
-            <!-- Couldn't use div in the actual text thing lmao -->
-            <text x="{$bruh}" y="60" fill="black">Year</text>
-            <xsl:variable name="bruhh" as="xs:double" select="(($max_width)div(2))-100"/>
-            
-            <text x="{$bruhh}" y="-550" fill="black">Number of times *issue* was brought up</text>
-            <text x="-300" y="25" transform="rotate(90)" fill="black">Mentions</text>
-            <!-- ==================================================== -->
-            <!-- Create per-election bubbles and vertical ruling      -->
-            <!-- ==================================================== -->
-            <xsl:apply-templates select="//speech"/>
-            <!-- ==================================================== -->
-            <!-- Create horizontal ruling with labels                 -->
-            <!-- ==================================================== -->
-            <!-- this axis is electoral votes, of which there are 538
-                    so we want ruling lines in increments of 100 -->
-            
-            
-            <xsl:for-each select="0 to 5">
-                <xsl:variable name="ruling-height" as="xs:double" select=". div 5 * $max_height"/>
-                <line x1="0" y1="-{$ruling-height}" x2="{$max_width}" y2="-{$ruling-height}" stroke="black" stroke-width="1"></line>
-                <xsl:variable name="val" as="xs:double" select="position()"/>
-                <text x="0" y="-{$ruling-height}" fill="black"><xsl:value-of select="$val"/></text>
-            </xsl:for-each>
-            <!-- Lines that go from left to right-->
-            
-        </svg>
-    </xsl:template>
+   <!-- <xsl:template match="/">
+       
+    </xsl:template>-->
     
-    <xsl:template match="speech">
+    <xsl:template match="/">
         <!-- ============================================================ -->
         <!-- Template variables                                           -->
         <!-- ============================================================ -->
         
         
         <xsl:variable name="xpos" as="xs:double" select="(position()-1)*$spacing +($spacing div 2)"/>
-        <line x1="{$xpos}" y1="15" x2="{$xpos}" y2="-{$max_height}" stroke="black" stroke-width="1"></line>
-        <xsl:variable name="year" as="xs:string" select="metadata"/>
+       
+        <!--<line x1="{$xpos}" y1="15" x2="{$xpos}" y2="-{$max_height}" stroke="black" stroke-width="1"></line>-->
+        <xsl:variable name="year" as="xs:string" select="speech/metadata"/>
         <text x="{$xpos}" y="15" fill="black"><xsl:value-of select="$year"/></text>
        <!--  Up and down lines-->
         
         <!-- ============================================================ -->
         <!-- Create bubbles                                               -->
         <!-- ============================================================ -->
-        <xsl:apply-templates/>
+        
         <!-- ============================================================ -->
         <!-- Create vertical ruling line and label                        -->
         <!-- ============================================================ -->
         
         <!-- SECOND CHALLENGE: IN-CLASS CODE HERE -->
-        
-    </xsl:template>
-    <xsl:template match="policy">
+
         <!-- ============================================================ -->
         <!-- Process individual candidates                                -->
         <!-- ============================================================ -->
