@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://www.w3.org/2000/svg">
+   <svg viewBox="-50 -600 800 800">
+      <text x="300" y="60" fill="black">Year</text>
+      <text x="200" y="-550" fill="black">Number of times the military was brought up</text>
+      <text x="-300" y="25" transform="rotate(90)" fill="black">Times mentioned</text>
+      <line x1="0"
+            y1="-0"
+            x2="600"
+            y2="-0"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-0" fill="black">0</text>
+      <line x1="0"
+            y1="-100"
+            x2="600"
+            y2="-100"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-100" fill="black">5</text>
+      <line x1="0"
+            y1="-200"
+            x2="600"
+            y2="-200"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-200" fill="black">10</text>
+      <line x1="0"
+            y1="-300"
+            x2="600"
+            y2="-300"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-300" fill="black">15</text>
+      <line x1="0"
+            y1="-400"
+            x2="600"
+            y2="-400"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-400" fill="black">20</text>
+      <line x1="0"
+            y1="-500"
+            x2="600"
+            y2="-500"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="0" y="-500" fill="black">25</text>
+      <text x="50" y="15" fill="black" textLength="5em">
+         April 28, 2021
+    </text>
+      <rect x="50" y="-120" width="30" height="120" fill="black"/>
+      <text x="150" y="15" fill="black" textLength="5em">
+        February 07, 2023
+    </text>
+      <rect x="150" y="-60" width="30" height="60" fill="black"/>
+      <text x="250" y="15" fill="black" textLength="5em">
+         January 25, 2011 
+    </text>
+      <rect x="250" y="-160" width="30" height="160" fill="black"/>
+      <text x="350" y="15" fill="black" textLength="5em">
+                January 20, 2015
+        </text>
+      <rect x="350" y="-200" width="30" height="200" fill="black"/>
+      <text x="450" y="15" fill="black" textLength="5em">February 28, 2017</text>
+      <rect x="450" y="-100" width="30" height="100" fill="black"/>
+      <text x="550" y="15" fill="black" textLength="5em">
+         March 04, 2025
+    </text>
+      <rect x="550" y="-380" width="30" height="380" fill="black"/>
+   </svg>
+</root>

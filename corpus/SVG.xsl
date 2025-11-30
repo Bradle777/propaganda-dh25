@@ -16,8 +16,8 @@
                     <text x="{$bruh}" y="60" fill="black">Year</text>
                     <xsl:variable name="bruhh" as="xs:double" select="(($max_width)div(2))-100"/>
                     
-                    <text x="{$bruhh}" y="-550" fill="black">Number of times *issue* was brought up</text>
-                    <text x="-300" y="25" transform="rotate(90)" fill="black">Mentions</text>
+                    <text x="{$bruhh}" y="-550" fill="black">Number of times diplomacy was brought up</text>
+                    <text x="-300" y="25" transform="rotate(90)" fill="black">Times mentioned</text>
                     <!-- ==================================================== -->
                     <!-- Create per-election bubbles and vertical ruling      -->
                     <!-- ==================================================== -->
@@ -32,7 +32,9 @@
                     <xsl:for-each select="0 to 5">
                         <xsl:variable name="ruling-height" as="xs:double" select=". div 5 * $max_height"/>
                         <line x1="0" y1="-{$ruling-height}" x2="{$max_width}" y2="-{$ruling-height}" stroke="black" stroke-width="1"></line>
-                        <xsl:variable name="val" as="xs:double" select="position()"/>
+                        
+                        <xsl:variable name="val" as="xs:double" select="(position()-1)*2"/>
+                        
                         <text x="0" y="-{$ruling-height}" fill="black"><xsl:value-of select="$val"/></text>
                     </xsl:for-each>
                     <!-- Lines that go from left to right-->
@@ -72,7 +74,7 @@
        
         <!--<line x1="{$xpos}" y1="15" x2="{$xpos}" y2="-{$max_height}" stroke="black" stroke-width="1"></line>-->
         <xsl:variable name="year" as="xs:string" select="speech/metadata"/>
-        <text x="{$xpos}" y="15" fill="black"><xsl:value-of select="$year"/></text>
+        <text x="{$xpos}" y="15" fill="black" textLength="5em"><xsl:value-of select="$year"/></text>
        <!--  Up and down lines-->
         
         <!-- ============================================================ -->
@@ -89,8 +91,11 @@
         <!-- Process individual candidates                                -->
         <!-- ============================================================ -->
         
-        <xsl:variable name="xpos" as="xs:double" select="(count(preceding::speech))*$spacing +($spacing div 2)"/>
-        <xsl:variable name="ypos" as="xs:double" select="(count(@value='pa')*100)"/>
+        
+        <xsl:variable name="ypos" as="xs:double" select="(count(//policy[@value='dip'])*50)"/>
+        <!-- LEFT TO DO:  DIP, 
+            TYPE: F D 
+        Connotation maybe-->
        <!--  <xsl:variable name="height" as="xs:double" select="(math:sqrt(@popular_percentage) div math:pi())*10"/>
        <xsl:variable name="color" as="xs:string" select="
             if(@party='Republican') then 'red'
@@ -101,7 +106,7 @@
         <circle cx="{$xpos}" cy="-{$ypos}" r="2.5" fill="black" opacity="1"/>
         <xsl:variable name="yposs" as="xs:double" select="(@electoral_votes)+10"/>
         <text x="{$xpos}" y="-{$yposs}" fill="black"><xsl:value-of select="@popular_percentage"/></text>-->
-        <rect x="{$xpos}" y="0" width="300" height="-{$ypos}" fill="black"/>
+        <rect x="{$xpos}" y="-{$ypos}" width="30" height="{$ypos}" fill="black"/>
 
         <!-- remember to add a conditional fill for each party and change opacity-->
         
