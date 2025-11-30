@@ -3,6 +3,16 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     xmlns="http://www.w3.org/2000/svg" version="3.0">
     <xsl:output method="xml" indent="yes"/>
+    
+    <xsl:variable name="prop-corpus" as="document-node()+"
+        select="collection('./Valid Markup? select=*.xml')"/> <xsl:template name="xsl:initial-template">
+            <root>
+              <!--  <metadata>There are <xsl:value-of select="$prop-corpus//placeName =>
+                        count("/> places in the corpus.</metadata>-->
+                <xsl:apply-templates select="$prop-corpus"/>
+            </root>
+        </xsl:template>
+    
     <!-- ================================================================ -->
     <!-- Stylesheet variables (preset)                                    -->
     <!-- ================================================================ -->
@@ -11,7 +21,7 @@
     <!-- default spacing variable -->
     <xsl:variable name="spacing" as="xs:double" select="100"/>
     <!-- number of pixels horizontal for X axis -->
-    <xsl:variable name="max_width" as="xs:double" select="($spacing) * count(//speech)"/>
+    <xsl:variable name="max_width" as="xs:double" select="($spacing) * count($prop-corpus//speech)"/>
     <!--<xsl:variable name="issue" as="xs:string" select="@value='pa'"/>
     This is a placeholder for when I figure out how to change the thing depending on which
             issue the user selects, if not possible then I'll have to change it manually, oh well-->
