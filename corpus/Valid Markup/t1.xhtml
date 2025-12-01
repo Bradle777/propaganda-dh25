@@ -3,7 +3,7 @@
   SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <title>Speech —  Janurary 20, 2015</title>
+      <title>Speech — January 20, 2015</title>
       <style>
                     .navbar {
                     list-style-type: none;
@@ -356,10 +356,16 @@
                  onclick="toggleStat('dip')">Foreign Affairs</div>
             <div class="toggle-btn"
                  style="background:#333;"
+                 onclick="toggleStat('dup')">dup</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
                  onclick="toggleStat('eco')">Economics</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('env')">Environment</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
+                 onclick="toggleStat('fip')">fip</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('health')">Health</div>
@@ -372,9 +378,6 @@
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('pa')">Party Agenda</div>
-            <div class="toggle-btn"
-                 style="background:#333;"
-                 onclick="toggleStat('soc')">Social Issues</div>
             <div id="statsPanel">
                <div class="stat-block" data-stat="eco" style="display:none;">
                   <h3>Economics</h3>
@@ -515,8 +518,7 @@
          </div>
          <div id="mainText">
             <h1>State of the Union</h1>
-            <h2> Janurary 20, 2015</h2>
-            
+            <h2>January 20, 2015</h2>
             <p class="speech-block">
                <span data-attr="ref"> Mr. Speaker, Mr. Vice President, Members of Congress, my fellow
                                 Americans: We are 15 years into this new century. Fifteen years that
@@ -1400,23 +1402,104 @@
                                 you.</span>
             </p>
          </div>
-          <div id="menuPanel">
-         <h3>Attributes</h3>
-         <div class="toggle-btn"
-              style="background:#444;"
-              onclick="toggle('crime')">crime</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('dip')">dip</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('eco')">eco</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('env')">env</div>
-         <div class="toggle-btn"
-              style="background:#444;"
-              onclick="toggle('health')">health</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('imm')">imm</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('mil')">mil</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('pa')">pa</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('soc')">soc</div>
-      </div>
-
+         <div id="menuPanel">
+            <h3>Attributes</h3>
+            <div class="attr-category">
+               <p>
+                  <b>Policy Area</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="crime"
+                         data-cat="value"/>Crime</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="dip"
+                         data-cat="value"/>Foreign Affairs</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="dup"
+                         data-cat="value"/>dup</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="eco"
+                         data-cat="value"/>Economics</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="env"
+                         data-cat="value"/>Environment</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="fip"
+                         data-cat="value"/>fip</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="health"
+                         data-cat="value"/>Health</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="imm"
+                         data-cat="value"/>Immigration</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="mil"
+                         data-cat="value"/>Military</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="pa"
+                         data-cat="value"/>Party Agenda</label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Identity</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="d"
+                         data-cat="identity"/>
+                            Domestic
+                        </label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="f"
+                         data-cat="identity"/>
+                            Foreign
+                        </label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Connotation</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="positive"
+                         data-cat="connotation"/>positive</label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Time Frame</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="present"
+                         data-cat="when"/>present</label>
+            </div>
+            <button class="reset-btn" onclick="resetAll()">Reset</button>
+         </div>
       </div>
    </body>
 </html>
