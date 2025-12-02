@@ -32,6 +32,8 @@
             <xsl:when test="$code='mil'">Military</xsl:when>
             <xsl:when test="$code='pa'">Party Agenda</xsl:when>
             <xsl:when test="$code='soc'">Social Issues</xsl:when>
+            <xsl:when test="$code='ref'">Reference</xsl:when>
+            
             
             <xsl:when test="$code='d'">Domestic</xsl:when>
             <xsl:when test="$code='f'">Foreign</xsl:when>
@@ -181,6 +183,7 @@
                     .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
                     .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
                     .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
+                    .block-highlight-ref { background-color: rgba(180, 180, 180, 0.35); }
                     
                     
                     .highlight-f { background-color: #ffdddd; }
@@ -318,7 +321,7 @@
                     selections[cat].push(box.value);
                     });
                     
-                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
+                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip", "ref"];
                     
                     document.querySelectorAll('[data-attr]').forEach(el => {
                     
@@ -565,6 +568,11 @@
                                 <xsl:value-of select="f:label(@value)"/>
                             </label>
                         </xsl:for-each>
+                        <label class="check-row">
+                            <input type="checkbox" onclick="checkFilter()" value="ref" data-cat="value"/>
+                            Reference
+                        </label>
+                        
                     </div>
                     
                     <div class="attr-category">
@@ -659,7 +667,7 @@
     </xsl:template>
 
     <xsl:template match="ref">
-        <span data-attr="ref">
+        <span class="speech-block" data-attr="ref">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
