@@ -131,7 +131,7 @@
                     .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
                     .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
                     .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
-                    .block-highlight-ref { background-color: rgba(180, 180, 180, 0.35); }
+                    .block-highlight-ref { background-color: rgba(120, 120, 120, 0.40); }
                     
                     
                     .highlight-f { background-color: #ffdddd; }
@@ -376,6 +376,11 @@
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('soc')">Social Issues</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
+                 onclick="toggleStat('ref')">
+                        Reference
+                    </div>
             <div id="statsPanel">
                <div class="stat-block" data-stat="eco" style="display:none;">
                   <h3>Economics</h3>
@@ -511,6 +516,15 @@
                      <li>positive connotation (3)</li>
                      <li>present moment (3)</li>
                   </ul>
+               </div>
+               <div class="stat-block" data-stat="ref" style="display:none;">
+                  <h3>Reference</h3>
+                  <p>
+                     <b>Occurrences: 42</b>42</p>
+                  <p>
+                     <b>Text units: 849.7</b>10034</p>
+                  <p>
+                     <b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
                </div>
             </div>
          </div>

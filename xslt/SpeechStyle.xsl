@@ -183,7 +183,7 @@
                     .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
                     .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
                     .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
-                    .block-highlight-ref { background-color: rgba(180, 180, 180, 0.35); }
+                    .block-highlight-ref { background-color: rgba(120, 120, 120, 0.40); }
                     
                     
                     .highlight-f { background-color: #ffdddd; }
@@ -418,6 +418,10 @@
                             <xsl:value-of select="f:label(@value)"/>
                         </div>
                     </xsl:for-each>
+                    <div class="toggle-btn" style="background:#333;" onclick="toggleStat('ref')">
+                        Reference
+                    </div>
+                    
                     
                     <div id="statsPanel">
                 
@@ -538,6 +542,14 @@
                             <li>present moment (3)</li>
                         </ul>
                     </div>
+                        
+                        <div class="stat-block" data-stat="ref" style="display:none;">
+                            <h3>Reference</h3>
+                            <p><b>Occurrences: 42</b> <xsl:value-of select="count(//ref)"/></p>
+                            <p><b>Text units: 849.7</b> <xsl:value-of select="f:text-length(//ref)"/></p>
+                            <p><b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
+                        </div>
+                        
                     </div>
                 </div>
                 
