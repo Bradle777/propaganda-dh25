@@ -561,7 +561,7 @@
                     
                     <div class="attr-category">
                         <p><b>Policy Area</b></p>
-                        <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
+                        <xsl:for-each select="//policy[@value != 'sp'][not(@value = preceding::policy/@value)]">
                             <xsl:sort select="@value"/>
                             <label class="check-row">
                                 <input type="checkbox" onclick="checkFilter()" value="{@value}" data-cat="value"/>
