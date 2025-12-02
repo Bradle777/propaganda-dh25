@@ -545,8 +545,8 @@
                         
                         <div class="stat-block" data-stat="ref" style="display:none;">
                             <h3>Reference</h3>
-                            <p><b>Occurrences: 42</b> <xsl:value-of select="count(//ref)"/></p>
-                            <p><b>Text units: 849.7</b> <xsl:value-of select="f:text-length(//ref)"/></p>
+                            <p><b>Occurrences:</b> 42 </p>
+                            <p><b>Text units:</b> 849.7 </p>
                             <p><b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
                         </div>
                         
