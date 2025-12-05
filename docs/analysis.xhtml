@@ -9,7 +9,20 @@
                 position: relative;
                 margin: 0;
                 padding: 0;
-            }</style>
+            }
+            .hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+#showFoodList {
+    text-align: center;
+}
+            
+            
+        </style>
+        
     </head>
     <body>
         <div class="navbar">
@@ -33,17 +46,40 @@
                 hot button topics in the last State of the Union compared to any other point
                 graphed.</p>
         </div>
-        <!-- Start with the <svg> root element
-The width and height of the SVG image is defined with the width and height attributes
-Since SVG is an XML dialect, always bind the namespace correctly with the xmlns attribute
-The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTML document -->
-        <!--
-        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-        </svg>
+
+<!--
+     
+      <script>
+        let d = new Date();
+        alert("Today's date is " + d);
+    </script>
         
-        <svg width="1400" height="850" xmlns="http://www.w3.org/2000/svg">
+        <script>
+   function changeVal()
+{
+    var f = document.getElementById("food");
+    var chosenFood = f.options[f.selectedIndex].value;
+    document.getElementById("showFoodList").innerHTML += '<p>' + chosenFood + '</p>';
+    document.getElementById("chosenFood").className="show";
+}
+        </script>
+        
+        <div>
+            <select name="food" id="food" onchange="changeVal()">
+                <option value="">Select One</option>
+                <option value="Apple">Apple</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Banana">Banana</option>
+                <option value="All">All Food</option>
+            </select>
+        </div>
+        <div id="chosenFood" class="hide">
+           
+            <div id="showFoodList"></div>
+        </div>
+   
         -->
+        
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -62,18 +98,19 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">25</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-140" width="30" height="140" fill="black"/>
+            <rect x="350" y="-140" width="30" height="140" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-180" width="30" height="180" fill="black"/>
+            <rect x="450" y="-180" width="30" height="180" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-0" width="30" height="0" fill="black"/>
+            <rect x="50" y="-0" width="30" height="0" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-80" width="30" height="80" fill="black"/>
+            <rect x="150" y="-80" width="30" height="80" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-180" width="30" height="180" fill="black"/>
+            <rect x="250" y="-180" width="30" height="180" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-340" width="30" height="340" fill="black"/>
+            <rect x="550" y="-340" width="30" height="340" fill="red"/>
         </svg>
+   
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -92,18 +129,21 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">10</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-100" width="30" height="100" fill="black"/>
+            <rect x="350" y="-100" width="30" height="100" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-400" width="30" height="400" fill="black"/>
+            <rect x="450" y="-400" width="30" height="400" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-350" width="30" height="350" fill="black"/>
+            <rect x="50" y="-350" width="30" height="350" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-300" width="30" height="300" fill="black"/>
+            <rect x="150" y="-300" width="30" height="300" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-250" width="30" height="250" fill="black"/>
+            <rect x="250" y="-250" width="30" height="250" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-200" width="30" height="200" fill="black"/>
+            <rect x="550" y="-200" width="30" height="200" fill="red"/>
         </svg>
+      <p>Crime has been a hot button topic with Trump's last SOTU, but it's still seldomn mentioned as a major issue in America.
+      Diplomacy is another sparcely mentioned topic, with Biden's 2023 SOTU having many mentions due to the War in Ukraine. Obama's usage
+      being in reference to the legacy of the war on terror and desire to build alliences.</p>
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -122,18 +162,19 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">50</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-170" width="30" height="170" fill="black"/>
+            <rect x="350" y="-170" width="30" height="170" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-335" width="30" height="335" fill="black"/>
+            <rect x="450" y="-335" width="30" height="335" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-215" width="30" height="215" fill="black"/>
+            <rect x="50" y="-215" width="30" height="215" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-140" width="30" height="140" fill="black"/>
+            <rect x="150" y="-140" width="30" height="140" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-80" width="30" height="80" fill="black"/>
+            <rect x="250" y="-80" width="30" height="80" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-305" width="30" height="305" fill="black"/>
+            <rect x="550" y="-305" width="30" height="305" fill="red"/>
         </svg>
+   
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -152,18 +193,22 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">50</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-300" width="30" height="300" fill="black"/>
+            <rect x="350" y="-300" width="30" height="300" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-360" width="30" height="360" fill="black"/>
+            <rect x="450" y="-360" width="30" height="360" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-110" width="30" height="110" fill="black"/>
+            <rect x="50" y="-110" width="30" height="110" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-120" width="30" height="120" fill="black"/>
+            <rect x="150" y="-120" width="30" height="120" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-130" width="30" height="130" fill="black"/>
+            <rect x="250" y="-130" width="30" height="130" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-60" width="30" height="60" fill="black"/>
+            <rect x="550" y="-60" width="30" height="60" fill="red"/>
         </svg>
+     <p>The economy and healthcare are the most mentioned topics when it comes to American SOTUs. Biden's Covid rebuilding and Trump's Big Beautiful Bill
+    are the latest examples, but Obama's plan to recover from the recession also comes up. Health is also mentioned alongside education (a public health issue)
+    in a simular vain in his 2021 and 2023 speeches, but not so much by Trump's last one. Obama's usage of health may seem low, but the ACA is something more
+    focued on outside the graph's current scope.</p>
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -182,18 +227,19 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">25</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-120" width="30" height="120" fill="black"/>
+            <rect x="350" y="-120" width="30" height="120" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-60" width="30" height="60" fill="black"/>
+            <rect x="450" y="-60" width="30" height="60" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-40" width="30" height="40" fill="black"/>
+            <rect x="50" y="-40" width="30" height="40" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-20" width="30" height="20" fill="black"/>
+            <rect x="150" y="-20" width="30" height="20" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-120" width="30" height="120" fill="black"/>
+            <rect x="250" y="-120" width="30" height="120" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-280" width="30" height="280" fill="black"/>
+            <rect x="550" y="-280" width="30" height="280" fill="red"/>
         </svg>
+       
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -212,18 +258,21 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">25</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-120" width="30" height="120" fill="black"/>
+            <rect x="350" y="-120" width="30" height="120" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-60" width="30" height="60" fill="black"/>
+            <rect x="450" y="-60" width="30" height="60" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-160" width="30" height="160" fill="black"/>
+            <rect x="50" y="-160" width="30" height="160" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-200" width="30" height="200" fill="black"/>
+            <rect x="150" y="-200" width="30" height="200" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-100" width="30" height="100" fill="black"/>
+            <rect x="250" y="-100" width="30" height="100" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-380" width="30" height="380" fill="black"/>
+            <rect x="550" y="-380" width="30" height="380" fill="red"/>
         </svg>
+   <p>Immigration is a big topic with Donald Trump. The military is another topic popular with the 47th president, however is also repeated frequently by Obama
+   due to his handling of the war on terror and further threats of terror happening in Europe at that time. Biden doesn't mention much in his speeches due to
+   the priority being on giving military aid to Ukraine.</p>
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -242,18 +291,19 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">25</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-220" width="30" height="220" fill="black"/>
+            <rect x="350" y="-220" width="30" height="220" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-380" width="30" height="380" fill="black"/>
+            <rect x="450" y="-380" width="30" height="380" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-220" width="30" height="220" fill="black"/>
+            <rect x="50" y="-220" width="30" height="220" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-100" width="30" height="100" fill="black"/>
+            <rect x="150" y="-100" width="30" height="100" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-180" width="30" height="180" fill="black"/>
+            <rect x="250" y="-180" width="30" height="180" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-500" width="30" height="500" fill="black"/>
+            <rect x="550" y="-500" width="30" height="500" fill="red"/>
         </svg>
+    
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -272,18 +322,21 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">10</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-500" width="30" height="500" fill="black"/>
+            <rect x="350" y="-500" width="30" height="500" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-200" width="30" height="200" fill="black"/>
+            <rect x="450" y="-200" width="30" height="200" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-50" width="30" height="50" fill="black"/>
+            <rect x="50" y="-50" width="30" height="50" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-0" width="30" height="0" fill="black"/>
+            <rect x="150" y="-0" width="30" height="0" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-0" width="30" height="0" fill="black"/>
+            <rect x="250" y="-0" width="30" height="0" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-250" width="30" height="250" fill="black"/>
+            <rect x="550" y="-250" width="30" height="250" fill="red"/>
         </svg>
+   <p>Party Agenda is a loose term used to describe aspirational statements driven more by ideology than actual policy plans. Its usage has increased
+   over the years, but Obama's speech in 2011 starts with a jump. Social issues refer to things concerning intersectionality. Biden voices a lot of support
+   for trans people in 2021 and 2023, however Trump complains about "wokeness" in 2025. However social issues are underrepresnted overall.</p>
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -303,18 +356,19 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">200</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-230" width="30" height="230" fill="black"/>
+            <rect x="350" y="-230" width="30" height="230" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-352.5" width="30" height="352.5" fill="black"/>
+            <rect x="450" y="-352.5" width="30" height="352.5" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-180" width="30" height="180" fill="black"/>
+            <rect x="50" y="-180" width="30" height="180" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-150" width="30" height="150" fill="black"/>
+            <rect x="150" y="-150" width="30" height="150" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-125" width="30" height="125" fill="black"/>
+            <rect x="250" y="-125" width="30" height="125" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-327.5" width="30" height="327.5" fill="black"/>
+            <rect x="550" y="-327.5" width="30" height="327.5" fill="red"/>
         </svg>
+     
         <svg width="600px" height="600px" viewBox="-50 -600 800 800"
             xmlns="http://www.w3.org/2000/svg">
             <text x="300" y="60" fill="black">Year</text>
@@ -333,17 +387,21 @@ The namespace "http://www.w3.org/2000/svg" identifies SVG elements inside an HTM
             <line x1="0" y1="-500" x2="600" y2="-500" stroke="black" stroke-width="1"/>
             <text x="0" y="-500" fill="black">50</text>
             <text x="350" y="15" fill="black" textLength="5em"> April 28, 2021 </text>
-            <rect x="350" y="-200" width="30" height="200" fill="black"/>
+            <rect x="350" y="-200" width="30" height="200" fill="blue"/>
             <text x="450" y="15" fill="black" textLength="5em"> February 07, 2023 </text>
-            <rect x="450" y="-140" width="30" height="140" fill="black"/>
+            <rect x="450" y="-140" width="30" height="140" fill="blue"/>
             <text x="50" y="15" fill="black" textLength="5em"> January 25, 2011 </text>
-            <rect x="50" y="-150" width="30" height="150" fill="black"/>
+            <rect x="50" y="-150" width="30" height="150" fill="blue"/>
             <text x="150" y="15" fill="black" textLength="5em"> January 20, 2015 </text>
-            <rect x="150" y="-120" width="30" height="120" fill="black"/>
+            <rect x="150" y="-120" width="30" height="120" fill="blue"/>
             <text x="250" y="15" fill="black" textLength="5em">February 28, 2017</text>
-            <rect x="250" y="-130" width="30" height="130" fill="black"/>
+            <rect x="250" y="-130" width="30" height="130" fill="red"/>
             <text x="550" y="15" fill="black" textLength="5em"> March 04, 2025 </text>
-            <rect x="550" y="-270" width="30" height="270" fill="black"/>
+            <rect x="550" y="-270" width="30" height="270" fill="red"/>
         </svg>
+  <p>Domestic and foreign policy are somewhat proportional (with exception to Biden 2023) but the SOTU is most certainly overwhelmingly a place for
+  the discussion of domestic policy.</p>
+        
+        
     </body>
 </html>
