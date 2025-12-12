@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../Desktop/GITHUB/propaganda-dh25/corpus/state_of_union_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="/Users/cs-loaner/Documents/propaganda-dh25/corpus/Valid Markup/state_of_union_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/SpeechStyle.xsl"?>
 <speech>
     <!-- TECHNICALLY NOT A STATE OF THE UNION AND THEREFORE A DIFFERENT DATABASE FROM
     https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-joint-address-congress/-->
