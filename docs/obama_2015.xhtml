@@ -3,7 +3,7 @@
   SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <title>Speech —  Janurary 20, 2015</title>
+      <title>Speech — January 20, 2015</title>
       <style>
                     .navbar {
                     list-style-type: none;
@@ -131,6 +131,7 @@
                     .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
                     .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
                     .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
+                    .block-highlight-ref { background-color: rgba(120, 120, 120, 0.40); }
                     
                     
                     .highlight-f { background-color: #ffdddd; }
@@ -267,7 +268,7 @@
                     selections[cat].push(box.value);
                     });
                     
-                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
+                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip", "ref"];
                     
                     document.querySelectorAll('[data-attr]').forEach(el =&gt; {
                     
@@ -356,10 +357,16 @@
                  onclick="toggleStat('dip')">Foreign Affairs</div>
             <div class="toggle-btn"
                  style="background:#333;"
+                 onclick="toggleStat('dup')">dup</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
                  onclick="toggleStat('eco')">Economics</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('env')">Environment</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
+                 onclick="toggleStat('fip')">fip</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('health')">Health</div>
@@ -374,7 +381,9 @@
                  onclick="toggleStat('pa')">Party Agenda</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('soc')">Social Issues</div>
+                 onclick="toggleStat('ref')">
+                        Reference
+                    </div>
             <div id="statsPanel">
                <div class="stat-block" data-stat="eco" style="display:none;">
                   <h3>Economics</h3>
@@ -511,14 +520,22 @@
                      <li>present moment (3)</li>
                   </ul>
                </div>
+               <div class="stat-block" data-stat="ref" style="display:none;">
+                  <h3>Reference</h3>
+                  <p>
+                     <b>Occurrences:</b> 42 </p>
+                  <p>
+                     <b>Text units:</b> 849.7 </p>
+                  <p>
+                     <b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
+               </div>
             </div>
          </div>
          <div id="mainText">
             <h1>State of the Union</h1>
-            <h2> Janurary 20, 2015</h2>
-            
+            <h2>January 20, 2015</h2>
             <p class="speech-block">
-               <span data-attr="ref"> Mr. Speaker, Mr. Vice President, Members of Congress, my fellow
+               <span class="speech-block" data-attr="ref"> Mr. Speaker, Mr. Vice President, Members of Congress, my fellow
                                 Americans: We are 15 years into this new century. Fifteen years that
                                 dawned with terror touching our shores, that unfolded with a new
                                 generation fighting two long and costly wars, that saw a vicious
@@ -542,7 +559,7 @@
                                 `1``````` who has served to keep us safe. We are humbled and
                                 grateful for your service.</span>&gt;</p>
             <p class="speech-block">
-               <span data-attr="ref">America, for all that we have endured, for all the grit and hard work
+               <span class="speech-block" data-attr="ref">America, for all that we have endured, for all the grit and hard work
                                 required to come back, for all the tasks that lie ahead, know this:
                                 The shadow of crisis has passed, and the State of the Union is
                                 strong.</span>
@@ -582,7 +599,7 @@
                                 at stake in the choices before us.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">It begins with our economy. Seven years ago, Rebekah and Ben Erler of
+               <span class="speech-block" data-attr="ref">It begins with our economy. Seven years ago, Rebekah and Ben Erler of
                                 Minneapolis were newlyweds. <span data-attr="other">[laughter]</span> She waited tables. He worked
                                 construction. Their first child Jack was on the way. They were young
                                 and in love in America. And it doesn't get much better than that.
@@ -597,7 +614,7 @@
                                 Ben is back in construction and home for dinner every night.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">"It is amazing," Rebekah wrote, "what you can bounce back from when you
+               <span class="speech-block" data-attr="ref">"It is amazing," Rebekah wrote, "what you can bounce back from when you
                                 have to. . . . We are a strong, tight-knit family who has made it
                                 through some very, very hard times." We are a strong, tight-knit
                                 family who has made it through some very, very hard times.</span>
@@ -686,7 +703,7 @@
                                 American.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Because families like Rebekah's still need our help. She and Ben are
+               <span class="speech-block" data-attr="ref">Because families like Rebekah's still need our help. She and Ben are
                                 working as hard as ever, but they've had to forego vacations and a
                                 new car so that they can pay off student loans and save for
                                 retirement. Friday night pizza, that's a big splurge. Basic
@@ -1130,7 +1147,7 @@
                </span>
             </p>
             <p class="speech-block">
-               <span data-attr="dip f present positive">In the
+               <span data-attr="dup f present positive">In the
                                 Asia-Pacific, we are modernizing alliances while making sure that
                                 other nations play by the rules: in how they trade, how they resolve
                                 maritime disputes, how they participate in meeting common
@@ -1248,13 +1265,13 @@
                                 gridlock for us to ever do anything about it.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I know how tempting such cynicism may be. But I still think the cynics
+               <span class="speech-block" data-attr="ref">I know how tempting such cynicism may be. But I still think the cynics
                                 are wrong. I still believe that we are one people. I still believe
                                 that together, we can do great things, even when the odds are
                                 long.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I believe this because over and over in my 6 years in office, I have
+               <span class="speech-block" data-attr="ref">I believe this because over and over in my 6 years in office, I have
                                 seen America at its best. I've seen the hopeful faces of young
                                 graduates from New York to California and our newest officers at
                                 West Point, Annapolis, Colorado Springs, New London. I've mourned
@@ -1271,7 +1288,7 @@
                                 example.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">So the question for those of us here tonight is how we, all of us, can
+               <span class="speech-block" data-attr="ref">So the question for those of us here tonight is how we, all of us, can
                                 better reflect America's hopes. I've served in Congress with many of
                                 you. I know many of you well. There are a lot of good people here on
                                 both sides of the aisle. And many of you have told me that this
@@ -1280,7 +1297,7 @@
                                 at how the base will react to every decision.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Imagine if we broke out of these tired old patterns. Imagine if we did
+               <span class="speech-block" data-attr="ref">Imagine if we broke out of these tired old patterns. Imagine if we did
                                 something different. Understand, a better politics isn't one where
                                 Democrats abandon their agenda or Republicans simply embrace mine. A
                                 better politics is one where we appeal to each other's basic decency
@@ -1291,7 +1308,7 @@
                                 people's daily lives.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">A politics—a better politics is one where we spend less time drowning
+               <span class="speech-block" data-attr="ref">A politics—a better politics is one where we spend less time drowning
                                 in dark money for ads that pull us into the gutter and spend more
                                 time lifting young people up with a sense of purpose and
                                 possibility, asking them to join in the great mission of building
@@ -1317,7 +1334,7 @@
                                 share.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">We may go at it in campaign season, but surely we can agree that the
+               <span class="speech-block" data-attr="ref">We may go at it in campaign season, but surely we can agree that the
                                 right to vote is sacred, that it's being denied to too many, and
                                 that on this 50th anniversary of the great march from Selma to
                                 Montgomery and the passage of the Voting Rights Act, we can come
@@ -1338,18 +1355,18 @@
                                 system so that it protects and serves all of us.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">That's a better politics. That's how we start rebuilding trust. That's
+               <span class="speech-block" data-attr="ref">That's a better politics. That's how we start rebuilding trust. That's
                                 how we move this country forward. That's what the American people
                                 want. And that's what they deserve.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I have no more campaigns to run.</span>
+               <span class="speech-block" data-attr="ref">I have no more campaigns to run.</span>
             </p>
             <p class="speech-block">[At this point, some audience members applauded.]</p>
             <p class="speech-block">My only agenda—<span data-attr="other">[laughter]</span>. Audience
                                 member. [Inaudible]</p>
             <p class="speech-block">
-               <span data-attr="ref">The President. I know because I won both of them. <span data-attr="other">[laughter]</span> My only agenda for the
+               <span class="speech-block" data-attr="ref">The President. I know because I won both of them. <span data-attr="other">[laughter]</span> My only agenda for the
                                 next 2 years is the same as the one I've had since the day I swore
                                 an oath on the steps of this Capitol: to do what I believe is best
                                 for America. If you share the broad vision I outlined tonight, I ask
@@ -1360,14 +1377,14 @@
                                 stronger.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Because I want this Chamber, I want this city to reflect the truth:
+               <span class="speech-block" data-attr="ref">Because I want this Chamber, I want this city to reflect the truth:
                                 that for all our blind spots and shortcomings, we are a people with
                                 the strength and generosity of spirit to bridge divides, to unite in
                                 common effort, to help our neighbors, whether down the street or on
                                 the other side of the world.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I want our actions to tell every child in every neighborhood, your life
+               <span class="speech-block" data-attr="ref">I want our actions to tell every child in every neighborhood, your life
                                 matters, and we are committed to improving your life chances, as
                                 committed as we are to working on behalf of our own kids. I want
                                 future generations to know that we are a people who see our
@@ -1381,14 +1398,14 @@
                                 States of America.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I want them to grow up in a country where a young mom can sit down and
+               <span class="speech-block" data-attr="ref">I want them to grow up in a country where a young mom can sit down and
                                 write a letter to her President with a story that sums up these past
                                 6 years: "It's amazing what you can bounce back from when you have
                                 to. . . . We are a strong, tight-knit family who's made it through
                                 some very, very hard times."</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">My fellow Americans, we too are a strong, tight-knit family.
+               <span class="speech-block" data-attr="ref">My fellow Americans, we too are a strong, tight-knit family.
                                 We too have made it through some hard times. Fifteen years into this
                                 new century, we have picked ourselves up, dusted ourselves off, and
                                 begun again the work of remaking America. We have laid a new
@@ -1396,27 +1413,115 @@
                                 chapter together, and let's start the work right now.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Thank you. God bless you. God bless this country we love. Thank
+               <span class="speech-block" data-attr="ref">Thank you. God bless you. God bless this country we love. Thank
                                 you.</span>
             </p>
          </div>
-          <div id="menuPanel">
-         <h3>Attributes</h3>
-         <div class="toggle-btn"
-              style="background:#444;"
-              onclick="toggle('crime')">crime</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('dip')">dip</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('eco')">eco</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('env')">env</div>
-         <div class="toggle-btn"
-              style="background:#444;"
-              onclick="toggle('health')">health</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('imm')">imm</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('mil')">mil</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('pa')">pa</div>
-         <div class="toggle-btn" style="background:#444;" onclick="toggle('soc')">soc</div>
-      </div>
-
+         <div id="menuPanel">
+            <h3>Attributes</h3>
+            <div class="attr-category">
+               <p>
+                  <b>Policy Area</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="crime"
+                         data-cat="value"/>Crime</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="dip"
+                         data-cat="value"/>Foreign Affairs</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="dup"
+                         data-cat="value"/>dup</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="eco"
+                         data-cat="value"/>Economics</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="env"
+                         data-cat="value"/>Environment</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="fip"
+                         data-cat="value"/>fip</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="health"
+                         data-cat="value"/>Health</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="imm"
+                         data-cat="value"/>Immigration</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="mil"
+                         data-cat="value"/>Military</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="pa"
+                         data-cat="value"/>Party Agenda</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="ref"
+                         data-cat="value"/>
+                            Reference
+                        </label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Identity</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="d"
+                         data-cat="identity"/>
+                            Domestic
+                        </label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="f"
+                         data-cat="identity"/>
+                            Foreign
+                        </label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Connotation</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="positive"
+                         data-cat="connotation"/>positive</label>
+            </div>
+            <div class="attr-category">
+               <p>
+                  <b>Time Frame</b>
+               </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="present"
+                         data-cat="when"/>present</label>
+            </div>
+            <button class="reset-btn" onclick="resetAll()">Reset</button>
+         </div>
       </div>
    </body>
 </html>

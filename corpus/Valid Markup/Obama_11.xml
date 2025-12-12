@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../Desktop/GITHUB/propaganda-dh25/corpus/state_of_union_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/SpeechStyle.xsl"?>
 <speech>
     <metadata>
         <date> January 25, 2011 </date>
