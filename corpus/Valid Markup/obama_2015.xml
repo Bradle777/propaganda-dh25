@@ -20,14 +20,14 @@
                                 Our unemployment rate is now lower than it was before the financial
                                 crisis. More of our kids are graduating than ever before. More of
                                 our people are insured than ever before. And we are as free from the
-                                grip of foreign oil as we've been in almost 30 years.</policy>></p>
+                                grip of foreign oil as we've been in almost 30 years.</policy></p>
                 <p><policy type="d" connotation="positive" when="present" value="mil">Tonight, for
                                 the first time since 9/11, our combat mission in Afghanistan is
                                 over. Six years ago, nearly 180,000 American troops served in Iraq
                                 and Afghanistan. Today, fewer than 15,000 remain. And we salute the
                                 courage and sacrifice of every man and woman in this 9/11 generation
-                                `1``````` who has served to keep us safe. We are humbled and
-                                grateful for your service.</policy>></p>
+                                 who has served to keep us safe. We are humbled and
+                                grateful for your service.</policy></p>
                 <p>
                         <ref>America, for all that we have endured, for all the grit and hard work
                                 required to come back, for all the tasks that lie ahead, know this:
@@ -39,7 +39,7 @@
                                 industry, booming energy production—we have risen from recession
                                 freer to write our own future than any other nation on Earth. It's
                                 now up to us to choose who we want to be over the next 15 years and
-                                for decades to come.</policy>></p>
+                                for decades to come.</policy></p>
                 <p>
                         <policy type="d" connotation="positive" when="present" value="eco">Will we
                                 accept an economy where only a few of us do spectacularly well? Or
@@ -245,7 +245,7 @@
                                 last November, let's put it to a vote right here in Washington. Send
                                 me a bill that gives every worker in America the opportunity to earn
                                 7 days of paid sick leave. It's the right thing to do.
-                                        [<em>Applause</em>] It's the right thing to do.</policy>
+                                        [Applause] It's the right thing to do.</policy>
                 </p>
                 <p>
                         <policy type="d" connotation="positive" when="present" value="eco">Of
@@ -341,7 +341,7 @@
                                 veterans waiting years to get the benefits they need. And we're
                                 making it easier for vets to translate their training and experience
                                 into civilian jobs. And Joining Forces, the national campaign
-                                launched by Michelle and Jill Biden—[<em>applause</em>]—thank you,
+                                launched by Michelle and Jill Biden—[applause]—thank you,
                                 Michelle; thank you, Jill—has helped nearly 700,000 veterans and
                                 military spouses get a new job. So to every CEO in America, let me
                                 repeat: If you want somebody who's going to get the job done and
@@ -378,7 +378,7 @@
                                 set our sights higher than a single oil pipeline. Let's pass a
                                 bipartisan infrastructure plan that could create more than 30 times
                                 as many jobs per year and make this country stronger for decades to
-                                come. Let's do it. Let's get it done. [<em>Applause</em>] Let's get
+                                come. Let's do it. Let's get it done. [Applause] Let's get
                                 it done.</policy>
                 </p>
                 <p>
@@ -466,7 +466,7 @@
                                 money to help more families pay for childcare and send their kids to
                                 college. We need a Tax Code that truly helps working Americans
                                 trying to get a leg up in the new economy, and we can achieve that
-                                together. [<em>Applause</em>] We can achieve it together.</policy>
+                                together. [Applause] We can achieve it together.</policy>
                 </p>
                 <p>
                         <policy type="d" connotation="positive" when="present" value="eco">Helping
@@ -542,7 +542,7 @@
                 </p>
                 <!-- Obama we have recordings of your government choosing Ukraine's new leaders after the EuroMaidain coup-->
                 <p>
-                        <policy type="f" connotation="positive" when="present" value="fip">Last
+                        <policy type="f" connotation="positive" when="present" value="dip">Last
                                 year, as we were doing the hard work of imposing sanctions along
                                 with our allies, as we were reinforcing our presence with frontline
                                 states, Mr. Putin's aggression, it was suggested, was a masterful
@@ -627,7 +627,7 @@
                         </policy>
                 </p>
                 <p>
-                        <policy type="f" connotation="positive" when="present" value="dup">In the
+                        <policy type="f" connotation="positive" when="present" value="dip">In the
                                 Asia-Pacific, we are modernizing alliances while making sure that
                                 other nations play by the rules: in how they trade, how they resolve
                                 maritime disputes, how they participate in meeting common
@@ -679,7 +679,7 @@
                 </p>
                 <!-- It's really amazing what China's doing though -->
                 <p>
-                        <soc>And there's one last pillar of our leadership, and that's the example
+                        <policy type="f" connotation="neutral" when="present" value="soc">And there's one last pillar of our leadership, and that's the example
                                 of our values. As Americans, we respect human dignity, even when
                                 we're threatened, which is why I have prohibited torture and worked
                                 to make sure our use of new technology like drones is properly
@@ -691,7 +691,7 @@
                                 the persecution of women or religious minorities or people who are
                                 lesbian, gay, bisexual, or transgender. We do these things not only
                                 because they are the right thing to do, but because ultimately, they
-                                will make us safer.</soc>
+                                will make us safer.</policy>
                 </p>
                 <p>
                         <policy type="d" connotation="positive" when="present" value="crime">
@@ -845,11 +845,11 @@
                 <p>
                         <ref>I have no more campaigns to run.</ref>
                 </p>
-                <p>[<em>At this point, some audience members applauded.</em>]</p>
-                <p>My only agenda—<audience noise="other">[laughter]</audience>. <em>Audience
-                                member</em>. [<em>Inaudible</em>]</p>
+                <p>[At this point, some audience members applauded.]</p>
+                <p>My only agenda—<audience noise="other">[laughter]</audience>. Audience
+                                member. [Inaudible]</p>
                 <p>
-                        <ref><em>The President.</em> I know because I won both of them. <audience
+                        <ref>The President. I know because I won both of them. <audience
                                         noise="other">[laughter]</audience> My only agenda for the
                                 next 2 years is the same as the one I've had since the day I swore
                                 an oath on the steps of this Capitol: to do what I believe is best

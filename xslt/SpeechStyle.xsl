@@ -33,10 +33,16 @@
             <xsl:when test="$code='pa'">Party Agenda</xsl:when>
             <xsl:when test="$code='soc'">Social Issues</xsl:when>
             <xsl:when test="$code='ref'">Reference</xsl:when>
-            
+            <xsl:when test="$code='gov'">Government</xsl:when>
             
             <xsl:when test="$code='d'">Domestic</xsl:when>
             <xsl:when test="$code='f'">Foreign</xsl:when>
+            <xsl:when test="$code='negative'">Negative</xsl:when>
+            <xsl:when test="$code='positive'">Positive</xsl:when>
+            <xsl:when test="$code='neutral'">Neutral</xsl:when>
+            <xsl:when test="$code='past'">Past</xsl:when>
+            <xsl:when test="$code='present'">Present</xsl:when>
+            <xsl:when test="$code='future'">Future</xsl:when>
             
             <xsl:otherwise>
                 <xsl:value-of select="$code"/>

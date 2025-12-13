@@ -357,16 +357,10 @@
                  onclick="toggleStat('dip')">Foreign Affairs</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('dup')">dup</div>
-            <div class="toggle-btn"
-                 style="background:#333;"
                  onclick="toggleStat('eco')">Economics</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('env')">Environment</div>
-            <div class="toggle-btn"
-                 style="background:#333;"
-                 onclick="toggleStat('fip')">fip</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('health')">Health</div>
@@ -379,6 +373,9 @@
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('pa')">Party Agenda</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
+                 onclick="toggleStat('soc')">Social Issues</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('ref')">
@@ -549,15 +546,17 @@
                                 Our unemployment rate is now lower than it was before the financial
                                 crisis. More of our kids are graduating than ever before. More of
                                 our people are insured than ever before. And we are as free from the
-                                grip of foreign oil as we've been in almost 30 years.</span>&gt;</p>
+                                grip of foreign oil as we've been in almost 30 years.</span>
+            </p>
             <p class="speech-block">
                <span data-attr="mil d present positive">Tonight, for
                                 the first time since 9/11, our combat mission in Afghanistan is
                                 over. Six years ago, nearly 180,000 American troops served in Iraq
                                 and Afghanistan. Today, fewer than 15,000 remain. And we salute the
                                 courage and sacrifice of every man and woman in this 9/11 generation
-                                `1``````` who has served to keep us safe. We are humbled and
-                                grateful for your service.</span>&gt;</p>
+                                 who has served to keep us safe. We are humbled and
+                                grateful for your service.</span>
+            </p>
             <p class="speech-block">
                <span class="speech-block" data-attr="ref">America, for all that we have endured, for all the grit and hard work
                                 required to come back, for all the tasks that lie ahead, know this:
@@ -570,7 +569,8 @@
                                 industry, booming energy production—we have risen from recession
                                 freer to write our own future than any other nation on Earth. It's
                                 now up to us to choose who we want to be over the next 15 years and
-                                for decades to come.</span>&gt;</p>
+                                for decades to come.</span>
+            </p>
             <p class="speech-block">
                <span data-attr="eco d present positive">Will we
                                 accept an economy where only a few of us do spectacularly well? Or
@@ -1066,7 +1066,7 @@
                                 democracy and reassuring our NATO allies.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="fip f present positive">Last
+               <span data-attr="dip f present positive">Last
                                 year, as we were doing the hard work of imposing sanctions along
                                 with our allies, as we were reinforcing our presence with frontline
                                 states, Mr. Putin's aggression, it was suggested, was a masterful
@@ -1147,7 +1147,7 @@
                </span>
             </p>
             <p class="speech-block">
-               <span data-attr="dup f present positive">In the
+               <span data-attr="dip f present positive">In the
                                 Asia-Pacific, we are modernizing alliances while making sure that
                                 other nations play by the rules: in how they trade, how they resolve
                                 maritime disputes, how they participate in meeting common
@@ -1198,7 +1198,7 @@
                                 we've got.</span>
             </p>
             <p class="speech-block">
-                        And there's one last pillar of our leadership, and that's the example
+               <span data-attr="soc f present neutral">And there's one last pillar of our leadership, and that's the example
                                 of our values. As Americans, we respect human dignity, even when
                                 we're threatened, which is why I have prohibited torture and worked
                                 to make sure our use of new technology like drones is properly
@@ -1210,8 +1210,8 @@
                                 the persecution of women or religious minorities or people who are
                                 lesbian, gay, bisexual, or transgender. We do these things not only
                                 because they are the right thing to do, but because ultimately, they
-                                will make us safer.
-                </p>
+                                will make us safer.</span>
+            </p>
             <p class="speech-block">
                <span data-attr="crime d present positive">
                   <span data-attr="mil d present positive">As Americans, we have a profound commitment to justice. So
@@ -1436,11 +1436,6 @@
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
-                         value="dup"
-                         data-cat="value"/>dup</label>
-               <label class="check-row">
-                  <input type="checkbox"
-                         onclick="checkFilter()"
                          value="eco"
                          data-cat="value"/>Economics</label>
                <label class="check-row">
@@ -1448,11 +1443,6 @@
                          onclick="checkFilter()"
                          value="env"
                          data-cat="value"/>Environment</label>
-               <label class="check-row">
-                  <input type="checkbox"
-                         onclick="checkFilter()"
-                         value="fip"
-                         data-cat="value"/>fip</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
@@ -1473,6 +1463,11 @@
                          onclick="checkFilter()"
                          value="pa"
                          data-cat="value"/>Party Agenda</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="soc"
+                         data-cat="value"/>Social Issues</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
@@ -1504,6 +1499,11 @@
                <p>
                   <b>Connotation</b>
                </p>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="neutral"
+                         data-cat="connotation"/>neutral</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"

@@ -131,6 +131,7 @@
                     .block-highlight-mil    { background-color: rgba(255, 212, 59, 0.25); }
                     .block-highlight-imm    { background-color: rgba(255, 107, 107, 0.25); }
                     .block-highlight-dip    { background-color: rgba(255, 255, 0, 0.25); }
+                    .block-highlight-ref { background-color: rgba(120, 120, 120, 0.40); }
                     
                     
                     .highlight-f { background-color: #ffdddd; }
@@ -267,7 +268,7 @@
                     selections[cat].push(box.value);
                     });
                     
-                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip"];
+                    const majorCats = ["eco", "health", "crime", "env", "pa", "soc", "mil", "imm", "dip", "ref"];
                     
                     document.querySelectorAll('[data-attr]').forEach(el =&gt; {
                     
@@ -375,6 +376,11 @@
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('soc')">Social Issues</div>
+            <div class="toggle-btn"
+                 style="background:#333;"
+                 onclick="toggleStat('ref')">
+                        Reference
+                    </div>
             <div id="statsPanel">
                <div class="stat-block" data-stat="eco" style="display:none;">
                   <h3>Economics</h3>
@@ -511,21 +517,30 @@
                      <li>present moment (3)</li>
                   </ul>
                </div>
+               <div class="stat-block" data-stat="ref" style="display:none;">
+                  <h3>Reference</h3>
+                  <p>
+                     <b>Occurrences:</b> 42 </p>
+                  <p>
+                     <b>Text units:</b> 849.7 </p>
+                  <p>
+                     <b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
+               </div>
             </div>
          </div>
          <div id="mainText">
             <h1>State of the Union</h1>
             <h2> April 28, 2021</h2>
             <p class="speech-block">
-               <span data-attr="ref"> Thank you. Thank you. Thank you. Good to be back. As Mitch and Chuck will
+               <span class="speech-block" data-attr="ref"> Thank you. Thank you. Thank you. Good to be back. As Mitch and Chuck will
                 understand, it's good to be almost home, down the hall. <span data-attr="other">[laughter]</span> Anyway, thank you all.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Madam Speaker, Madam Vice President—no President has ever said those words from
+               <span class="speech-block" data-attr="ref">Madam Speaker, Madam Vice President—no President has ever said those words from
                 this podium. No President has ever said those words, and it's about time.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">First Lady—I'm her husband; Second Gentleman; Chief Justice; Members of the United
+               <span class="speech-block" data-attr="ref">First Lady—I'm her husband; Second Gentleman; Chief Justice; Members of the United
                 States Congress and the Cabinet; distinguished guests; my fellow Americans: While
                 the setting tonight is familiar, this gathering is just a little bit different, a
                 reminder of the extraordinary times we're in.</span>
@@ -539,7 +554,7 @@
                 America.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">I stand here tonight, 1 day shy of the hundredth day of my administration, hundred
+               <span class="speech-block" data-attr="ref">I stand here tonight, 1 day shy of the hundredth day of my administration, hundred
                 days since I took the oath of office and lifted my hand off our family Bible and
                 inherited a Nation—we all did—that was in crisis: the worst pandemic in a century,
                 the worst economic crisis since the Great Depression, the worst attack on our
@@ -599,14 +614,14 @@
                 her phrase. "A dose of hope."</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">A dose of hope for an educator in Florida who has a child suffering from an
+               <span class="speech-block" data-attr="ref">A dose of hope for an educator in Florida who has a child suffering from an
                 autoimmune disease—wrote to me, said she's worried—that she was worrying about
                 bringing the virus home. She said she then got vaccinated at a large site, in her
                 car. She said she sat in her car, when she got vaccinated and just cried, cried out
                 of joy and cried out of relief.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Parents seeing the smiles on their kids' faces, for those who are able to go back
+               <span class="speech-block" data-attr="ref">Parents seeing the smiles on their kids' faces, for those who are able to go back
                 to school because the teachers and school bus drivers and cafeteria workers have
                 been vaccinated. Grandparents hugging their children and grandchildren instead of
                 pressing hands against a window to say goodbye. It means everything. Those things
@@ -634,7 +649,7 @@
                 it's making all the difference in the world.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">The single mom in Texas who wrote to me, she said she couldn't work, but she said
+               <span class="speech-block" data-attr="ref">The single mom in Texas who wrote to me, she said she couldn't work, but she said
                 the relief check put food on the table and saved her and her son from eviction from
                 their apartment. A grandmother in Virginia who told me she immediately took her
                 granddaughter to the eye doctor, something she said she put off for months because
@@ -720,7 +735,7 @@
                 help our kids and our businesses succeed in the 21st-century economy.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">And I'm asking the Vice President to lead this effort, if she would——</span>
+               <span class="speech-block" data-attr="ref">And I'm asking the Vice President to lead this effort, if she would——</span>
             </p>
             <p class="speech-block">Vice President Kamala D. Harris. Of course.</p>
             <p class="speech-block">The President. ——because I know it will get done.</p>
@@ -951,7 +966,7 @@
                 provide those jobs of the future.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Jill is a community college professor who teaches today as First Lady. She's long
+               <span class="speech-block" data-attr="ref">Jill is a community college professor who teaches today as First Lady. She's long
                 said—if I've heard it once, I've heard it a thousand times: "Joe, any country that
                 outeducates us is going to outcompete us." She'll be deeply involved in leading this
                 effort. Thank you, Jill.</span>
@@ -1323,7 +1338,7 @@
                 we wouldn't see bloodshed.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">More than 2 weeks ago in the Rose Garden, surrounded by some of the bravest people
+               <span class="speech-block" data-attr="ref">More than 2 weeks ago in the Rose Garden, surrounded by some of the bravest people
                 I know—the survivors and families who lost loved ones to gun violence—I laid out
                 several of the Department of Justice actions that are being taken to impact on this
                 epidemic.</span>
@@ -1426,14 +1441,14 @@
                 act now.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Look, in closing, as we gather here tonight, the images of a violent mob assaulting
+               <span class="speech-block" data-attr="ref">Look, in closing, as we gather here tonight, the images of a violent mob assaulting
                 this Capitol, desecrating our democracy, remain vivid in all our minds. Lives were
                 put at risk—many of your lives. Lives were lost. Extraordinary courage was summoned.
                 The insurrection was an existential crisis, a test of whether our democracy could
                 survive. And it did.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">But the struggle is far from over. The question of whether our democracy will long
+               <span class="speech-block" data-attr="ref">But the struggle is far from over. The question of whether our democracy will long
                 endure is both ancient and urgent, as old as our Republic, still vital today. Can
                 our democracy deliver on its promise that all of us, created equal in the image of
                 God, have a chance to lead lives of dignity, respect, and positivesibility? Can our
@@ -1441,7 +1456,7 @@
                 democracy overcome the lies, anger, hate, and fears that have pulled us apart?</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">America's adversaries—the autocrats of the world—are betting we can't. And I
+               <span class="speech-block" data-attr="ref">America's adversaries—the autocrats of the world—are betting we can't. And I
                 promise you, they're betting we can't. They believe we're too full of anger and
                 division and rage. They look at the images of the mob that assaulted the Capitol as
                 proof that the sun is setting on American democracy. But they are wrong. You know
@@ -1456,7 +1471,7 @@
                 and feel it in their own lives.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">&gt;Opening doors of opportunity, guaranteeing some more fairness and justice, that's
+               <span class="speech-block" data-attr="ref">&gt;Opening doors of opportunity, guaranteeing some more fairness and justice, that's
                 the essence of America. That's democracy in action. Our Constitution opens with the
                 words—as trite as it sounds—"We the People". Well, it's time to remember that "We
                 the People" are the Government—you and I. Not some force in a distant capital. Not
@@ -1464,20 +1479,20 @@
                 People."</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">In another era when our democracy was tested, Franklin Roosevelt reminded us, "In
+               <span class="speech-block" data-attr="ref">In another era when our democracy was tested, Franklin Roosevelt reminded us, "In
                 America, we do our part." We all do our part. That's all I'm asking: that we do our
                 part, all of us. If we do that, we will meet the center challenge of the age by
                 proving that democracy is durable and strong. Autocrats will not win the future. We
                 will. America will. And the future belongs to America.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">As I stand here tonight before you, in a new and vital hour of life and democracy
+               <span class="speech-block" data-attr="ref">As I stand here tonight before you, in a new and vital hour of life and democracy
                 of our Nation, and I can say with absolute confidence: I have never been more
                 confident or optimistic about America, not because I'm President, because what's
                 happening with the American people.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">We have stared into the abyss of insurrection and autocracy, pandemic and pain, and
+               <span class="speech-block" data-attr="ref">We have stared into the abyss of insurrection and autocracy, pandemic and pain, and
                 "We the People" did not flinch. At the very moment our adversaries were certain we
                 would pull apart and fail, we came together. We united. With light and hope, we
                 summoned a new strength, new resolve to positiveition us to win the competition of
@@ -1485,16 +1500,16 @@
                 just, as one people, one Nation, and one America.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">Folks, as I told every world leader I've ever met with over the years, it's never
+               <span class="speech-block" data-attr="ref">Folks, as I told every world leader I've ever met with over the years, it's never
                 ever, ever been a good bet to bet against America, and it still isn't.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">We are the United States of America. There is not a single thing—nothing—nothing
+               <span class="speech-block" data-attr="ref">We are the United States of America. There is not a single thing—nothing—nothing
                 beyond our capacity. We can do whatever we set our mind to do if we do it together.
                 So let's begin to get together.</span>
             </p>
             <p class="speech-block">
-               <span data-attr="ref">God bless you all, and may God protect our troops. Thank you for your
+               <span class="speech-block" data-attr="ref">God bless you all, and may God protect our troops. Thank you for your
                 patience.</span>
             </p>
          </div>
@@ -1549,6 +1564,13 @@
                          onclick="checkFilter()"
                          value="soc"
                          data-cat="value"/>Social Issues</label>
+               <label class="check-row">
+                  <input type="checkbox"
+                         onclick="checkFilter()"
+                         value="ref"
+                         data-cat="value"/>
+                            Reference
+                        </label>
             </div>
             <div class="attr-category">
                <p>
