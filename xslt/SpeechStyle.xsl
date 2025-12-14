@@ -468,7 +468,7 @@
                     <xsl:for-each select="//policy[not(@value = preceding::policy/@value)]">
                         <xsl:sort select="@value"/>
                         <div class="toggle-btn" style="background:#333;" onclick="toggleStat('{@value}')">
-                            <xsl:value-of select="f:label(@value)"/>
+                            <xsl:sequence select="f:label(@value)"/>
                         </div>
                     </xsl:for-each>
                     <div class="toggle-btn" style="background:#333;" onclick="toggleStat('ref')">
@@ -630,7 +630,7 @@
                             <xsl:sort select="@value"/>
                             <label class="check-row">
                                 <input type="checkbox" onclick="checkFilter()" value="{@value}" data-cat="value"/>
-                                <xsl:value-of select="f:label(@value)"/>
+                                <xsl:sequence select="f:label(@value)"/>
                             </label>
                         </xsl:for-each>
                         <label class="check-row">
