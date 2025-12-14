@@ -8,6 +8,7 @@
     exclude-result-prefixes="#all"
     version="3.0">    
     
+    <xsl:param name="uiMode" select="'political'"/>
 
     <xsl:function name="f:text-length" as="xs:integer">
         <xsl:param name="nodes" as="node()*" />
@@ -23,30 +24,69 @@
         <xsl:param name="code" as="xs:string"/>
         
         <xsl:choose>
-            <xsl:when test="$code='eco'">Economics</xsl:when>
-            <xsl:when test="$code='crime'">Crime</xsl:when>
-            <xsl:when test="$code='dip'">Foreign Affairs</xsl:when>
-            <xsl:when test="$code='env'">Environment</xsl:when>
-            <xsl:when test="$code='health'">Health</xsl:when>
-            <xsl:when test="$code='imm'">Immigration</xsl:when>
-            <xsl:when test="$code='mil'">Military</xsl:when>
-            <xsl:when test="$code='pa'">Party Agenda</xsl:when>
-            <xsl:when test="$code='soc'">Social Issues</xsl:when>
-            <xsl:when test="$code='ref'">Reference</xsl:when>
-            <xsl:when test="$code='gov'">Government</xsl:when>
             
-            <xsl:when test="$code='d'">Domestic</xsl:when>
-            <xsl:when test="$code='f'">Foreign</xsl:when>
-            <xsl:when test="$code='negative'">Negative</xsl:when>
-            <xsl:when test="$code='positive'">Positive</xsl:when>
-            <xsl:when test="$code='neutral'">Neutral</xsl:when>
-            <xsl:when test="$code='past'">Past</xsl:when>
-            <xsl:when test="$code='present'">Present</xsl:when>
-            <xsl:when test="$code='future'">Future</xsl:when>
+            <!-- ================= ANTHRO MODE ================= -->
+            <xsl:when test="$uiMode = 'anthro'">
+                <xsl:choose>
+                    <!-- policy value -->
+                    <xsl:when test="$code='eco'">Subsistence</xsl:when>
+                    <xsl:when test="$code='crime'">Norm Violation</xsl:when>
+                    <xsl:when test="$code='dip'">Intergroup Relations</xsl:when>
+                    <xsl:when test="$code='env'">Surroundings</xsl:when>
+                    <xsl:when test="$code='health'">Body</xsl:when>
+                    <xsl:when test="$code='imm'">New Members</xsl:when>
+                    <xsl:when test="$code='mil'">Protection of Group</xsl:when>
+                    <xsl:when test="$code='pa'">Leader Ideas</xsl:when>
+                    <xsl:when test="$code='soc'">Behavior</xsl:when>
+                    <xsl:when test="$code='gov'">Leader Behavior</xsl:when>
+                    
+                    <!-- type -->
+                    <xsl:when test="$code='d'">Ingroup</xsl:when>
+                    <xsl:when test="$code='f'">Outgroup</xsl:when>
+                    
+                    <!-- unchanged -->
+                    <xsl:when test="$code='negative'">Negative</xsl:when>
+                    <xsl:when test="$code='positive'">Positive</xsl:when>
+                    <xsl:when test="$code='neutral'">Neutral</xsl:when>
+                    <xsl:when test="$code='past'">Past</xsl:when>
+                    <xsl:when test="$code='present'">Present</xsl:when>
+                    <xsl:when test="$code='future'">Future</xsl:when>
+                    
+                    <xsl:otherwise>
+                        <xsl:value-of select="$code"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
             
+            <!-- ================= POLITICAL MODE ================= -->
             <xsl:otherwise>
-                <xsl:value-of select="$code"/>
+                <xsl:choose>
+                    <xsl:when test="$code='eco'">Economics</xsl:when>
+                    <xsl:when test="$code='crime'">Crime</xsl:when>
+                    <xsl:when test="$code='dip'">Foreign Affairs</xsl:when>
+                    <xsl:when test="$code='env'">Environment</xsl:when>
+                    <xsl:when test="$code='health'">Health</xsl:when>
+                    <xsl:when test="$code='imm'">Immigration</xsl:when>
+                    <xsl:when test="$code='mil'">Military</xsl:when>
+                    <xsl:when test="$code='pa'">Party Agenda</xsl:when>
+                    <xsl:when test="$code='soc'">Social Issues</xsl:when>
+                    <xsl:when test="$code='gov'">Government</xsl:when>
+                    
+                    <xsl:when test="$code='d'">Domestic</xsl:when>
+                    <xsl:when test="$code='f'">Foreign</xsl:when>
+                    <xsl:when test="$code='negative'">Negative</xsl:when>
+                    <xsl:when test="$code='positive'">Positive</xsl:when>
+                    <xsl:when test="$code='neutral'">Neutral</xsl:when>
+                    <xsl:when test="$code='past'">Past</xsl:when>
+                    <xsl:when test="$code='present'">Present</xsl:when>
+                    <xsl:when test="$code='future'">Future</xsl:when>
+                    
+                    <xsl:otherwise>
+                        <xsl:value-of select="$code"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
+            
         </xsl:choose>
     </xsl:function>
     
@@ -239,6 +279,20 @@
                     border-radius: 4px;
                     }
                     
+                    #modeToggle {
+                    position: absolute;
+                    top: 65px;
+                    right: 20px;
+                    z-index: 20;
+                    }
+                    
+                    #modeToggle button {
+                    width: 180px;
+                    height: 36px;
+                    font-weight: bold;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    }
                     
                 </style>
                
@@ -395,6 +449,20 @@
                     }
                     
                     
+                    function toggleMode() {
+                    const url = new URL(window.location.href);
+                    const mode = url.searchParams.get("uiMode");
+                    
+                    if (mode === "anthro") {
+                    url.searchParams.set("uiMode", "political");
+                    } else {
+                    url.searchParams.set("uiMode", "anthro");
+                    }
+                    
+                    window.location.href = url.toString();
+                    }
+                    
+                    
                 </script>
                 
                 
@@ -410,6 +478,11 @@
                     <a href="analysis.xhtml">Analysis</a>
                     <a href="conclusion.xhtml">Conclusion</a>
                 </div>
+                <div id="modeToggle">
+                    <button onclick="toggleMode()">Anthro Mode</button>
+                </div>
+                
+                
                 
            <div id="layoutGrid">
                     

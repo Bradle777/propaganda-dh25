@@ -181,6 +181,20 @@
                     border-radius: 4px;
                     }
                     
+                    #modeToggle {
+                    position: absolute;
+                    top: 65px;
+                    right: 20px;
+                    z-index: 20;
+                    }
+                    
+                    #modeToggle button {
+                    width: 180px;
+                    height: 36px;
+                    font-weight: bold;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    }
                     
                 </style>
       <script>
@@ -336,6 +350,20 @@
                     }
                     
                     
+                    function toggleMode() {
+                    const url = new URL(window.location.href);
+                    const mode = url.searchParams.get("uiMode");
+                    
+                    if (mode === "anthro") {
+                    url.searchParams.set("uiMode", "political");
+                    } else {
+                    url.searchParams.set("uiMode", "anthro");
+                    }
+                    
+                    window.location.href = url.toString();
+                    }
+                    
+                    
                 </script>
    </head>
    <body>
@@ -345,6 +373,9 @@
          <a href="state_of_the_unions.xhtml">Texts</a>
          <a href="analysis.xhtml">Analysis</a>
          <a href="conclusion.xhtml">Conclusion</a>
+      </div>
+      <div id="modeToggle">
+         <button onclick="toggleMode()">Anthro Mode</button>
       </div>
       <div id="layoutGrid">
          <div id="statsMenu">
