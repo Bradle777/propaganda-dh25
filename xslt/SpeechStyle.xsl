@@ -482,116 +482,141 @@
                  
                         <div class="stat-block" data-stat="eco" style="display:none;">
                             <h3>Economics</h3>
-                            <p><b>Occurrences:</b> 12</p>
-                            <p><b>Text units:</b> 503.6</p>
+                            <p><b>Occurrences:</b> 9</p>
+                            <p><b>Text units:</b> 6234.8</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>domestic (10)</li>
-                                <li>positive connotation (8)</li>
-                                <li>present moment (6)</li>
+                                <li>future (6)</li>
+                                <li>neutral connotation (6)</li>
+                                <li>domestic (8)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="health" style="display:none;">
                             <h3>Health</h3>
-                            <p><b>Occurrences:</b> 11</p>
-                            <p><b>Text units:</b> 612.4</p>
+                            <p><b>Occurrences:</b> 5</p>
+                            <p><b>Text units:</b> 3614.9</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>domestic (11)</li>
-                                <li>present moment (7)</li>
-                                <li>neutral connotation (6)</li>
+                                <li>future (3)</li>
+                                <li>neutral connotation (4)</li>
+                                <li>domestic (5)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="crime" style="display:none;">
                             <h3>Crime</h3>
-                            <p><b>Occurrences:</b> 8</p>
-                            <p><b>Text units:</b> 401.9</p>
+                            <p><b>Occurrences:</b> 1</p>
+                            <p><b>Text units:</b> 742.6</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>domestic (8)</li>
-                                <li>present moment (4)</li>
-                                <li>positive connotation (3)</li>
+                                <li>future (1)</li>
+                                <li>positive connotation (1)</li>
+                                <li>domestic (1)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="env" style="display:none;">
                             <h3>Environment</h3>
                             <p><b>Occurrences:</b> 1</p>
-                            <p><b>Text units:</b> 64.2</p>
+                            <p><b>Text units:</b> 912.3</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
+                                <li>future (1)</li>
+                                <li>neutral connotation (1)</li>
                                 <li>domestic (1)</li>
-                                <li>positive connotation (1)</li>
-                                <li>past (1)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="soc" style="display:none;">
                             <h3>Social Issues</h3>
-                            <p><b>Occurrences:</b> 14</p>
-                            <p><b>Text units:</b> 731.8</p>
+                            <p><b>Occurrences:</b> 12</p>
+                            <p><b>Text units:</b> 8917.5</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>domestic (14)</li>
-                                <li>neutral connotation (9)</li>
-                                <li>present moment (6)</li>
+                                <li>future (6)</li>
+                                <li>positive connotation (6)</li>
+                                <li>present moment (5)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="imm" style="display:none;">
                             <h3>Immigration</h3>
-                            <p><b>Occurrences:</b> 0</p>
-                            <p><b>Text units:</b> 0</p>
+                            <p><b>Occurrences:</b> 1</p>
+                            <p><b>Text units:</b> 823.4</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>—</li>
+                                <li>present moment (1)</li>
+                                <li>neutral connotation (1)</li>
+                                <li>domestic (1)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="mil" style="display:none;">
                             <h3>Military</h3>
-                            <p><b>Occurrences:</b> 7</p>
-                            <p><b>Text units:</b> 348.5</p>
+                            <p><b>Occurrences:</b> 9</p>
+                            <p><b>Text units:</b> 10136.2</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>foreign (4)</li>
-                                <li>positive connotation (4)</li>
-                                <li>present moment (3)</li>
+                                <li>foreign (6)</li>
+                                <li>present moment (5)</li>
+                                <li>positive connotation (6)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="dip" style="display:none;">
                             <h3>Foreign Affairs</h3>
-                            <p><b>Occurrences:</b> 7</p>
-                            <p><b>Text units:</b> 356.1</p>
+                            <p><b>Occurrences:</b> 8</p>
+                            <p><b>Text units:</b> 9634.7</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>foreign (7)</li>
-                                <li>positive connotation (6)</li>
-                                <li>past (3)</li>
+                                <li>foreign (8)</li>
+                                <li>present moment (6)</li>
+                                <li>positive connotation (7)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="pa" style="display:none;">
                             <h3>Party Agenda</h3>
-                            <p><b>Occurrences:</b> 14</p>
-                            <p><b>Text units:</b> 518.7</p>
+                            <p><b>Occurrences:</b> 5</p>
+                            <p><b>Text units:</b> 4018.6</p>
                             <p><b>Co-occurs most with:</b></p>
                             <ul>
-                                <li>domestic (14)</li>
-                                <li>positive connotation (7)</li>
-                                <li>future (6)</li>
+                                <li>present moment (3)</li>
+                                <li>positive connotation (4)</li>
+                                <li>domestic (5)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="stat-block" data-stat="gov" style="display:none;">
+                            <h3>Government</h3>
+                            <p><b>Occurrences:</b> 1</p>
+                            <p><b>Text units:</b> 902.7</p>
+                            <p><b>Co-occurs most with:</b></p>
+                            <ul>
+                                <li>future (1)</li>
+                                <li>neutral connotation (1)</li>
+                                <li>domestic (1)</li>
                             </ul>
                         </div>
                         
                         <div class="stat-block" data-stat="ref" style="display:none;">
                             <h3>Reference</h3>
-                            <p><b>Occurrences:</b> 7</p>
-                            <p><b>Text units:</b> 201.3</p>
-                            <p><b>Notes:</b> Central American conflicts, Cold War interventions, U.S.–Soviet relations, Gulf War context.</p>
+                            <p><b>Occurrences:</b> 9</p>
+                            <p><b>Text units:</b> 1543.2</p>
+                            <p><b>Notes:</b> September11, Iraq, Afghanistan, AlQaeda</p>
                         </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                     </div>
                 </div>

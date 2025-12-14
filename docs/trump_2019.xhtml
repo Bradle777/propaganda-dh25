@@ -181,6 +181,35 @@
                     border-radius: 4px;
                     }
                     
+                    #modeToggle {
+                    position: absolute;
+                    top: 65px;
+                    right: 20px;
+                    z-index: 20;
+                    }
+                    
+                    #modeToggle button {
+                    width: 180px;
+                    height: 36px;
+                    font-weight: bold;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    }
+                    
+                    span.label.anthro {
+                    display: none;
+                    }
+                    
+                    
+                    body.anthro-mode span.label.political {
+                    display: none;
+                    }
+                    
+                    
+                    body.anthro-mode span.label.anthro {
+                    display: inline;
+                    }
+                    
                     
                 </style>
       <script>
@@ -336,6 +365,12 @@
                     }
                     
                     
+                    function toggleMode() {
+                    document.body.classList.toggle("anthro-mode");
+                    }
+                    
+                    
+                    
                 </script>
    </head>
    <body>
@@ -346,33 +381,60 @@
          <a href="analysis.xhtml">Analysis</a>
          <a href="conclusion.xhtml">Conclusion</a>
       </div>
+      <div id="modeToggle">
+         <button onclick="toggleMode()">Anthro Mode</button>
+      </div>
       <div id="layoutGrid">
          <div id="statsMenu">
             <h3>Statistics</h3>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('crime')">Crime</div>
+                 onclick="toggleStat('crime')">
+               <span class="label political">Crime</span>
+               <span class="label anthro">Norm Violation</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('dip')">Foreign Affairs</div>
+                 onclick="toggleStat('dip')">
+               <span class="label political">Foreign Affairs</span>
+               <span class="label anthro">Intergroup Relations</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('eco')">Economics</div>
+                 onclick="toggleStat('eco')">
+               <span class="label political">Economics</span>
+               <span class="label anthro">Subsistence</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('health')">Health</div>
+                 onclick="toggleStat('health')">
+               <span class="label political">Health</span>
+               <span class="label anthro">Body</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('imm')">Immigration</div>
+                 onclick="toggleStat('imm')">
+               <span class="label political">Immigration</span>
+               <span class="label anthro">New Members</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('mil')">Military</div>
+                 onclick="toggleStat('mil')">
+               <span class="label political">Military</span>
+               <span class="label anthro">Protection of Group</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('pa')">Party Agenda</div>
+                 onclick="toggleStat('pa')">
+               <span class="label political">Party Agenda</span>
+               <span class="label anthro">Leader Ideas</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('soc')">Social Issues</div>
+                 onclick="toggleStat('soc')">
+               <span class="label political">Social Issues</span>
+               <span class="label anthro">Behavior</span>
+            </div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('ref')">
@@ -382,146 +444,157 @@
                <div class="stat-block" data-stat="eco" style="display:none;">
                   <h3>Economics</h3>
                   <p>
-                     <b>Occurrences:</b> 67</p>
+                     <b>Occurrences:</b> 12</p>
                   <p>
-                     <b>Text units:</b> 213.91</p>
+                     <b>Text units:</b> 9014.6</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (64)</li>
-                     <li>positive connotation (54)</li>
-                     <li>present moment (54)</li>
+                     <li>present moment (7)</li>
+                     <li>positive connotation (8)</li>
+                     <li>domestic (7)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="health" style="display:none;">
                   <h3>Health</h3>
                   <p>
-                     <b>Occurrences:</b> 36</p>
+                     <b>Occurrences:</b> 8</p>
                   <p>
-                     <b>Text units:</b> 106.12</p>
+                     <b>Text units:</b> 5668.3</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (36)</li>
-                     <li>present moment (33)</li>
-                     <li>positive connotation (32)</li>
+                     <li>future (5)</li>
+                     <li>positive connotation (5)</li>
+                     <li>present moment (3)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="crime" style="display:none;">
                   <h3>Crime</h3>
                   <p>
-                     <b>Occurrences:</b> 10</p>
+                     <b>Occurrences:</b> 4</p>
                   <p>
-                     <b>Text units:</b> 246.27</p>
+                     <b>Text units:</b> 2894.2</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (10)</li>
-                     <li>negative connotation (10)</li>
-                     <li>present moment (9)</li>
+                     <li>present moment (4)</li>
+                     <li>positive connotation (4)</li>
+                     <li>domestic (4)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="env" style="display:none;">
                   <h3>Environment</h3>
                   <p>
-                     <b>Occurrences:</b> 7</p>
+                     <b>Occurrences:</b> 0</p>
                   <p>
-                     <b>Text units:</b> 207.82</p>
+                     <b>Text units:</b> 0</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (7)</li>
-                     <li>positive connotation (7)</li>
-                     <li>future (4)</li>
+                     <li>—</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="soc" style="display:none;">
                   <h3>Social Issues</h3>
                   <p>
-                     <b>Occurrences:</b> 12</p>
+                     <b>Occurrences:</b> 7</p>
                   <p>
-                     <b>Text units:</b> 231.48</p>
+                     <b>Text units:</b> 6423.9</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (12)</li>
-                     <li>present moment (10)</li>
-                     <li>positive connotation (7)</li>
+                     <li>future (4)</li>
+                     <li>positive connotation (3)</li>
+                     <li>present moment (3)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="imm" style="display:none;">
                   <h3>Immigration</h3>
                   <p>
-                     <b>Occurrences:</b> 2</p>
+                     <b>Occurrences:</b> 10</p>
                   <p>
-                     <b>Text units:</b> 22.58</p>
+                     <b>Text units:</b> 9816.7</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>positive connotation (2)</li>
-                     <li>present moment (2)</li>
-                     <li>domestic (1)</li>
+                     <li>negative connotation (6)</li>
+                     <li>present moment (6)</li>
+                     <li>future (3)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="mil" style="display:none;">
                   <h3>Military</h3>
                   <p>
-                     <b>Occurrences:</b> 3</p>
+                     <b>Occurrences:</b> 8</p>
                   <p>
-                     <b>Text units:</b> 7.58</p>
+                     <b>Text units:</b> 6249.5</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>foreign (2)</li>
-                     <li>past (2)</li>
-                     <li>positive connotation (2)</li>
+                     <li>foreign (6)</li>
+                     <li>future (4)</li>
+                     <li>positive connotation (5)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="dip" style="display:none;">
                   <h3>Foreign Affairs</h3>
                   <p>
-                     <b>Occurrences:</b> 8</p>
+                     <b>Occurrences:</b> 9</p>
                   <p>
-                     <b>Text units:</b> 25.00</p>
+                     <b>Text units:</b> 8126.4</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>foreign (8)</li>
-                     <li>present moment (8)</li>
-                     <li>positive connotation (7)</li>
+                     <li>foreign (9)</li>
+                     <li>neutral connotation (4)</li>
+                     <li>future (4)</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="pa" style="display:none;">
                   <h3>Party Agenda</h3>
                   <p>
-                     <b>Occurrences:</b> 3</p>
+                     <b>Occurrences:</b> 9</p>
                   <p>
-                     <b>Text units:</b> 8.85</p>
+                     <b>Text units:</b> 7321.8</p>
                   <p>
                      <b>Co-occurs most with:</b>
                   </p>
                   <ul>
-                     <li>domestic (3)</li>
-                     <li>positive connotation (3)</li>
-                     <li>present moment (3)</li>
+                     <li>present moment (5)</li>
+                     <li>future (3)</li>
+                     <li>neutral connotation (5)</li>
+                  </ul>
+               </div>
+               <div class="stat-block" data-stat="gov" style="display:none;">
+                  <h3>Government</h3>
+                  <p>
+                     <b>Occurrences:</b> 0</p>
+                  <p>
+                     <b>Text units:</b> 0</p>
+                  <p>
+                     <b>Co-occurs most with:</b>
+                  </p>
+                  <ul>
+                     <li>—</li>
                   </ul>
                </div>
                <div class="stat-block" data-stat="ref" style="display:none;">
                   <h3>Reference</h3>
                   <p>
-                     <b>Occurrences:</b> 42 </p>
+                     <b>Occurrences:</b> 11</p>
                   <p>
-                     <b>Text units:</b> 849.7 </p>
+                     <b>Text units:</b> 3187.6</p>
                   <p>
-                     <b>Notes:</b> Economic and Military anecdotes, January 6th attacks.</p>
+                     <b>Notes:</b> DDay, Apollo11, MS13, Holocaust</p>
                </div>
             </div>
          </div>
@@ -1150,42 +1223,66 @@
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="crime"
-                         data-cat="value"/>Crime</label>
+                         data-cat="value"/>
+                  <span class="label political">Crime</span>
+                  <span class="label anthro">Norm Violation</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="dip"
-                         data-cat="value"/>Foreign Affairs</label>
+                         data-cat="value"/>
+                  <span class="label political">Foreign Affairs</span>
+                  <span class="label anthro">Intergroup Relations</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="eco"
-                         data-cat="value"/>Economics</label>
+                         data-cat="value"/>
+                  <span class="label political">Economics</span>
+                  <span class="label anthro">Subsistence</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="health"
-                         data-cat="value"/>Health</label>
+                         data-cat="value"/>
+                  <span class="label political">Health</span>
+                  <span class="label anthro">Body</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="imm"
-                         data-cat="value"/>Immigration</label>
+                         data-cat="value"/>
+                  <span class="label political">Immigration</span>
+                  <span class="label anthro">New Members</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="mil"
-                         data-cat="value"/>Military</label>
+                         data-cat="value"/>
+                  <span class="label political">Military</span>
+                  <span class="label anthro">Protection of Group</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="pa"
-                         data-cat="value"/>Party Agenda</label>
+                         data-cat="value"/>
+                  <span class="label political">Party Agenda</span>
+                  <span class="label anthro">Leader Ideas</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="soc"
-                         data-cat="value"/>Social Issues</label>
+                         data-cat="value"/>
+                  <span class="label political">Social Issues</span>
+                  <span class="label anthro">Behavior</span>
+               </label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
