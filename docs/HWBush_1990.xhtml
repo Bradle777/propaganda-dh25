@@ -196,6 +196,11 @@
                     cursor: pointer;
                     }
                     
+                    .label.anthro { display: none; }
+                    .anthro-mode .label.political { display: none; }
+                    .anthro-mode .label.anthro { display: inline; }
+                    
+                    
                 </style>
       <script>
                     function toggle(attr) {
@@ -351,17 +356,9 @@
                     
                     
                     function toggleMode() {
-                    const url = new URL(window.location.href);
-                    const mode = url.searchParams.get("uiMode");
-                    
-                    if (mode === "anthro") {
-                    url.searchParams.set("uiMode", "political");
-                    } else {
-                    url.searchParams.set("uiMode", "anthro");
+                    document.body.classList.toggle("anthro-mode");
                     }
                     
-                    window.location.href = url.toString();
-                    }
                     
                     
                 </script>
@@ -382,25 +379,25 @@
             <h3>Statistics</h3>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('dip')">Foreign Affairs</div>
+                 onclick="toggleStat('dip')">Foreign Affairs Intergroup Relations</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('eco')">Economics</div>
+                 onclick="toggleStat('eco')">Economics Subsistence</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('env')">Environment</div>
+                 onclick="toggleStat('env')">Environment Surroundings</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('health')">Health</div>
+                 onclick="toggleStat('health')">Health Body</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('mil')">Military</div>
+                 onclick="toggleStat('mil')">Military Protection of Group</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('pa')">Party Agenda</div>
+                 onclick="toggleStat('pa')">Party Agenda Leader Ideas</div>
             <div class="toggle-btn"
                  style="background:#333;"
-                 onclick="toggleStat('soc')">Social Issues</div>
+                 onclick="toggleStat('soc')">Social Issues Behavior</div>
             <div class="toggle-btn"
                  style="background:#333;"
                  onclick="toggleStat('ref')">
@@ -971,37 +968,37 @@
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="dip"
-                         data-cat="value"/>Foreign Affairs</label>
+                         data-cat="value"/>Foreign Affairs Intergroup Relations</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="eco"
-                         data-cat="value"/>Economics</label>
+                         data-cat="value"/>Economics Subsistence</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="env"
-                         data-cat="value"/>Environment</label>
+                         data-cat="value"/>Environment Surroundings</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="health"
-                         data-cat="value"/>Health</label>
+                         data-cat="value"/>Health Body</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="mil"
-                         data-cat="value"/>Military</label>
+                         data-cat="value"/>Military Protection of Group</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="pa"
-                         data-cat="value"/>Party Agenda</label>
+                         data-cat="value"/>Party Agenda Leader Ideas</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
                          value="soc"
-                         data-cat="value"/>Social Issues</label>
+                         data-cat="value"/>Social Issues Behavior</label>
                <label class="check-row">
                   <input type="checkbox"
                          onclick="checkFilter()"
