@@ -5,13 +5,18 @@
         <title>Conclusion</title>
         <link rel="stylesheet" href="website1.css"/>
         <style>
-            
-body {
+
+html, body {
     margin: 0;
-    padding-top: 80px;
+    padding: 0;
     font-family: sans-serif;
 }
 
+body {
+    padding-top: 80px;
+}
+
+/* parchment background */
 body::before {
     content: "";
     position: fixed;
@@ -27,30 +32,16 @@ body::before {
     z-index: -1;
 }
 
-
-.conclusion-left,
-.conclusion-right {
-    position: absolute;
-    top: 120px;              
-    width: 30%;
-    background-color: rgba(245, 245, 245, 0.92);
-    padding: 30px;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    z-index: 1;
-    border-radius: 6px;
+/* fixed navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
-
-.conclusion-left {
-    left: 10%;
-}
-
-
-.conclusion-right {
-    right: 10%;
-}
-
+/* accordion wrapper */
 .conclusion-accordion {
     width: 80%;
     margin: 40px auto;
@@ -72,37 +63,37 @@ body::before {
     list-style: none;
 }
 
-
 .conclusion-accordion summary::-webkit-details-marker {
     display: none;
 }
-
 
 .conclusion-accordion summary:hover {
     background-color: rgba(50, 50, 50, 0.9);
 }
 
+/* TWO-COLUMN LAYOUT — NORMAL FLOW */
 .conclusion-content {
-    position: relative;
-    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    margin-top: 30px;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
+/* left / right panels */
+.conclusion-left,
+.conclusion-right {
+    background-color: rgba(245, 245, 245, 0.92);
+    padding: 30px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    border-radius: 6px;
 }
-
-
 
         </style>
     </head>
     <body>
         
         <div class="navbar">
-            <!-- Creates nav bar on top -->
             <a href="homepage.xhtml">Home</a>
             <a href="methods.xhtml">Methods</a>
             <a href="state_of_the_unions.xhtml">Texts</a>
@@ -110,7 +101,6 @@ body::before {
             <a href="conclusion.xhtml">Conclusion</a>
         </div>
         
-        <h1>Forming Conclusions</h1>
         <div class="conclusion-accordion">
             
             <details>
@@ -189,7 +179,6 @@ body::before {
             </details>
             
         </div>
-        
         
     </body>
 </html>
