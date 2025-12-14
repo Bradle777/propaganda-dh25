@@ -6,38 +6,170 @@
         <link rel="stylesheet" href="website1.css"/>
         <style>
             
-             body { background: linear-gradient(to bottom, 
-                                #7ec8d5,    
-                                #a1d7e5,    
-                                #8fbce0,   
-                                #b2e3d9);   
-    background-size: 100% 600%; font-family: 'Georgia', serif; color: black; margin: 0; padding: 0; height: 100vh; 
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
- 
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.35;
+    z-index: -1;
+}
+
+
+.conclusion-left,
+.conclusion-right {
+    position: absolute;
+    top: 120px;              
+    width: 30%;
+    background-color: rgba(245, 245, 245, 0.92);
+    padding: 30px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+
+.conclusion-left {
+    left: 10%;
+}
+
+
+.conclusion-right {
+    right: 10%;
+}
+
+.conclusion-accordion {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.conclusion-accordion details {
+    margin-bottom: 25px;
+}
+
+.conclusion-accordion summary {
+    cursor: pointer;
+    background-color: rgba(30, 30, 30, 0.85);
+    color: white;
+    padding: 18px 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    list-style: none;
+}
+
+
+.conclusion-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.conclusion-accordion summary:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.conclusion-content {
+    position: relative;
+    margin-top: 25px;
+}
+
+
         </style>
     </head>
     <body>
         
-        <div class="navbar">
-            <!-- Creates nav bar on top -->
-            <a href="homepage.xhtml">Home</a>
-            <a href="methods.xhtml">Methods</a>
-            <a href="state_of_the_unions.xhtml">Texts</a>
-            <a href="analysis.xhtml">Analysis</a>
-            <a href="conclusion.xhtml">Conclusion</a>
+        <div class="conclusion-accordion">
+            
+            <details>
+                <summary>Forming Conclusions</summary>
+                <div class="conclusion-content">
+                    <div class="conclusion-left">
+                        <p>
+                            Long-winded logic that nobody will read.
+                        </p>
+                    </div>
+                    
+                    <div class="conclusion-right">
+                        <p>
+                            Short diagram/example explanation.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                        
+                        <p>
+                            A second one.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                    </div>
+                </div>
+            </details>
+            
+            <details>
+                <summary>Comparative Patterns</summary>
+                <div class="conclusion-content">
+                    <div class="conclusion-left">
+                        <p>
+                            Placeholder analytical discussion of comparative results.
+                        </p>
+                    </div>
+                    
+                    <div class="conclusion-right">
+                        <p>
+                            Diagram explanation placeholder.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                        
+                        <p>
+                            Second diagram explanation.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                    </div>
+                </div>
+            </details>
+            
+            <details>
+                <summary>Methodological Implications</summary>
+                <div class="conclusion-content">
+                    <div class="conclusion-left">
+                        <p>
+                            Placeholder discussion of methodological consequences.
+                        </p>
+                    </div>
+                    
+                    <div class="conclusion-right">
+                        <p>
+                            Example or schematic description.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                        
+                        <p>
+                            Additional example.
+                        </p>
+                        
+                        <br/><br/><br/><br/><br/>
+                    </div>
+                </div>
+            </details>
+            
         </div>
         
-        <h1>Conclusion</h1>
-        <h2>Research Questions</h2>
-        <div>
-            <p>Q: How has the discourse on different topics evolved with context to importance and how have they bbeen prioritized by different parties and presidents?</p>
-            <p>A: </p>
-                <p>Q: How have different presidents conveyed messages and how has congress responded?</p>
-            <p>A: </p>
-                    <p>Q: Does speech length relate to the address of many issues or an in-depth focus on one issue?</p>
-            <p>A: </p>
-                        <p>Q: How has the amount of time spent focused on a hot topic changed over the years?</p> 
-            <p>A: </p>
-        </div>
+        
     </body>
 </html>
