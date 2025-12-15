@@ -3,131 +3,127 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Conclusion</title>
-        <link rel="stylesheet" href="website1.css"/>
+        <link rel="stylesheet" href="website1.css" />
         <style>
-
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: "Times New Roman", Times, serif;
-}
-
-body {
-    padding-top: 80px;
-}
-
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.35;
-    z-index: -1;
-}
-
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-
-.conclusion-accordion {
-    width: 80%;
-    margin: 40px auto;
-}
-
-.conclusion-accordion details {
-    margin-bottom: 35px;
-}
-
-.conclusion-accordion summary {
-    cursor: pointer;
-    background-color: rgba(30, 30, 30, 0.85);
-    color: white;
-    padding: 18px 24px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 6px;
-    list-style: none;
-}
-
-.conclusion-accordion summary::-webkit-details-marker {
-    display: none;
-}
-
-.conclusion-accordion summary:hover {
-    background-color: rgba(50, 50, 50, 0.9);
-}
-
-
-.conclusion-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
-    margin-top: 30px;
-}
-
-
-.conclusion-left,
-.conclusion-right {
-    background-color: rgba(245, 245, 245, 0.92);
-    padding: 30px;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    border-radius: 6px;
-}
-
-
-.conclusion-accordion details:nth-of-type(1) summary {
-    background: linear-gradient(
-        to right,
-        #1f3a5f 0%,     
-        #1f3a5f 50%,
-        #6b1f1f 50%,    
-        #6b1f1f 100%
-    );
-}
-
-
-.conclusion-accordion details:nth-of-type(2) summary {
-    background-color: #6b4f2a;
-}
-
-
-.conclusion-accordion details:nth-of-type(3) summary {
-    background-color: #bfc2c7; 
-    color: #222;              
-}
-
-h2 {
-    font-size: 1.1rem;
-    font-weight: normal;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-
-        </style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: "Times New Roman", Times, serif;
+            }
+            
+            body {
+                padding-top: 80px;
+            }
+            
+            
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                opacity: 0.35;
+                z-index: -1;
+            }
+            
+            
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 10;
+            }
+            
+            
+            .conclusion-accordion {
+                width: 80%;
+                margin: 40px auto;
+            }
+            
+            .conclusion-accordion details {
+                margin-bottom: 35px;
+            }
+            
+            .conclusion-accordion summary {
+                cursor: pointer;
+                background-color: rgba(30, 30, 30, 0.85);
+                color: white;
+                padding: 18px 24px;
+                font-size: 1.4rem;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 6px;
+                list-style: none;
+            }
+            
+            .conclusion-accordion summary::-webkit-details-marker {
+                display: none;
+            }
+            
+            .conclusion-accordion summary:hover {
+                background-color: rgba(50, 50, 50, 0.9);
+            }
+            
+            
+            .conclusion-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 5%;
+                margin-top: 30px;
+            }
+            
+            
+            .conclusion-left,
+            .conclusion-right {
+                background-color: rgba(245, 245, 245, 0.92);
+                padding: 30px;
+                font-size: 1.1rem;
+                line-height: 1.7;
+                border-radius: 6px;
+            }
+            
+            
+            .conclusion-accordion details:nth-of-type(1) summary {
+                background: linear-gradient(
+            to right, 
+            #1f3a5f 0%, 
+            #1f3a5f 50%, 
+            #6b1f1f 50%, 
+            #6b1f1f 100%
+            );
+            }
+            
+            
+            .conclusion-accordion details:nth-of-type(2) summary {
+                background-color: #6b4f2a;
+            }
+            
+            
+            .conclusion-accordion details:nth-of-type(3) summary {
+                background-color: #bfc2c7;
+                color: #222;
+            }
+            
+            h2 {
+                font-size: 1.1rem;
+                font-weight: normal;
+                line-height: 1.5;
+            }
+            
+            h3 {
+                font-size: 1.2rem;
+                font-weight: bold;
+                line-height: 1.5;
+            }</style>
     </head>
     <body>
-        
         <div class="navbar">
             <a href="homepage.xhtml">Home</a>
             <a href="methods.xhtml">Methods</a>
@@ -135,291 +131,382 @@ h3 {
             <a href="analysis.xhtml">Analysis</a>
             <a href="conclusion.xhtml">Conclusion</a>
         </div>
-        
         <h1>Forming Conclusions</h1>
-        
-        <h3>The core of this project is to create a tool with which one can generate novel conclusions.<br/>
-            <br/>
-        While we have presented statistical overlap between attributes in the Analysis section, those patterns<br/> serve more as a standard
-        to identify consistent patterns across the 43-year corpus.<br/>
+        <h3>The core of this project is to create a tool with which one can generate novel conclusions.<br />
+            <br /> While we have presented statistical overlap between attributes in the Analysis
+            section, those patterns<br /> serve more as a standard to identify consistent patterns
+            across the 43-year corpus.<br />
         </h3>
-        <h3>
-            Below, we describe three major lenses through which to interpret rhetoric patterns and form conclusions.
-        </h3>
-        
+        <h3> Below, we describe three major lenses through which to interpret rhetoric patterns and
+            form conclusions. </h3>
         <div class="conclusion-accordion">
-            
+
             <details>
                 <summary>Political Relativist View</summary>
                 <div class="conclusion-content">
                     <div class="conclusion-left">
-                        <p>
-                            Follows the logic that political propaganda is mostly in response to the contemporary political climate.
+                        <p> When adopting a political relativist view to form one’s own conclusions,
+                            the primary advantage is practicality. This lens aligns cleanly with the
+                            site’s statistical structure, particularly the attribute counts and
+                            co-occurrence menus in the Texts section. Because political framing
+                            tends to track observable conditions, such as economic instability or
+                            wartime transitions, its signals are relatively easy to quantify and
+                            compare. A user working across many speeches can quickly identify
+                            patterns in emphasis, optimism, or urgency without needing to interpret
+                            each instance in isolation. In this sense, political messaging functions
+                            as a readable surface layer, one that can be sampled broadly and still
+                            yield coherent trends. 
+                            </p>
+                            
+                            <p>This statistical accessibility becomes
+                            increasingly important as the number of speeches grows. The political
+                            view scales well because it relies on frequency, distribution, and
+                            correlation rather than fine-grained interpretation. When applied to
+                            large samples, shifts in political rhetoric become more reliable, not
+                            because individual speeches are perfectly representative, but because
+                            aggregate patterns smooth out rhetorical noise. For users attempting to
+                            draw conclusions from decades of addresses, this makes the political
+                            relativist approach not only faster, but often more defensible. The
+                            conclusions it supports are grounded in visible changes across time
+                            rather than in the internal logic of any single speech.
+                            </p>
+                        
+                            <p>That said, the
+                            same features that make this view easy to apply also define its limits.
+                            Political context can explain when rhetoric changes, but not always how
+                            leaders choose to frame those changes. Even when relying on statistical
+                            summaries, users will still encounter moments where similar conditions
+                            produce different rhetorical strategies. At that point, the political
+                            view describes the shift without fully accounting for the persuasive
+                            mechanics behind it. Used on its own, it encourages conclusions that are
+                            stable and broadly supported, but sometimes shallow. Its strength lies
+                            in scale and comparability, not in capturing the deeper constraints that
+                            shape how leaders balance optimism, criticism, responsibility, and blame
+                            within the rhetoric itself. 
                         </p>
                     </div>
-                    
+
                     <div class="conclusion-right">
                         <p>
-                            <b>Economic Messaging in the Early-to-Mid 2000s</b>                        </p>
+                            <b>Economic Messaging in the Early-to-Mid 2000s</b>
+                        </p>
                         <div class="diagram-slot">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="320" role="img" aria-label="Economic rhetoric combinations over time">
-                                
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320"
+                                width="100%" height="320" role="img"
+                                aria-label="Economic rhetoric combinations over time">
                                 <!-- background panel -->
-                                <rect x="0" y="0" width="600" height="320" fill="rgba(245,245,245,0.0)"/>
-                                
+                                <rect x="0" y="0" width="600" height="320"
+                                    fill="rgba(245,245,245,0.0)"/>
                                 <!-- frame -->
-                                <rect x="50" y="20" width="535" height="250" fill="none" stroke="#333" stroke-width="1"/>
-                                
+                                <rect x="50" y="20" width="535" height="250" fill="none"
+                                    stroke="#333" stroke-width="1"/>
                                 <!-- era shading  -->
-                                <rect x="50" y="20" width="120" height="250" fill="rgba(31,58,95,0.08)"/>
-                                <rect x="170" y="20" width="120" height="250" fill="rgba(107,31,31,0.06)"/>
-                                
+                                <rect x="50" y="20" width="120" height="250"
+                                    fill="rgba(31,58,95,0.08)"/>
+                                <rect x="170" y="20" width="120" height="250"
+                                    fill="rgba(107,31,31,0.06)"/>
                                 <!-- y gridlines  -->
                                 <g stroke="rgba(0,0,0,0.15)" stroke-width="1">
                                     <line x1="50" y1="270" x2="585" y2="270"/>
                                     <line x1="50" y1="187" x2="585" y2="187"/>
                                     <line x1="50" y1="103" x2="585" y2="103"/>
-                                    <line x1="50" y1="20"  x2="585" y2="20"/>
+                                    <line x1="50" y1="20" x2="585" y2="20"/>
                                 </g>
-                                
                                 <!-- y labels -->
-                                <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
                                     <text x="10" y="25">Freq</text>
                                     <text x="18" y="273">0</text>
                                     <text x="18" y="190">3</text>
                                     <text x="18" y="106">6</text>
-                                    <text x="18" y="25"></text>
+                                    <text x="18" y="25"/>
                                 </g>
-                                
                                 <!-- x labels -->
-                                <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
-                                    <text x="50"  y="305">2002</text>
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
+                                    <text x="50" y="305">2002</text>
                                     <text x="157" y="305">2005</text>
                                     <text x="264" y="305">2009</text>
                                     <text x="371" y="305">2010</text>
                                     <text x="478" y="305">2012</text>
                                     <text x="585" y="305">2013</text>
                                 </g>
-                                
-                                
                                 <!-- eco + neg + past/present -->
                                 <path id="eco-neg"
                                     d="M 50 270 L 157 270 L 264 48 L 371 187 L 478 215 L 585 243"
-                                    fill="none" stroke="#6b4f2a" stroke-width="3" stroke-linecap="round"/>
-                                
+                                    fill="none" stroke="#6b4f2a" stroke-width="3"
+                                    stroke-linecap="round"/>
                                 <!-- eco + pos + future/present -->
                                 <path id="eco-pos"
                                     d="M 50 243 L 157 215 L 264 20 L 371 159 L 478 104 L 585 132"
-                                    fill="none" stroke="#1f3a5f" stroke-width="3" stroke-linecap="round"/>
-                                
+                                    fill="none" stroke="#1f3a5f" stroke-width="3"
+                                    stroke-linecap="round"/>
                                 <!-- eco + neutral + future/present -->
                                 <path id="eco-nu"
                                     d="M 50 270 L 157 215 L 264 104 L 371 132 L 478 159 L 585 159"
-                                    fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
-                                
+                                    fill="none" stroke="#555" stroke-width="3"
+                                    stroke-linecap="round"/>
                                 <!-- legend  -->
-                                <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
-                                    <rect x="360" y="28" width="220" height="55" fill="rgba(255,255,255,0.75)" stroke="rgba(0,0,0,0.2)"/>
-                                    
-                                    <line x1="370" y1="45" x2="395" y2="45" stroke="#6b4f2a" stroke-width="3"/>
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
+                                    <rect x="360" y="28" width="220" height="55"
+                                        fill="rgba(255,255,255,0.75)" stroke="rgba(0,0,0,0.2)"/>
+                                    <line x1="370" y1="45" x2="395" y2="45" stroke="#6b4f2a"
+                                        stroke-width="3"/>
                                     <text x="405" y="49">Criticism of the Past</text>
-                                    
-                                    <line x1="370" y1="62" x2="395" y2="62" stroke="#1f3a5f" stroke-width="3"/>
+                                    <line x1="370" y1="62" x2="395" y2="62" stroke="#1f3a5f"
+                                        stroke-width="3"/>
                                     <text x="405" y="66">Optimism</text>
-                                    
-                                    <line x1="370" y1="79" x2="395" y2="79" stroke="#555" stroke-width="3"/>
+                                    <line x1="370" y1="79" x2="395" y2="79" stroke="#555"
+                                        stroke-width="3"/>
                                     <text x="405" y="83">Planned Solutions</text>
                                 </g>
                             </svg>
-                            
-                        
-                        <p>
-Here, it seems obvious that economic optimism would rise after a recession. However, the Political Relativist view also reconciles the lack of economic interest before the recession. We see that political messaging can be interpreted as a gauge of contemporary climate, and thus as a predictor of the future climate.                         </p>
-                        
-                        <br/><br/>
-                        <p>
-                            <b>Social Issue Messaging in the Early-to-Mid 2000s</b>                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="320" role="img" aria-label="Social rhetoric combinations over time">
-                            
-                            <!-- background panel -->
-                            <rect x="0" y="0" width="600" height="320" fill="rgba(245,245,245,0.0)"/>
-                            
-                            <!-- frame -->
-                            <rect x="50" y="20" width="535" height="250" fill="none" stroke="#333" stroke-width="1"/>
-                            
-                            <!-- era shading  -->
-                            <rect x="50" y="20" width="120" height="250" fill="rgba(31,58,95,0.08)"/>
-                            <rect x="170" y="20" width="120" height="250" fill="rgba(107,31,31,0.06)"/>
-                            
-                            <!-- y gridlines  -->
-                            <g stroke="rgba(0,0,0,0.15)" stroke-width="1">
-                                <line x1="50" y1="270" x2="585" y2="270"/>
-                                <line x1="50" y1="198" x2="585" y2="198"/>
-                                <line x1="50" y1="127" x2="585" y2="127"/>
-                                <line x1="50" y1="55"  x2="585" y2="55"/>
-                            </g>
-                            
-                            <!-- y labels -->
-                            <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
-                                <text x="10" y="25">Freq</text>
-                                <text x="18" y="273">0</text>
-                                <text x="18" y="201">2</text>
-                                <text x="18" y="130">4</text>
-                                <text x="18" y="58">7</text>
-                            </g>
-                            
-                            <!-- x labels -->
-                            <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
-                                <text x="50"  y="305">2002</text>
-                                <text x="157" y="305">2005</text>
-                                <text x="264" y="305">2009</text>
-                                <text x="371" y="305">2010</text>
-                                <text x="478" y="305">2012</text>
-                                <text x="585" y="305">2013</text>
-                            </g>
-                            
-                           
-                            
-                            <!-- soc + neg + past/present -->
-                            <path id="soc-neg"
-                                d="M 50 163 L 157 198 L 264 233 L 371 198 L 478 233 L 585 233"
-                                fill="none" stroke="#6b4f2a" stroke-width="3" stroke-linecap="round"/>
-                            
-                            <!-- soc + pos + future/present -->
-                            <path id="soc-pos"
-                                d="M 50 198 L 157 127 L 264 91 L 371 55 L 478 109 L 585 127"
-                                fill="none" stroke="#1f3a5f" stroke-width="3" stroke-linecap="round"/>
-                            
-                            <!-- soc + neutral + future/present -->
-                            <path id="soc-nu"
-                                d="M 50 233 L 157 163 L 264 163 L 371 127 L 478 198 L 585 163"
-                                fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
-                            
-                            <!-- legend -->
-                            <g font-family="Times New Roman, Times, serif" font-size="12" fill="#222">
-                                <rect x="360" y="28" width="220" height="55" fill="rgba(255,255,255,0.75)" stroke="rgba(0,0,0,0.2)"/>
-                                
-                                <line x1="370" y1="45" x2="395" y2="45" stroke="#6b4f2a" stroke-width="3"/>
-                                <text x="405" y="49">Criticism of the Past</text>
-                                
-                                <line x1="370" y1="62" x2="395" y2="62" stroke="#1f3a5f" stroke-width="3"/>
-                                <text x="405" y="66">Optimism</text>
-                                
-                                <line x1="370" y1="79" x2="395" y2="79" stroke="#555" stroke-width="3"/>
-                                <text x="405" y="83">Planned Solutions</text>
-                            </g>
-                        </svg>
-                            <p>In less quantifiable areas like Social Issues, a purely political view yields diminishing returns. We can see some increased social optimism as the Nation moves away from the chaotic start of the 2nd Gulf War, but the correlation (and thus the model's ability for prediction) is not as strong or consistent.</p>
-                        </div> 
-                        
-                        
+
+
+                            <p> Here, it seems obvious that economic optimism would rise after a
+                                recession. However, the Political Relativist view also reconciles
+                                the lack of economic interest before the recession. We see that
+                                political messaging can be interpreted as a gauge of contemporary
+                                climate, and thus as a predictor of the future climate. </p>
+
+                            <br />
+                            <br />
+                            <p>
+                                <b>Social Issue Messaging in the Early-to-Mid 2000s</b>
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320"
+                                width="100%" height="320" role="img"
+                                aria-label="Social rhetoric combinations over time">
+                                <!-- background panel -->
+                                <rect x="0" y="0" width="600" height="320"
+                                    fill="rgba(245,245,245,0.0)"/>
+                                <!-- frame -->
+                                <rect x="50" y="20" width="535" height="250" fill="none"
+                                    stroke="#333" stroke-width="1"/>
+                                <!-- era shading  -->
+                                <rect x="50" y="20" width="120" height="250"
+                                    fill="rgba(31,58,95,0.08)"/>
+                                <rect x="170" y="20" width="120" height="250"
+                                    fill="rgba(107,31,31,0.06)"/>
+                                <!-- y gridlines  -->
+                                <g stroke="rgba(0,0,0,0.15)" stroke-width="1">
+                                    <line x1="50" y1="270" x2="585" y2="270"/>
+                                    <line x1="50" y1="198" x2="585" y2="198"/>
+                                    <line x1="50" y1="127" x2="585" y2="127"/>
+                                    <line x1="50" y1="55" x2="585" y2="55"/>
+                                </g>
+                                <!-- y labels -->
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
+                                    <text x="10" y="25">Freq</text>
+                                    <text x="18" y="273">0</text>
+                                    <text x="18" y="201">2</text>
+                                    <text x="18" y="130">4</text>
+                                    <text x="18" y="58">7</text>
+                                </g>
+                                <!-- x labels -->
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
+                                    <text x="50" y="305">2002</text>
+                                    <text x="157" y="305">2005</text>
+                                    <text x="264" y="305">2009</text>
+                                    <text x="371" y="305">2010</text>
+                                    <text x="478" y="305">2012</text>
+                                    <text x="585" y="305">2013</text>
+                                </g>
+                                <!-- soc + neg + past/present -->
+                                <path id="soc-neg"
+                                    d="M 50 163 L 157 198 L 264 233 L 371 198 L 478 233 L 585 233"
+                                    fill="none" stroke="#6b4f2a" stroke-width="3"
+                                    stroke-linecap="round"/>
+                                <!-- soc + pos + future/present -->
+                                <path id="soc-pos"
+                                    d="M 50 198 L 157 127 L 264 91 L 371 55 L 478 109 L 585 127"
+                                    fill="none" stroke="#1f3a5f" stroke-width="3"
+                                    stroke-linecap="round"/>
+                                <!-- soc + neutral + future/present -->
+                                <path id="soc-nu"
+                                    d="M 50 233 L 157 163 L 264 163 L 371 127 L 478 198 L 585 163"
+                                    fill="none" stroke="#555" stroke-width="3"
+                                    stroke-linecap="round"/>
+                                <!-- legend -->
+                                <g font-family="Times New Roman, Times, serif" font-size="12"
+                                    fill="#222">
+                                    <rect x="360" y="28" width="220" height="55"
+                                        fill="rgba(255,255,255,0.75)" stroke="rgba(0,0,0,0.2)"/>
+                                    <line x1="370" y1="45" x2="395" y2="45" stroke="#6b4f2a"
+                                        stroke-width="3"/>
+                                    <text x="405" y="49">Criticism of the Past</text>
+                                    <line x1="370" y1="62" x2="395" y2="62" stroke="#1f3a5f"
+                                        stroke-width="3"/>
+                                    <text x="405" y="66">Optimism</text>
+                                    <line x1="370" y1="79" x2="395" y2="79" stroke="#555"
+                                        stroke-width="3"/>
+                                    <text x="405" y="83">Planned Solutions</text>
+                                </g>
+                            </svg>
+                            <p>In less quantifiable areas like Social Issues, a purely political
+                                view yields diminishing returns. We can see some increased social
+                                optimism as the Nation moves away from the chaotic start of the 2nd
+                                Gulf War, but the correlation (and thus the model's ability for
+                                prediction) is not as strong or consistent.</p>
+                        </div>
+
+
                     </div>
                 </div>
             </details>
-            
+
             <details>
                 <summary>Anthropological View</summary>
                 <div class="conclusion-content">
                     <div class="conclusion-left">
-                        <p>
-                            A purely anthropological approach reframes presidential propaganda not as a response to specific historical events, but as a repeated negotiation of fundamental group dynamics.
-                            From this perspective, the subject matter of a speech becomes secondary to the structural problem every leader must solve: how to legitimize authority by managing fear vs. optimism, responsibility vs. and blame. 
-                            This view has the advantage of exposing rhetorical patterns that persist across administrations and eras, such as the consistent use of escalation to create urgency or ritualized resolution to signal control.
-                            In the Trump 2018 example, for instance, the escalation pairing does not depend on immigration as a policy domain; rather, it demonstrates how historical harm is compressed into present danger and then stabilized without closure, preserving the leader’s role as an indispensable actor.
-                        </p>
-                        
-                        <p>
-                            The strength of this approach lies in its ability to explain why similar rhetorical moves appear even when political conditions differ dramatically. Leaders must present action as both necessary and uniquely within their capacity to deliver. The Obama 2009 threat–resolution ritual illustrates this clearly: past economic mismanagement establishes danger, present authority asserts the capacity to act, and future benefits finalize legitimacy. Anthropologically, this sequence satisfies a basic group expectation that threats are acknowledged, addressed, and symbolically closed regardless of the specific economic realities on the ground.
-                        </p>
-                        
-                        <p>
-                            The anthropological view also has limitations. By abstracting rhetoric into recurring mechanisms, one risks flattening meaningful political differences and underestimating the role of context. While escalation pairing and threat–resolution rituals can be identified across speeches, this lens alone cannot explain why certain policy domains dominate at particular moments, nor can it reliably predict shifts in emphasis without reference to external conditions. In this sense, the anthropological approach excels at revealing how persuasion works, but not always why it is used.
-                        </p>
-                        
+                        <p> A purely anthropological approach reframes presidential propaganda not
+                            as a response to specific historical events, but as a repeated
+                            negotiation of fundamental group dynamics. From this perspective, the
+                            subject matter of a speech becomes secondary to the structural problem
+                            every leader must solve: how to legitimize authority by managing fear
+                            vs. optimism, responsibility vs. and blame. This view has the advantage
+                            of exposing rhetorical patterns that persist across administrations and
+                            eras, such as the consistent use of escalation to create urgency or
+                            ritualized resolution to signal control. In the Trump 2018 example, for
+                            instance, the escalation pairing does not depend on immigration as a
+                            policy domain; rather, it demonstrates how historical harm is compressed
+                            into present danger and then stabilized without closure, preserving the
+                            leader’s role as an indispensable actor. </p>
+
+                        <p> The strength of this approach lies in its ability to explain why similar
+                            rhetorical moves appear even when political conditions differ
+                            dramatically. Leaders must present action as both necessary and uniquely
+                            within their capacity to deliver. The Obama 2009 threat–resolution
+                            ritual illustrates this clearly: past economic mismanagement establishes
+                            danger, present authority asserts the capacity to act, and future
+                            benefits finalize legitimacy. Anthropologically, this sequence satisfies
+                            a basic group expectation that threats are acknowledged, addressed, and
+                            symbolically closed regardless of the specific economic realities on the
+                            ground. </p>
+
+                        <p> The anthropological view also has limitations. By abstracting rhetoric
+                            into recurring mechanisms, one risks flattening meaningful political
+                            differences and underestimating the role of context. While escalation
+                            pairing and threat–resolution rituals can be identified across speeches,
+                            this lens alone cannot explain why certain policy domains dominate at
+                            particular moments, nor can it reliably predict shifts in emphasis
+                            without reference to external conditions.<br /> In this sense, the
+                            anthropological approach excels at revealing how persuasion works, but
+                            not always why it is used. </p>
+
                     </div>
-                    
+
                     <div class="conclusion-right">
                         <h3><b>Example 1: Escalation Pairing: Trump 2018</b></h3>
                         <p>
-                            <b>Text:</b> <i>For decades, open borders have allowed drugs and gangs to pour into our most vulnerable communities...</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Immigration + Negative + Past<br/></i>
-                            <span style="color: #6b4f2a;"><b>Baseline Threat Through Historical Harm</b></span>
+                            <b>Text:</b>
+                            <i>For decades, open borders have allowed drugs and gangs to pour into
+                                our most vulnerable communities...</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Immigration + Negative + Past<br /></i>
+                            <span style="color: #6b4f2a;"><b>Baseline Threat Through Historical
+                                    Harm</b></span>
                         </p>
-                        <h3>▼
-                     </h3>
-                      
+                        <h3>▼ </h3>
+
                         <p>
-                            <b>Text:</b> <i>Here tonight are two fathers and two mothers... MS-13 have been charged with [their] murder.</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Immigration + Negative + Present<br/></i>
-                            <span style="color: #6b4f2a;"><b>Escalation to Immediate Danger</b></span>
+                            <b>Text:</b>
+                            <i>Here tonight are two fathers and two mothers... MS-13 have been
+                                charged with [their] murder.</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Immigration + Negative + Present<br /></i>
+                            <span style="color: #6b4f2a;"><b>Escalation to Immediate
+                                Danger</b></span>
                         </p>
-                        <h3>▼
-                        </h3>
+                        <h3>▼ </h3>
                         <p>
-                            <b>Text:</b> <i>Tonight, I am calling on the Congress to finally close the deadly loopholes that have allowed criminals to break into our country.</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Immigration + Neutral + Present<br/></i>
-                            <span style="color: #6b4f2a;"><b>Danger remains real and response is escalated</b></span>
+                            <b>Text:</b>
+                            <i>Tonight, I am calling on the Congress to finally close the deadly
+                                loopholes that have allowed criminals to break into our country.</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Immigration + Neutral + Present<br /></i>
+                            <span style="color: #6b4f2a;"><b>Danger remains real and response is
+                                    escalated</b></span>
                         </p>
-                                   
-                        <br/><br/>
+
+                        <br />
+                        <br />
                         <h3><b>Example 2: Threat-Resolution Ritual: Obama 2009</b></h3>
                         <p>
-                            <b>Text:</b> <i>We have lived through an era where too often, short-term gains were prized over long-term prosperity...</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Economy + Negative + Past<br/></i>
-                            <span style="color: #6b4f2a;"><b>Threat Identification through Criticism of the Past</b></span>
+                            <b>Text:</b>
+                            <i>We have lived through an era where too often, short-term gains were
+                                prized over long-term prosperity...</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Economy + Negative + Past<br /></i>
+                            <span style="color: #6b4f2a;"><b>Threat Identification through Criticism
+                                    of the Past</b></span>
                         </p>
-                        <h3>▼
-                        </h3>
+                        <h3>▼ </h3>
                         <p>
-                            <b>Text:</b> <i>Now is the time to act boldly and wisely – to... revive this economy</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Economy + Neutral + Present<br/></i>
-                            <span style="color: #6b4f2a;"><b>Transitions Past Negativity to Present Urgency of Resolution</b></span>
+                            <b>Text:</b>
+                            <i>Now is the time to act boldly and wisely – to... revive this
+                                economy</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Economy + Neutral + Present<br /></i>
+                            <span style="color: #6b4f2a;"><b>Transitions Past Negativity to Present
+                                    Urgency of Resolution</b></span>
                         </p>
-                        <h3>▼
-                        </h3>
+                        <h3>▼ </h3>
                         <p>
-                            <b>Text:</b> <i>As soon as I took office, I asked this Congress to send me a recovery plan by President’s Day that would put people back to work and put money in their pockets.</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Party Agenda + Positive + Past<br/></i>
-                            <span style="color: #6b4f2a;"><b>Legitimization of Capability Through Prior Threat-Resolution</b></span>
+                            <b>Text:</b>
+                            <i>As soon as I took office, I asked this Congress to send me a recovery
+                                plan by President’s Day that would put people back to work and put
+                                money in their pockets.</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Party Agenda + Positive + Past<br /></i>
+                            <span style="color: #6b4f2a;"><b>Legitimization of Capability Through
+                                    Prior Threat-Resolution</b></span>
                         </p>
-                        <h3>▼
-                        </h3>
+                        <h3>▼ </h3>
                         <p>
-                            <b>Text:</b> <i>Over the next two years, this plan will save or create 3.5 million jobs.</i><br/>
-                            <b>Attributes:</b> <i>Domestic + Economy + Positive + Future<br/></i>
-                            <span style="color: #6b4f2a;"><b>Liken Past Threat-Resolution to Future Improvements</b></span>
+                            <b>Text:</b>
+                            <i>Over the next two years, this plan will save or create 3.5 million
+                                jobs.</i><br />
+                            <b>Attributes:</b>
+                            <i>Domestic + Economy + Positive + Future<br /></i>
+                            <span style="color: #6b4f2a;"><b>Liken Past Threat-Resolution to Future
+                                    Improvements</b></span>
                         </p>
-                                        
+
                     </div>
                 </div>
             </details>
-            
+
             <details>
                 <summary>Academic View</summary>
                 <div class="conclusion-content">
                     <div class="conclusion-left">
-                        <p>
-                            It's probably best to see it from both lenses simultaneously.
-                        </p>
+                        <p> It's probably best to see it from both lenses simultaneously. </p>
                     </div>
-                    
+
                     <div class="conclusion-right">
-                        <p>
-                            Example or schematic description.
-                        </p>
-                        
-                        <br/><br/><br/><br/><br/>
-                        
-                        <p>
-                            Additional example.
-                        </p>
-                        
-                        <br/><br/><br/><br/><br/>
+                        <p> Example or schematic description. </p>
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <p> Additional example. </p>
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </div>
                 </div>
             </details>
-            
+
         </div>
-        
     </body>
 </html>
