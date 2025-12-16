@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    
+
     <head>
 
         <title>Methods</title>
-        <link rel="stylesheet" href="website1.css"/>
+        <link rel="stylesheet" href="website1.css" />
         <style>
-body {
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.35; 
-  z-index: -1;  
-}
-
-h1 {
-  font-size: 4.5em; 
-  text-align: center;
-  margin-top: 40px; 
-}
-
-h2 {
-  font-size: 2.5em; 
-  margin-top: 40px;
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-div {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-</style> 
+            body {
+                position: relative;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                opacity: 0.35;
+                z-index: -1;
+            }
+            
+            h1 {
+                font-size: 4.5em;
+                text-align: center;
+                margin-top: 40px;
+            }
+            
+            h2 {
+                font-size: 2.5em;
+                margin-top: 40px;
+                margin-bottom: 10px;
+                text-align: left;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            
+            div {
+                margin-left: 40px;
+                margin-right: 40px;
+            }</style>
     </head>
     <!--https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg -->
     <body>
@@ -61,74 +59,127 @@ div {
             <a href="conclusion.xhtml">Conclusion</a>
         </div>
         <h1>Methods</h1>
-        
         <h2>Markup Standards</h2>
         <div>
-            <p>
-                    In our project, we use a structured markup strategy to categorize presidential rhetoric across a politically dynamic timespan. The <span style="color:red; font-weight:bold;">"policy"</span> element is our primary element, and it encodes several key features through attributes: <span style="color:blue; font-weight:bold;">'type'</span> (foreign, domestic, or economic), <span style="color:blue; font-weight:bold;">'connotation'</span> (positive, negative, or neutral), <span style="color:blue; font-weight:bold;">'when'</span> (future, past, or present), and <span style="color:blue; font-weight:bold;">'value'</span> (the specific policy area, such as immigration, military, health, etc.). A <span style="color:red; font-weight:bold;">"policy"</span> may also include repeated instances of <span style="color:red; font-weight:bold;">"anthro"</span>, which codes anthropological themes such as scarcity, inGroup, outGroup, authority, trajectory, transcendence, unity, division, time, role, or obligation, as well as optional <span style="color:red; font-weight:bold;">"audience"</span> reactions when relevant.
-                    
-                    <br/><br/>
-                    
-                    The <span style="color:red; font-weight:bold;">"audience"</span> element records how the in-person audience responded, using the <span style="color:blue; font-weight:bold;">'noise'</span> attribute to identify applause, booing, or other reactions. Whenever a speech includes cheering, booing, or an identifiable outburst, we encoded it through <span style="color:red; font-weight:bold;">"audience"</span>. 
-                    
-                    <br/><br/>
-                    
-                    We also use the <span style="color:red; font-weight:bold;">"ref"</span> element to mark moments when the president briefly addresses individuals, groups, or anecdotes within the speech. A <span style="color:red; font-weight:bold;">"ref"</span> may contain mixed content and nested <span style="color:red; font-weight:bold;">"audience"</span> elements when the crowd directly responds to the digression.
-                    
-                    <br/><br/>
-                    
-                    Together, these elements and attributes form a consistent markup system that captures both the thematic content of presidential messaging and the real-time reactions of the audience.
-                    
-                    <br/><br/>
-                    
-                    Example:  
-                    &lt;policy <span style="color:blue; font-weight:bold;">type</span>="d" <span style="color:blue; font-weight:bold;">connotation</span>="positive" <span style="color:blue; font-weight:bold;">when</span>="present" <span style="color:blue; font-weight:bold;">value</span>="pa" <span style="color:blue; font-weight:bold;">anthro</span>="obligation"&gt;
-                    
-                    <br/><br/>
-                    
-                    Interpretation:  
-                    This indicates the president is making a <i>domestic</i> policy statement, framed with a <i>positive</i> tone, referring to the <i>present</i>, specifically about <i>public assistance (pa)</i>, and evoking the broader anthropological/human theme of <i>obligation</i>.
-            
-            </p> 
+            <p> In our project, we use a structured markup strategy to categorize presidential
+                rhetoric across a politically dynamic timespan. The <span
+                    style="color:red; font-weight:bold;">"policy"</span> element is our primary
+                element, and it encodes several key features through attributes: <span
+                    style="color:blue; font-weight:bold;">'type'</span> (foreign, domestic, or
+                economic), <span style="color:blue; font-weight:bold;">'connotation'</span>
+                (positive, negative, or neutral), <span style="color:blue; font-weight:bold;"
+                    >'when'</span> (future, past, or present), and <span
+                    style="color:blue; font-weight:bold;">'value'</span> (the specific policy area,
+                such as immigration, military, health, etc.). A <span
+                    style="color:red; font-weight:bold;">"policy"</span> may also include repeated
+                instances of <span style="color:red; font-weight:bold;">"anthro"</span>, which codes
+                anthropological themes such as scarcity, inGroup, outGroup, authority, trajectory,
+                transcendence, unity, division, time, role, or obligation, as well as optional <span
+                    style="color:red; font-weight:bold;">"audience"</span> reactions when relevant.
+                <br /><br /> The <span style="color:red; font-weight:bold;">"audience"</span>
+                element records how the in-person audience responded, using the <span
+                    style="color:blue; font-weight:bold;">'noise'</span> attribute to identify
+                applause, booing, or other reactions. Whenever a speech includes cheering, booing,
+                or an identifiable outburst, we encoded it through <span
+                    style="color:red; font-weight:bold;">"audience"</span>. <br /><br /> We also use
+                the <span style="color:red; font-weight:bold;">"ref"</span> element to mark moments
+                when the president briefly addresses individuals, groups, or anecdotes within the
+                speech. A <span style="color:red; font-weight:bold;">"ref"</span> may contain mixed
+                content and nested <span style="color:red; font-weight:bold;">"audience"</span>
+                elements when the crowd directly responds to the digression. <br /><br /> Together,
+                these elements and attributes form a consistent markup system that captures both the
+                thematic content of presidential messaging and the real-time reactions of the
+                audience. <br /><br /> Example: &lt;policy <span
+                    style="color:blue; font-weight:bold;">type</span>="d" <span
+                    style="color:blue; font-weight:bold;">connotation</span>="positive" <span
+                    style="color:blue; font-weight:bold;">when</span>="present" <span
+                    style="color:blue; font-weight:bold;">value</span>="pa" <span
+                    style="color:blue; font-weight:bold;">anthro</span>="obligation"&gt;
+                <br /><br /> Interpretation: This indicates the president is making a
+                    <i>domestic</i> policy statement, framed with a <i>positive</i> tone, referring
+                to the <i>present</i>, specifically about <i>public assistance (pa)</i>, and evoking
+                the broader anthropological/human theme of <i>obligation</i>. </p>
         </div>
-        
         <h2>Qualitative Interpretations</h2>
         <div>
-            <p>Many of our markup choices regarding the identification of <i>political</i> attributes were straightforward, but the assignment of <i>anthropological</i> tags required more subjectivity.
-           
-           In our markup system, anthropological attributes let us tag the deeper rhetorical instincts that presidents rely on when transforming policy into narrative. <br/>For example, when a speech uses <span style="color:blue; font-weight:bold;">'scarcity'</span>, the speaker is framing a policy challenge as a resource crisis—linking it to political themes like inflation, budget deficits, or unemployment, all of which the schema maps directly to <span style="color:red; font-weight:bold;">"scarcity"</span> or downward economic <span style="color:red; font-weight:bold;">"trajectory"</span>. Likewise, when a president invokes <span style="color:blue; font-weight:bold;">'obligation'</span>, they’re distributing responsibility: the rules show obligation is tied to an <span style="color:blue; font-weight:bold;">'agent'</span>—citizens, Congress, families, leadership—so political appeals to “duty,” “responsibility,” or “service” are all encoded as versions of <span style="color:red; font-weight:bold;">"obligation"</span>.
-                    
-                    <br/><br/>
-                    
-                    Below is a simplified association list showing how each anthropological attribute aligns with common political rhetorical moves:
-                    
-                    <br/><br/>
-                    
-                    • <span style="color:blue; font-weight:bold;">'scarcity'</span> → political fears around inflation, deficits, energy shortages, unemployment<br/>  
-                • <span style="color:blue; font-weight:bold;">'inGroup'</span> → praise of “the American people,” workers, families, veterans, allies  <br/>
-                • <span style="color:blue; font-weight:bold;">'outGroup'</span> → enemies, foreign adversaries, criminals, political opponents <br/> 
-                • <span style="color:blue; font-weight:bold;">'authority'</span> → invoking Congress, law enforcement, scientific experts, Founders, or security institutions<br/>  
-                • <span style="color:blue; font-weight:bold;">'trajectory'</span> → “America rising,” “national decline,” progress vs. decay claims  <br/>
-                • <span style="color:blue; font-weight:bold;">'transcendence'</span> → moral virtue, religious framing, humanitarian sacrifice, ideological destiny  <br/>
-                • <span style="color:blue; font-weight:bold;">'unity'</span> → bipartisan cooperation, national togetherness, international partnership  <br/>
-                • <span style="color:blue; font-weight:bold;">'division'</span> → partisan conflict, institutional tension, moral polarization  <br/>
-                • <span style="color:blue; font-weight:bold;">'time'</span> → appeals to tradition, crisis in the present, or future national promise  <br/>
-                • <span style="color:blue; font-weight:bold;">'role'</span> → identifying specific societal groups (citizens, leadership, families, military) as actors  <br/>
-                • <span style="color:blue; font-weight:bold;">'obligation'</span> → duties placed on Congress, citizens, government, parents, or leadership 
-                    
-                    <br/><br/>
-                    
-                    This list-based method keeps our markup consistent. Each anthropological value corresponds to predictable political moves, allowing us to encode rhetorical strategy.
-              
-                
-            </p> 
+            <p>Many of our markup choices regarding the identification of <i>political</i>
+                attributes were straightforward, but the assignment of <i>anthropological</i> tags
+                required more subjectivity. In our markup system, anthropological attributes let us
+                tag the deeper rhetorical instincts that presidents rely on when transforming policy
+                into narrative. <br />For example, when a speech uses <span
+                    style="color:blue; font-weight:bold;">'scarcity'</span>, the speaker is framing
+                a policy challenge as a resource crisis—linking it to political themes like
+                inflation, budget deficits, or unemployment, all of which the schema maps directly
+                to <span style="color:red; font-weight:bold;">"scarcity"</span> or downward economic
+                    <span style="color:red; font-weight:bold;">"trajectory"</span>. Likewise, when a
+                president invokes <span style="color:blue; font-weight:bold;">'obligation'</span>,
+                they’re distributing responsibility: the rules show obligation is tied to an <span
+                    style="color:blue; font-weight:bold;">'agent'</span>—citizens, Congress,
+                families, leadership—so political appeals to “duty,” “responsibility,” or “service”
+                are all encoded as versions of <span style="color:red; font-weight:bold;"
+                    >"obligation"</span>. <br /><br /> Below is a simplified association list
+                showing how each anthropological attribute aligns with common political rhetorical
+                moves: <br /><br /> • <span style="color:blue; font-weight:bold;">'scarcity'</span>
+                → political fears around inflation, deficits, energy shortages, unemployment<br /> •
+                    <span style="color:blue; font-weight:bold;">'inGroup'</span> → praise of “the
+                American people,” workers, families, veterans, allies <br /> • <span
+                    style="color:blue; font-weight:bold;">'outGroup'</span> → enemies, foreign
+                adversaries, criminals, political opponents <br /> • <span
+                    style="color:blue; font-weight:bold;">'authority'</span> → invoking Congress,
+                law enforcement, scientific experts, Founders, or security institutions<br /> •
+                    <span style="color:blue; font-weight:bold;">'trajectory'</span> → “America
+                rising,” “national decline,” progress vs. decay claims <br /> • <span
+                    style="color:blue; font-weight:bold;">'transcendence'</span> → moral virtue,
+                religious framing, humanitarian sacrifice, ideological destiny <br /> • <span
+                    style="color:blue; font-weight:bold;">'unity'</span> → bipartisan cooperation,
+                national togetherness, international partnership <br /> • <span
+                    style="color:blue; font-weight:bold;">'division'</span> → partisan conflict,
+                institutional tension, moral polarization <br /> • <span
+                    style="color:blue; font-weight:bold;">'time'</span> → appeals to tradition,
+                crisis in the present, or future national promise <br /> • <span
+                    style="color:blue; font-weight:bold;">'role'</span> → identifying specific
+                societal groups (citizens, leadership, families, military) as actors <br /> • <span
+                    style="color:blue; font-weight:bold;">'obligation'</span> → duties placed on
+                Congress, citizens, government, parents, or leadership <br /><br /> This list-based
+                method keeps our markup consistent. Each anthropological value corresponds to
+                predictable political moves, allowing us to encode rhetorical strategy. </p>
         </div>
-        
         <h2>Quantitative Methods</h2>
         <div>
-            <p>Descriptions of the statistical reasoning behind the graphs we will make (the ones in the analysis section).</p> 
+            <p> Our quantitative workflow begins with automation, but does not attempt automated
+                interpretation. The original speech transcripts were sourced from the White House,
+                which already provides the text in a stable paragraph structure. Using Python, we
+                automated the creation of a markup “scaffold” by wrapping each paragraph in a
+                consistent container format and inserting empty, well-formed placeholder elements
+                using the attribute categories defined above. This step mainly served to standardize
+                the corpus and prevent formatting drift across presidencies and source pages.
+                Importantly, while the XML format and paragraph structure were automated, the actual
+                assignment of political attributes (type, value, connotation, when) and
+                anthropological tags was still performed by hand by our group in order to preserve
+                interpretive accuracy. <br /><br /> Once markup was complete, we generated visual
+                summaries in the Analysis section using SVG (Scalable Vector Graphics). Each graph
+                functions as a simple frequency plot, where the x-axis corresponds to a specific
+                speech date and the y-axis corresponds to the number of times a given category
+                appears in that speech. The “bars” in each chart are SVG <span
+                    style="color:red; font-weight:bold;">rect</span> elements whose height is
+                proportional to the count we recorded, while axis labels, tick marks, and gridlines
+                are SVG <span style="color:red; font-weight:bold;">text</span> and <span
+                    style="color:red; font-weight:bold;">line</span> elements. Because SVG is native
+                to the browser, these graphics remain lightweight and transparent in their
+                construction. In other words, the charts are not images. They are directly readable
+                visual encodings of the same markup counts represented elsewhere in the site.
+                <br /><br /> Finally, the site’s interactive tools were built using inline
+                JavaScript and CSS. In the Texts section, the highlighting mechanism works by
+                toggling classes or inline styles on the marked spans associated with <span
+                    style="color:red; font-weight:bold;">policy</span> elements, allowing categories
+                to be visually isolated without reloading or rewriting the underlying document. The
+                Statistics menu follows the same logic. Selecting a topic or attribute triggers a
+                function that reveals the corresponding statistical block while hiding the others,
+                making the quantitative summaries navigable and comparable within the same page
+                view. These mechanisms are intentionally simple: the goal is not to hide complexity
+                behind a black box, but to provide an interface where a user can quickly move
+                between broad frequency patterns and specific textual evidence. </p>
         </div>
-
     </body>
-    
+
 </html>
