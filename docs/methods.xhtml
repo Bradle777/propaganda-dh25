@@ -93,8 +93,8 @@
                     style="color:blue; font-weight:bold;">type</span>="d" <span
                     style="color:blue; font-weight:bold;">connotation</span>="positive" <span
                     style="color:blue; font-weight:bold;">when</span>="present" <span
-                    style="color:blue; font-weight:bold;">value</span>="pa" <span
-                    style="color:blue; font-weight:bold;">anthro</span>="obligation"&gt;
+                    style="color:blue; font-weight:bold;">value</span>="pa"
+                    
                 <br /><br /> Interpretation: This indicates the president is making a
                     <i>domestic</i> policy statement, framed with a <i>positive</i> tone, referring
                 to the <i>present</i>, specifically about <i>public assistance (pa)</i>, and evoking
@@ -154,20 +154,19 @@
                 using the attribute categories defined above. This step mainly served to standardize
                 the corpus and prevent formatting drift across presidencies and source pages.
                 Importantly, while the XML format and paragraph structure were automated, the actual
-                assignment of political attributes (type, value, connotation, when) and
+                assignment of political attributes (<span style="color:red; font-weight:bold;">type, value, connotation, when</span>) and
                 anthropological tags was still performed by hand by our group in order to preserve
                 interpretive accuracy. <br /><br /> Once markup was complete, we generated visual
-                summaries in the Analysis section using SVG (Scalable Vector Graphics). Each graph
+                summaries in the Analysis section using Scalable Vector Graphics. Each graph
                 functions as a simple frequency plot, where the x-axis corresponds to a specific
                 speech date and the y-axis corresponds to the number of times a given category
-                appears in that speech. The “bars” in each chart are SVG <span
+                appears in that speech. The bars in each chart are SVG <span
                     style="color:red; font-weight:bold;">rect</span> elements whose height is
                 proportional to the count we recorded, while axis labels, tick marks, and gridlines
                 are SVG <span style="color:red; font-weight:bold;">text</span> and <span
                     style="color:red; font-weight:bold;">line</span> elements. Because SVG is native
                 to the browser, these graphics remain lightweight and transparent in their
-                construction. In other words, the charts are not images. They are directly readable
-                visual encodings of the same markup counts represented elsewhere in the site.
+                construction.
                 <br /><br /> Finally, the site’s interactive tools were built using inline
                 JavaScript and CSS. In the Texts section, the highlighting mechanism works by
                 toggling classes or inline styles on the marked spans associated with <span
@@ -176,9 +175,7 @@
                 Statistics menu follows the same logic. Selecting a topic or attribute triggers a
                 function that reveals the corresponding statistical block while hiding the others,
                 making the quantitative summaries navigable and comparable within the same page
-                view. These mechanisms are intentionally simple: the goal is not to hide complexity
-                behind a black box, but to provide an interface where a user can quickly move
-                between broad frequency patterns and specific textual evidence. </p>
+                view. </p>
         </div>
     </body>
 
